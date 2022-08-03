@@ -1,9 +1,22 @@
-# Hackers News Article On Soil Data
+# Soil Data Research
 
+# Hackers News Article On Soil Data
+1. [Hackers News](https://news.ycombinator.com/item?id=32293359)
+1. [Open Soil Spectral Library
+](https://soilspectroscopy.github.io/ossl-manual/)
+1. [NIFA Invests Over $7 Million in Big Data, Artificial Intelligence, and Other Cyberinformatics Research](https://www.nifa.usda.gov/about-nifa/press-releases/nifa-invests-over-7-million-big-data-artificial-intelligence-other)
+1. [mongodb](https://soilspectroscopy.github.io/ossl-manual/index.html#ossl-mongodb)
+
+
+# Tools and Libraries
+## Studio 3T for Connecting to MongoDB
+1. [3T](https://studio3t.com)
 - SheetsJS
 - article
 - MongoDB
 - Connect MongoDB with JS
+
+![connection string](./mongoconn.png)
 
 Install mongoDB:
 
