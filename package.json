@@ -1,0 +1,27 @@
+{
+  "name": "soil_data_research",
+  "version": "1.0.0",
+  "description": "connect to soil database",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timcash/soil_data_research.git"
+  },
+  "keywords": [
+    "soil",
+    "data",
+    "mongo"
+  ],
+  "author": "pati",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timcash/soil_data_research/issues"
+  },
+  "homepage": "https://github.com/timcash/soil_data_research#readme",
+  "dependencies": {
+    "mongodb": "^4.8.1"
+  }
+}
