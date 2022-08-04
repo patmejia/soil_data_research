@@ -13,8 +13,19 @@
 ```sh
 brew install r
 ```
+## install RStudio
 1. [RStudio](https://www.rstudio.com/products/rstudio/download/#download)
-
+## install monogolite
+1. [mongolite](https://jeroen.github.io/mongolite/index.html#install-mongolite-in-r)
+![rstudio](images/rstudio_install_package.png)
+## cert error
+![cert_error](images/cert_error.png)
+## using mongodb in r
+[How to Use R with MongoDB](https://www.mongodb.com/languages/mongodb-and-r-example)
+```R
+connection_string = 'mongodb+srv://<username>:<password>@<cluster-name>.mongodb.net/sample_training'
+trips_collection = mongo(collection="trips", db="sample_training", url=connection_string)
+```
 ## Studio 3T for Connecting to MongoDB
 1. [3T](https://studio3t.com)
 - SheetsJS
