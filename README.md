@@ -9,6 +9,12 @@
 
 
 # Tools and Libraries
+## Install Base R on osx
+```sh
+brew install r
+```
+1. [RStudio](https://www.rstudio.com/products/rstudio/download/#download)
+
 ## Studio 3T for Connecting to MongoDB
 1. [3T](https://studio3t.com)
 - SheetsJS
