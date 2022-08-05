@@ -5,18 +5,15 @@
 1. [Open Soil Spectral Library
 ](https://soilspectroscopy.github.io/ossl-manual/)
 1. [NIFA Invests Over $7 Million in Big Data, Artificial Intelligence, and Other Cyberinformatics Research](https://www.nifa.usda.gov/about-nifa/press-releases/nifa-invests-over-7-million-big-data-artificial-intelligence-other)
-1. [mongodb](https://soilspectroscopy.github.io/ossl-manual/index.html#ossl-mongodb)
-
+1. [mongodb connection docs](https://soilspectroscopy.github.io/ossl-manual/index.html#ossl-mongodb)
+1. [OSSL Web API](https://api.soilspectroscopy.org/__docs__/#/)
 
 # Tools and Libraries
-## Install Base R on osx
-```sh
-brew install r
-```
+
 ## install RStudio
 1. [RStudio](https://www.rstudio.com/products/rstudio/download/#download)
 ## install monogolite
-1. [mongolite](https://jeroen.github.io/mongolite/index.html#install-mongolite-in-r)
+[mongolite](https://jeroen.github.io/mongolite/index.html#install-mongolite-in-r)
 ![rstudio](images/rstudio_install_package.png)
 ## cert error
 ![cert_error](images/cert_error.png)
@@ -46,13 +43,8 @@ Error: not authorized on test to execute command { find: "soillab", filter: {}, 
 > 
 ```
 ## Studio 3T for Connecting to MongoDB
-1. [3T](https://studio3t.com)
-- SheetsJS
-- article
-- MongoDB
-- Connect MongoDB with JS
-
-![connection string](./mongoconn.png)
+[Studio 3T](https://studio3t.com)
+![Studio 3T](images/studio3t.png)
 
 Install mongoDB:
 
@@ -76,3 +68,9 @@ var assert = require('assert');
 Step 2: Retrive a list of databases
 
 Step 3:Printing the results to your console
+
+# Other Resources
+- SheetsJS
+- article
+- MongoDB
+- Connect MongoDB with JS
