@@ -1,13 +1,38 @@
 # Soil Data Research
 
+### A Global Good Project
+
+Open Soil Spectral Library (OSSL) is a global good project which serves a database of soil spectral data and other more.
+
+Spectral data is collectes all incidence radiation information from the soil.
+use visible
+NIR
+MIR
+
+![Soild and prisma](images/prisma_soil.jpeg)
+
+of soil spectral data.
+
+### Hacker news posted an interesting link about the soil data.
+
+[]: # Language: markdown
+[]: # Path: README.md
+
+## What is Soil Data Research? and Why It is needed?
+
 - Posted on [Hackers News](https://news.ycombinator.com/item?id=32293359):
   Open Soil Spectral Library (OSSL)
-- The Open Soil Spectral Library (OSSL) is composed of a set of spectral data for a wide range of soils.
+- The <u>Open Soil Spectral Library</uhttps://soilspectroscopy.github.io/ossl-manual/> ([OSSL](https://soilspectroscopy.github.io/ossl-manual/)) is composed of spectral data from a wide range of soils.
+
+-Soil spectroscopy for global good project works with other global initiatives including the FAO Global Soil Partnership and the IEEE P4005 Standards and Protocols for Soil Spectroscopy Working Group.
+
+# How to use the OSSL
+
 - The OSSL is available for download from [Hackers News](https://news.ycombinator.com/item?id=32293359).
 
 The network will deliver an Open Soil Spectroscopy Library (OSSL), backed by large spectral databases and robust statistical models, which derives soil properties from the spectral data.
 
-is a collection of soil spectral data from the [USGS](https://www.usgs.gov/core-science-systems/science/soil-spectral-research/open-soil-spectral-library-ossl) that is used to provide soil spectral data for the [Soil Data Research](https://www.usgs.gov/core-science-systems/science/soil-spectral-research/soil-data-research) project.
+is a collection of soil spectral data from the [USGS](https://www.usgs.gov/core-science-systems/science/soil-spectral-research/open-soil-spe ctral-library-ossl) that is used to provide soil spectral data for the [Soil Data Research](https://www.usgs.gov/core-science-systems/science/soil-spectral-research/soil-data-research) project.
 
 To get started, you'll need to download the [Soil Data Research](https://www.usda.gov/nfs/data/of/soil/soil-data-research.html) dataset.
 
