@@ -2,12 +2,34 @@
 
 ### A Global Good Project
 
-Open Soil Spectral Library (OSSL) is a global good project which serves a database of soil spectral data and other more.
+> Posted on [Hackers News](https://news.ycombinator.com/item?id=32293359)
+
+The Open Soil Spectral Library (OSSL) is a global good project which serves a database of soil properties from spectral data. OSSL is also a network that delivers robust statistical models specifically calibration and predictions models, and an oportiunity to colaborate across borders in a Good Project and more.
+
+Explorer : [OSSL Explorer](https://explorer.soilspectroscopy.org/)
+
+---
+
+# How to download the data?
+
+Importance:
+
+1. Monitoring and predicting soil properties
+1. Health System Thinking:
+   `Microbiome -> Soil -> Plants -> Plant-based diet -> Longevity -> Synchronize with`
+
+---
+
+, large spectral databases,
+
+, which derives soil properties from the spectral data.
 
 Spectral data is collectes all incidence radiation information from the soil.
 use visible
 NIR
 MIR
+
+A colaboraitoin across borders.
 
 ![Soild and prisma](images/prisma_soil.jpeg)
 
@@ -15,14 +37,11 @@ of soil spectral data.
 
 ### Hacker news posted an interesting link about the soil data.
 
-[]: # Language: markdown
-[]: # Path: README.md
-
 ## What is Soil Data Research? and Why It is needed?
 
 - Posted on [Hackers News](https://news.ycombinator.com/item?id=32293359):
   Open Soil Spectral Library (OSSL)
-- The <u>Open Soil Spectral Library</uhttps://soilspectroscopy.github.io/ossl-manual/> ([OSSL](https://soilspectroscopy.github.io/ossl-manual/)) is composed of spectral data from a wide range of soils.
+- The <u>Open Soil Spectral Library</u>https://soilspectroscopy.github.io/ossl-manual/> ([OSSL](https://soilspectroscopy.github.io/ossl-manual/)) is composed of spectral data from a wide range of soils.
 
 -Soil spectroscopy for global good project works with other global initiatives including the FAO Global Soil Partnership and the IEEE P4005 Standards and Protocols for Soil Spectroscopy Working Group.
 
@@ -137,3 +156,12 @@ var assert = require('assert');
 Step 2: Retrive a list of databases
 
 Step 3:Printing the results to your console
+
+# Keywords
+
+1. KCl extractable
+1. labile soil
+1. RMSE (Root Mean Squared Error)
+   ML | Mathematical explanation of RMSE and R-squared errorhttps://www.geeksforgeeks.org › ml-mathematical-expl...
+   Jun 6, 2022 — RMSE: Root Mean Square Error is the measure of how well a regression line fits the data points. RMSE can also be construed as Standard ...
+1. Feature selection
