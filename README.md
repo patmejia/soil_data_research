@@ -1,78 +1,66 @@
 # Soil Data Research
 
-### A Global Good Project
+## A Global Good Project
 
 > Posted on [Hackers News](https://news.ycombinator.com/item?id=32293359)
 
-The Open Soil Spectral Library (OSSL) is a global good project which serves a database of soil properties from spectral data. OSSL is also a network that delivers robust statistical models specifically calibration and predictions models, and an oportiunity to colaborate across borders in a Good Project and more.
-
-Explorer : [OSSL Explorer](https://explorer.soilspectroscopy.org/)
-
----
-
-# How to download the data?
-
-Importance:
-
-1. Monitoring and predicting soil properties
-1. Health System Thinking:
-   `Microbiome -> Soil -> Plants -> Plant-based diet -> Longevity -> Synchronize with`
-
----
-
-, large spectral databases,
-
-, which derives soil properties from the spectral data.
-
-Spectral data is collectes all incidence radiation information from the soil.
-use visible
-NIR
-MIR
-
-A colaboraitoin across borders.
+<!------------------------------------------------->
+<!-- image                                       -->
+<!------------------------------------------------->
 
 ![Soild and prisma](images/prisma_soil.jpeg)
 
-of soil spectral data.
+The Open Soil Spectral Library (OSSL) is a global good project which serves collection of soil properties derived from spectral data. OSSL is also a network that delivers robust statistical models specifically calibration and predictions models, research tools, and oportiunities to colaborate across borders.
 
-### Hacker news posted an interesting link about the soil data.
+For instance, the OSSL project offers a beautifully developed software: [OSSL Explorer](https://explorer.soilspectroscopy.org/)
 
-## What is Soil Data Research? and Why It is needed?
+<!------------------------------------------------->
+<!-- image                                       -->
+<!------------------------------------------------->
 
-- Posted on [Hackers News](https://news.ycombinator.com/item?id=32293359):
-  Open Soil Spectral Library (OSSL)
-- The <u>Open Soil Spectral Library</u>https://soilspectroscopy.github.io/ossl-manual/> ([OSSL](https://soilspectroscopy.github.io/ossl-manual/)) is composed of spectral data from a wide range of soils.
+![Explorer](images/ossl_explorer.png)
 
--Soil spectroscopy for global good project works with other global initiatives including the FAO Global Soil Partnership and the IEEE P4005 Standards and Protocols for Soil Spectroscopy Working Group.
+The initiative is funded through the National Institute of Food and Agriculture (USDA).
+[NIFA](https://www.nifa.usda.gov/about-nifa/press-releases/nifa-invests-over-7-million-big-data-artificial-intelligence-other) has invested over $7 Million in Big Data, Artificial Intelligence, and Other Cyberinformatics Research.
 
-# How to use the OSSL
+# What is Soil Data Research?
 
-- The OSSL is available for download from [Hackers News](https://news.ycombinator.com/item?id=32293359).
+Visible and near infraread light [VIS-NIR](https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/reflectance-spectroscopy#:~:text=NEAR%2DINFRARED%20REFLECTANCE%20SPECTROSCOPY%20ANALYSIS,%2C%20energy%2C%20and%20mineral%20content.)
 
-The network will deliver an Open Soil Spectroscopy Library (OSSL), backed by large spectral databases and robust statistical models, which derives soil properties from the spectral data.
+<!------------------------------------------------->
+<!-- image                                       -->
+<!------------------------------------------------->
 
-is a collection of soil spectral data from the [USGS](https://www.usgs.gov/core-science-systems/science/soil-spectral-research/open-soil-spe ctral-library-ossl) that is used to provide soil spectral data for the [Soil Data Research](https://www.usgs.gov/core-science-systems/science/soil-spectral-research/soil-data-research) project.
+![Explorer](images/soil_spectrum.png)
 
-To get started, you'll need to download the [Soil Data Research](https://www.usda.gov/nfs/data/of/soil/soil-data-research.html) dataset.
+The reflected infrared radiation is converted to electrical energy and fed to a computer for interpretation. Each major organic component of the soil absorbs and reflects visible, near-infrared light, and mid-infrared light differently. By measuring these different reflectance characteristics, the Spectroradiometer and a computer determine the quantity of these components in the soil sample.
 
-A trending article in hackers news brings to light the importance of soild research data.
+<!------------------------------------------------->
+<!-- image                                       -->
+<!------------------------------------------------->
 
-[]: # Language: markdown
-[]: # Path: https://news.ycombinator.com/item?id=18098982
-[]: # Title: Soil Data Research
-[]: # URL: https://news.ycombinator.com/item?id=18098982
+![Explorer](images/spectroscopy.png)
 
-# Hackers News Article On Soil Data
+<!------------------------------------------------->
+<!-- image                                       -->
+<!------------------------------------------------->
 
-1. [Hackers News](https://news.ycombinator.com/item?id=32293359)
-1. [Open Soil Spectral Library
-   ](https://soilspectroscopy.github.io/ossl-manual/)
-1. [NIFA Invests Over $7 Million in Big Data, Artificial Intelligence, and Other Cyberinformatics Research](https://www.nifa.usda.gov/about-nifa/press-releases/nifa-invests-over-7-million-big-data-artificial-intelligence-other)
-1. [mongodb](https://soilspectroscopy.github.io/ossl-manual/index.html#ossl-mongodb)
+![Explorer](images/spectral_signatures.png)
+Spectral signature picked up from the Spectroradiometer(SRM) during . See the thikcer red arrow
 
-# Tools and Libraries
+# Why It is needed?
 
-## Install Base R on osx
+1. Monitoring and predicting soil properties
+1. Health System Thinking:
+   > `Microbiome ⭌ Soil ⭌ Plants ⭌ Plant-based diet ⭌ Human Microbiomes ⭌ Longevity ⭌ Synchronize with natural`
+1. Data Science
+1. The miccrobiome of the soil, food, agriculture and human microbiomes are linked.
+
+# How to download the Open Soil Spectracl Library (OSSL)?
+
+Step 1:
+
+## Install Base R on OSX
 
 ```sh
 brew install r
@@ -127,12 +115,7 @@ Error: not authorized on test to execute command { find: "soillab", filter: {}, 
 
 1. [3T](https://studio3t.com)
 
-- SheetsJS
-- article
-- MongoDB
-- Connect MongoDB with JS
-
-![connection string](./mongoconn.png)
+![connection string](images/mongoconn.png)
 
 Install mongoDB:
 
@@ -157,6 +140,10 @@ Step 2: Retrive a list of databases
 
 Step 3:Printing the results to your console
 
+---
+
+---
+
 # Keywords
 
 1. KCl extractable
@@ -165,3 +152,15 @@ Step 3:Printing the results to your console
    ML | Mathematical explanation of RMSE and R-squared errorhttps://www.geeksforgeeks.org › ml-mathematical-expl...
    Jun 6, 2022 — RMSE: Root Mean Square Error is the measure of how well a regression line fits the data points. RMSE can also be construed as Standard ...
 1. Feature selection
+
+---
+
+---
+
+1. [mongodb](https://soilspectroscopy.github.io/ossl-manual/index.html#ossl-mongodb)
+
+# Tools and Libraries
+
+---
+
+---
