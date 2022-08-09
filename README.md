@@ -12,7 +12,7 @@
 
 The Open Soil Spectral Library (OSSL) is a global good project which serves collection of soil properties derived from spectral data. OSSL is also a network that delivers robust statistical models specifically calibration and predictions models, research tools, and oportiunities to colaborate across borders.
 
-For instance, the OSSL project offers a beautifully developed software: [OSSL Explorer](https://explorer.soilspectroscopy.org/)
+The OSSL project offers a beautifully developed software: [OSSL Explorer](https://explorer.soilspectroscopy.org/) and a user manual: [OSSL manual](https://soilspectroscopy.github.io/ossl-manual/).
 
 <!------------------------------------------------->
 <!-- image                                       -->
@@ -46,6 +46,7 @@ The reflected infrared radiation is converted to electrical energy and fed to a 
 <!------------------------------------------------->
 
 ![Explorer](images/spectral_signatures.png)
+
 Spectral signature picked up from the Spectroradiometer(SRM) during . See the thikcer red arrow
 
 # Why It is needed?
@@ -58,28 +59,67 @@ Spectral signature picked up from the Spectroradiometer(SRM) during . See the th
 
 # How to download the Open Soil Spectracl Library (OSSL)?
 
-Step 1:
+The OSSL manual mentioned two ways to access the data. The firt method is using MongoDb via R; however, the last yields a certification error. See image below:
 
-## Install Base R on OSX
+<!------------------------------------------------->
+<!-- image                                       -->
+<!------------------------------------------------->
+
+![cert_error](images/cert_error.png)
+
+Thus, we use the second method to access the data which uses Studio 3T and the following parameters:
+
+- Name: soilspec4gg
+- Address: api.soilspectroscopy.org
+- Database: soilspec4gg
+- Username: soilspec4gg
+- Password: soilspec4gg
+
+Step 1: Free download [Studio 3T](https://robomongo.org/) and complete installation.
+
+Step 2: In Studio 3T,
+
+- click on the New Collection icon:
+  <!------------------------------------------------->
+  <!-- image                                       -->
+  <!------------------------------------------------->
+
+  ![new collection icon](images/new_collection.png)
+
+- select the `manually configure my connection setting` option
+  <!------------------------------------------------->
+  <!-- image                                       -->
+  <!------------------------------------------------->
+  ![auth step1](images/auth_screen1.png)
+- Fill in the Connecttions name: `soilspec4gg`
+  <!------------------------------------------------->
+  <!-- image                                       -->
+  <!------------------------------------------------->
+  ![auth step2](images/auth_screen2.png)
+  <!------------------------------------------------->
+  <!-- image                                       -->
+  <!------------------------------------------------->
+  ![auth step3](images/auth_screen3.png)
+
+---
+
+Open a terminal and install Base R on OSX
 
 ```sh
 brew install r
 ```
 
-## install RStudio
+### Step 2: install [RStudio](https://www.rstudio.com/products/rstudio/download/#download)
 
-1. [RStudio](https://www.rstudio.com/products/rstudio/download/#download)
+### Step 3: install [mongolite](https://jeroen.github.io/mongolite/index.html#install-mongolite-in-r)
 
-## install monogolite
-
-1. [mongolite](https://jeroen.github.io/mongolite/index.html#install-mongolite-in-r)
-   ![rstudio](images/rstudio_install_package.png)
+![rstudio](images/rstudio_install_package.png)
 
 ## cert error
 
 ![cert_error](images/cert_error.png)
 
-## using mongodb in r
+## using mMongoDb in r
 
 [How to Use R with MongoDB](https://www.mongodb.com/languages/mongodb-and-r-example)
 
