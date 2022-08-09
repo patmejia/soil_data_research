@@ -95,15 +95,36 @@ Step 2: In Studio 3T,
   <!------------------------------------------------->
   <!-- image                                       -->
   <!------------------------------------------------->
+
   ![auth step2](images/auth_screen2.png)
+
+- Go to the Authentication tab and select Basic Authentication Mode:
+   <!------------------------------------------------->
+   <!-- image                                       -->
+   <!------------------------------------------------->
+
+  ![auth step3](images/auth_screen3.png)
+
+  - Fill in the User name, Password and Authentication DB with `soilspec4gg`
+    <!------------------------------------------------->
+     <!-- image                                       -->
+     <!------------------------------------------------->
+    ![auth step4](images/auth_screen4.png)
+
+- Under the SSL tab, select `Use SSL protocol to connect` and `accept any server SSL certificates`
   <!------------------------------------------------->
   <!-- image                                       -->
   <!------------------------------------------------->
-  ![auth step3](images/auth_screen3.png)
+  ![auth step5](images/auth_screen5.png)
 
 ---
 
-Open a terminal and install Base R on OSX
+- Finally, click save and connect.
+    <!------------------------------------------------->
+    <!-- image                                       -->
+    <!------------------------------------------------->
+  ![auth step6](images/auth_screen6.png)
+  Open a terminal and install Base R on OSX
 
 ```sh
 brew install r
