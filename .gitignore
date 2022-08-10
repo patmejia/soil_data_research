@@ -1,1 +1,3 @@
 node_modules
+data/soilsite_full.json
+.DS_store
