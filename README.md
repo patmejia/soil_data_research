@@ -225,3 +225,17 @@ Step 3:Printing the results to your console
 ---
 
 ---
+# nodejs mongodb certificate error
+
+```
+/Users/dev/code/soil_data_research/node_modules/mongodb/lib/utils.js:419
+                    throw error;
+                    ^
+
+MongoServerSelectionError: certificate has expired
+    at Timeout._onTimeout (/Users/dev/code/soil_data_research/node_modules/mongodb/lib/sdam/topology.js:293:38)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7) {
+  reason: TopologyDescription {
+    type: 'Unknown',
+```

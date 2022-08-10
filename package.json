@@ -23,7 +23,9 @@
   },
   "homepage": "https://github.com/timcash/soil_data_research#readme",
   "dependencies": {
-    "mongodb": "^4.8.1"
+    "csv-reader": "^1.0.9",
+    "mongodb": "^4.8.1",
+    "sqlite3": "^5.0.11"
   },
   "devDependencies": {
     "@types/node": "^18.6.3"

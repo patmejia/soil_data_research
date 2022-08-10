@@ -1,31 +1,50 @@
 // ========================================================
-// LOAD THE SOILSITE JSON
+// LOAD THE SOILSITE CSV INTO SQLITE DATABASE
 // ========================================================
-
-// Node.js program to demonstrate the
-// fs.createReadStream() method
-
-// Include fs module
+import sqlite3 from "sqlite3";
 import { createReadStream } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
+import CsvReadableStream from "csv-reader";
+
 const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename)
+const __dirname = dirname(__filename);
 
-function main() {
-  // test
-  // soil_data_path ../data/soilsite_full.json
-  const soil_data_path = join(__dirname, "../data/soilsite_full.json")
-  console.log('soil_data_path', soil_data_path);
-  
-  const reader = createReadStream(soil_data_path);
+async function main() {
+  const soilsite_path = join(__dirname, "../data/soilsite_full.csv");
+  const inputStream = createReadStream(soilsite_path, "utf8");
 
-  // Read and display the file data on console
-  reader.on("data", function (chunk) {
-    console.log(chunk.toString());
-    
-    debugger;
+  const db = new sqlite3.Database(":memory:");
+
+  db.serialize(() => {
+    // sqlite create table with string id, lat, long, and depth
+    db.run(`CREATE TABLE soilsite (id TEXT, lat REAL, long REAL)`);
+    const stmt = db.prepare("INSERT INTO soilsite VALUES (?, ?, ?)");
+
+    let counter = 0;
+    inputStream
+      .pipe(
+        new CsvReadableStream({
+          parseNumbers: true,
+          parseBooleans: true,
+          trim: true,
+        })
+      )
+      .on("data", function (row) {
+        if (counter > 0) {
+          stmt.run(row[0], row[10], row[11]);
+        }
+        counter++;
+      })
+      .on("end", function () {
+        stmt.finalize();
+        db.each("SELECT * FROM soilsite LIMIT 10", (err, row) => {
+          console.log(row.id + ": " + row.lat + ", " + row.long);
+        });
+        db.close();
+      });
   });
+
 }
 
 main();
