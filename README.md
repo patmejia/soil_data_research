@@ -10,7 +10,7 @@
 
 ![Soild and prisma](images/prisma_soil.jpeg)
 
-The Open Soil Spectral Library (OSSL) is a global good project which serves collection of soil properties derived from spectral data. OSSL is also a network that delivers robust statistical models specifically calibration and predictions models, research tools, and oportiunities to colaborate across borders.
+The Open Soil Spectral Library (OSSL) is a global good project which serves collection of soil properties derived from spectral data. OSSL is also a network that delivers robust statistical models specifically calibration and predictions models, research tools, and oportiunities to collaborate across borders.
 
 The OSSL project offers a beautifully developed software: [OSSL Explorer](https://explorer.soilspectroscopy.org/) and a user manual: [OSSL manual](https://soilspectroscopy.github.io/ossl-manual/).
 
@@ -47,7 +47,7 @@ The reflected infrared radiation is converted to electrical energy and fed to a 
 
 ![Explorer](images/spectral_signatures.png)
 
-Spectral signature picked up from the Spectroradiometer(SRM) during . See the thikcer red arrow
+Spectral signature picked up from the Spectroradiometer(SRM) during .
 
 # Why It is needed?
 
@@ -61,7 +61,7 @@ Spectral signature picked up from the Spectroradiometer(SRM) during . See the th
 
 # How to download the Open Soil Spectracl Library (OSSL)?
 
-The OSSL manual mentioned two ways to access the data. The firt method is using MongoDb via R; however, the last yields a certification error. See image below:
+The OSSL manual mentioned two ways to access the data. The first method is using MongoDb via R; however, the last yields a certification error. See image below:
 
 <!------------------------------------------------->
 <!-- image                                       -->
@@ -69,7 +69,22 @@ The OSSL manual mentioned two ways to access the data. The firt method is using 
 
 ![cert_error](images/cert_error.png)
 
-Thus, we use the second method to access the data which uses Studio 3T and the following parameters:
+Also, when using NodeJS to connect to mongodb yields a certificate error
+
+```
+/Users/dev/code/soil_data_research/node_modules/mongodb/lib/utils.js:419
+                    throw error;
+                    ^
+
+MongoServerSelectionError: certificate has expired
+    at Timeout._onTimeout (/Users/dev/code/soil_data_research/node_modules/mongodb/lib/sdam/topology.js:293:38)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7) {
+  reason: TopologyDescription {
+    type: 'Unknown',
+```
+
+Thus, we use a thrid method to access the data which uses Studio 3T and the following parameters:
 
 - Connection Name: `soilspec4gg`
 - Server: `api.soilspectroscopy.org`
@@ -192,3 +207,5 @@ Step 2: In Studio 3T,
   <!------------------------------------------------->
 
 ![export step8](images/export_screen8.png)
+
+# WIP --> Building a Data Pipeline for OSSL
