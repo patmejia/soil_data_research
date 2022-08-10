@@ -6,7 +6,7 @@ import { readFileSync } from "fs";
 const url =
 "mongodb://soilspec4gg:soilspec4gg@api.soilspectroscopy.org:27017/?ssl=true&serverSelectionTimeoutMS=5000&connectTimeoutMS=10000&authSource=soilspec4gg&authMechanism=SCRAM-SHA-256"
 // Read the certificate authority
-var ca = readFileSync("./lets-encrypt-r3.pem");
+// var ca = readFileSync("./lets-encrypt-r3.pem");
 
 // Database Name
 const dbName = 'soilspec4gg';

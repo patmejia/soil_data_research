@@ -1,0 +1,148 @@
+/*** The new CSS Reset - version 1.4.4 (last updated 22.12.2021) ***/
+/*
+    Remove all the styles of the "User-Agent-Stylesheet", except for the 'display' property
+    - The "symbol *" part is to solve Firefox SVG sprite bug
+ */
+*:where(:not(iframe, canvas, img, svg, video):not(svg *, symbol *)) {
+  all: unset;
+  display: revert;
+}
+
+/* Preferred box-sizing value */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove list styles (bullets/numbers) */
+ol,
+ul,
+menu {
+  list-style: none;
+}
+
+/* For images to not be able to exceed their container */
+img {
+  max-width: 100%;
+}
+
+/* removes spacing between cells in tables */
+table {
+  border-collapse: collapse;
+}
+
+/* revert the 'white-space' property for textarea elements on Safari */
+textarea {
+  white-space: revert;
+}
+
+/* fix the feature of 'hidden' attribute.
+      display:revert; revert to element instead of attribute */
+:where([hidden]) {
+  display: none;
+}
+
+/* revert for bug in Chromium browsers
+      - fix for the content editable attribute will work properly. */
+:where([contenteditable]) {
+  -moz-user-modify: read-write;
+  -webkit-user-modify: read-write;
+  overflow-wrap: break-word;
+  -webkit-line-break: after-white-space;
+}
+
+/* apply back the draggable feature - exist only in Chromium and Safari */
+:where([draggable="true"]) {
+  -webkit-user-drag: element;
+}
+
+/* color vars */
+:root {
+  --color-aware: #408fea;
+  --color-focus: #f69902;
+  --color-alert: #ff4800;
+  --color-text: #ddd;
+  --color-subtext: #bbb;
+  --color-border: #ddd;
+  --color-shadow: #444;
+  --color-background: black;
+}
+
+
+html {
+  height: fill-available;
+  height: -webkit-fill-available;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--color-text);
+  background-color: var(--color-background);
+  box-sizing: border-box;
+
+  min-height: 100vh;
+  min-height: fill-available;
+  min-height: -webkit-fill-available;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  padding: 15px;
+}
+footer {
+  padding: 15px;
+}
+
+main {
+  flex:1;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+a {
+  color: var(--color-aware);
+  cursor: pointer;
+}
+
+p {
+  color: var(--color-subtext);
+}
+
+button {
+  cursor: pointer;
+  border: 1px solid white;
+  padding: 20px;
+}
+
+button:hover {
+  background-color: var(--color-aware);
+  color: var(--color-background);
+}
+
+textarea {
+  padding: 15px;
+  border: 1px solid var(--color-border);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+#stage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
