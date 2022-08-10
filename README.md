@@ -56,6 +56,8 @@ Spectral signature picked up from the Spectroradiometer(SRM) during . See the th
    > `Microbiome ⭌ Soil ⭌ Plants ⭌ Plant-based diet ⭌ Human Microbiomes ⭌ Longevity ⭌ Synchronize with natural`
 1. Data Science
 1. The miccrobiome of the soil, food, agriculture and human microbiomes are linked.
+1. soil organic matter (SOM), soil organic carbon (SOC)
+1. Soil microbiome
 
 # How to download the Open Soil Spectracl Library (OSSL)?
 
@@ -69,11 +71,13 @@ The OSSL manual mentioned two ways to access the data. The firt method is using 
 
 Thus, we use the second method to access the data which uses Studio 3T and the following parameters:
 
-- Name: soilspec4gg
-- Address: api.soilspectroscopy.org
-- Database: soilspec4gg
-- Username: soilspec4gg
-- Password: soilspec4gg
+- Connection Name: `soilspec4gg`
+- Server: `api.soilspectroscopy.org`
+- Authentication DB: `soilspec4gg`
+- User name: `soilspec4gg`
+- Password: `soilspec4gg`
+- Use SSL: `true`
+- Accept any SSL certificates: `true`
 
 Step 1: Free download [Studio 3T](https://robomongo.org/) and complete installation.
 
@@ -126,25 +130,65 @@ Step 2: In Studio 3T,
   ![auth step6](images/auth_screen6.png)
 
 - Finally, click save and connect.
-    <!------------------------------------------------->
+    <!-- ----------------------------------------------->
     <!-- image                                       -->
-    <!------------------------------------------------->
+    <!-------------------------------------------------->
 
   ![auth step7](images/auth_screen7.png)
-  ![auth step6](images/auth_screen6.png)
-  Open a terminal and install Base R on OSX
 
-- Connection Name: `soilspec4gg`
-- Server: `api.soilspectroscopy.org`
-- Authentication DB: `soilspec4gg`
-- User name: `soilspec4gg`
-- Password: `soilspec4gg`
-- Use SSL: `true`
-- Accept any SSL certificates: `true`
+# Exporting the data as a CSV file
+
+- Find the `soilsite` collection in `soispec4gg`:
+  <!------------------------------------------------->
+  <!-- image                                       -->
+  <!------------------------------------------------->
+
+  ![export step1](images/export_screen1.png)
+
+- Right click on the `soilsite` collection and select `Export Collection`
+  <!------------------------------------------------->
+  <!-- image                                       -->
+  <!------------------------------------------------->
+
+  ![export step2](images/export_screen2.png)
+
+- Select `CSV` and click `Configure`
+  <!------------------------------------------------->
+  <!-- image                                       -->
+  <!------------------------------------------------->
+
+  ![export step3](images/export_screen3.png)
+
+- Set the `Export Target` to be the current working directory. For instance, name the file `soilsite.csv` and save it.
+  <!------------------------------------------------->
+  <!-- image                                       -->
+  <!------------------------------------------------->
+
+  ![export step4](images/export_screen4.png)
 
     <!------------------------------------------------->
-    <!------------------------------------------------->
+  <!-- image                                       -->
+  <!------------------------------------------------->
 
-  ***
+  ![export step5](images/export_screen5.png)
 
-    <!------------------------------------------------->
+- Click `Run`
+  <!------------------------------------------------->
+  <!-- image                                       -->
+  <!------------------------------------------------->
+
+  ![export step6](images/export_screen6.png)
+
+- Results from the export are shown in the console.
+  <!------------------------------------------------->
+  <!-- image                                       -->
+  <!------------------------------------------------->
+
+  ![export step7](images/export_screen7.png)
+
+- The data `soilsite_full.csv` is now exported to the current working directory:
+  <!------------------------------------------------->
+  <!-- image                                       -->
+  <!------------------------------------------------->
+
+![export step8](images/export_screen8.png)
