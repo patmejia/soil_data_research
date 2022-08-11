@@ -19,6 +19,7 @@
 > Posted on [Hackers News](https://news.ycombinator.com/item?id=32293359)
 
 ![Soild and prisma](images/prisma_soil.jpeg)
+Image Source: [Soil_Prisma](https://www.fao.org/fileadmin/user_upload/GSP/imgs/GSP_GLOSOLAN_Spect_HomeSlider_920x426.jpg)
 
 ## The Open Soil Spectral Library (OSSL)
 
