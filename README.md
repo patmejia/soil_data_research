@@ -4,7 +4,7 @@
 - [A Global Good Project](#a-global-good-project)
 - [Soil Data Research](#soil-data-research)
 - [Importance](#importance)
-- [Downloading OSSL](#downloading-ossl)
+- [Downloading the Open Soil Spectral Library (OSSL)](#downloading-the-open-soil-spectral-library-ossl)
 - [Exporting the entire database as a CSV file](#exporting-the-entire-database-as-a-csv-file)
 - [Exporting a Sample of the data as a CSV file](#exporting-a-sample-of-the-data-as-a-csv-file)
 - [WIP --> Building a Data Pipeline for OSSL](#wip----building-a-data-pipeline-for-ossl)
