@@ -2,12 +2,15 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [A Global Good Project](#a-global-good-project)
+  - [The Open Soil Spectral Library (OSSL)](#the-open-soil-spectral-library-ossl)
+  - [OSSL Explorer](#ossl-explorer)
+  - [OSSL manual](#ossl-manual)
 - [Soil Data Research](#soil-data-research)
 - [Importance](#importance)
-- [Downloading the Open Soil Spectral Library (OSSL)](#downloading-the-open-soil-spectral-library-ossl)
-- [Exporting the entire database as a CSV file](#exporting-the-entire-database-as-a-csv-file)
-- [Exporting a Sample of the data as a CSV file](#exporting-a-sample-of-the-data-as-a-csv-file)
-- [WIP --> Building a Data Pipeline for OSSL](#wip----building-a-data-pipeline-for-ossl)
+- [Connecting to the OSSL](#connecting-to-the-ossl)
+- [Exporting the OSSL as `.CSV`](#exporting-the-ossl-as-csv)
+- [Exporting a Sample of the OSSL as `.CSV`](#exporting-a-sample-of-the-ossl-as-csv)
+- [WIP --> Building a Data Pipeline](#wip----building-a-data-pipeline)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -17,14 +20,22 @@
 
 ![Soild and prisma](images/prisma_soil.jpeg)
 
+## The Open Soil Spectral Library (OSSL)
+
 The Open Soil Spectral Library (OSSL) is a global good project which serves collection of soil properties derived from spectral data. OSSL is also a network that delivers robust statistical models specifically calibration and predictions models, research tools, and oportiunities to collaborate across borders.
-
-The OSSL project offers a beautifully developed software: [OSSL Explorer](https://explorer.soilspectroscopy.org/) and a user manual: [OSSL manual](https://soilspectroscopy.github.io/ossl-manual/).
-
-![Explorer](images/ossl_explorer.png)
 
 The initiative is funded through the National Institute of Food and Agriculture (USDA).
 [NIFA](https://www.nifa.usda.gov/about-nifa/press-releases/nifa-invests-over-7-million-big-data-artificial-intelligence-other) has invested over $7 Million in Big Data, Artificial Intelligence, and Other Cyberinformatics Research.
+
+The OSSL project offers a beautifully developed software:
+
+## [OSSL Explorer](https://explorer.soilspectroscopy.org/)
+
+and a user manual open for contribution:
+
+## [OSSL manual](https://soilspectroscopy.github.io/ossl-manual/)
+
+![Explorer](images/ossl_explorer.png)
 
 # Soil Data Research
 
@@ -48,7 +59,7 @@ Spectral signature picked up from the Spectroradiometer(SRM).
 1. soil organic matter (SOM), soil organic carbon (SOC)
 1. Soil microbiome
 
-# Downloading the Open Soil Spectral Library (OSSL)
+# Connecting to the OSSL
 
 The OSSL manual mentioned two ways to access the data. The first method is using MongoDb via R; however, the last yields a certification error. See image below:
 ![cert_error](images/cert_error.png)
@@ -109,7 +120,7 @@ Step 2: In Studio 3T,
 - Finally, click save and connect.
   ![auth step7](images/auth_screen7.png)
 
-# Exporting the entire database as a CSV file
+# Exporting the OSSL as `.CSV`
 
 - Find the `soilsite` collection in `soispec4gg`
   ![export step1](images/export_screen1.png)
@@ -131,7 +142,7 @@ Step 2: In Studio 3T,
 - The data `soilsite_full.csv` is now exported to the current working directory.
   ![export step8](images/export_screen8.png)
 
-# Exporting a Sample of the data as a CSV file
+# Exporting a Sample of the OSSL as `.CSV`
 
 To export a sample of the data, querry 10 samples from the `soilsite` collection:
 
@@ -148,7 +159,7 @@ To export a sample of the data, querry 10 samples from the `soilsite` collection
 - Right click anywhere inside the 10 sample query and select `Export Documents`
   ![export sample step5](images/export_sample_screen5.png)
 
-- Select `Current Query Result`. Then follow the same steps to select and configure the CSV file described [earlier](<#downloading-the-open-soil-spectral-library-(OSSL)>).
+- Select `Current Query Result`. Then follow the same steps to select and configure the CSV file described [earlier](#exporting-the-ossl-as-.csv).
   ![export sample step6](images/export_sample_screen6.png)
 
-# WIP --> Building a Data Pipeline for OSSL
+# WIP --> Building a Data Pipeline
