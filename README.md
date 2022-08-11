@@ -120,7 +120,7 @@ Step 2: In Studio 3T,
 - Finally, click save and connect.
   ![auth step7](images/auth_screen7.png)
 
-# Exporting the OSSL as `.CSV`
+# Exporting the OSSL as CSV
 
 - Find the `soilsite` collection in `soispec4gg`
   ![export step1](images/export_screen1.png)
@@ -159,7 +159,7 @@ To export a sample of the data, querry 10 samples from the `soilsite` collection
 - Right click anywhere inside the 10 sample query and select `Export Documents`
   ![export sample step5](images/export_sample_screen5.png)
 
-- Select `Current Query Result`. Then follow the same steps to select and configure the CSV file described [earlier](#exporting-the-ossl-as-.csv).
+- Select `Current Query Result`. Then follow the same steps to select and configure the CSV file described [earlier](#exporting-the-ossl-as-csv).
   ![export sample step6](images/export_sample_screen6.png)
 
 # WIP --> Building a Data Pipeline
