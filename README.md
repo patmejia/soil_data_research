@@ -143,7 +143,7 @@ Step 2: In Studio 3T,
 - The data `soilsite_full.csv` is now exported to the current working directory.
   ![export step8](images/export_screen8.png)
 
-# Exporting a Sample of the OSSL as `.CSV`
+# Exporting a Sample of the OSSL as CSV
 
 To export a sample of the data, querry 10 samples from the `soilsite` collection:
 
@@ -164,3 +164,9 @@ To export a sample of the data, querry 10 samples from the `soilsite` collection
   ![export sample step6](images/export_sample_screen6.png)
 
 # WIP --> Building a Data Pipeline
+
+- Install SQLite3
+
+```
+  brew install sqlite
+```

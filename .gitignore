@@ -3,3 +3,4 @@ data/soilsite_full.json
 data/soilsite_full.sql
 data/soilsite_full.csv
 .DS_store
+.Rhistory
