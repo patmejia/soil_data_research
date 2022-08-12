@@ -5,7 +5,11 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "sqlload": "node data_pipeline/load_csv.js",
+    "sqlload:d": "node --inspect data_pipeline/load_csv.js",
+    "sqlload:w": "nodemon -q data_pipeline/load_csv.js",
+    "sqlload:d:w": "nodemon -q --inspect data_pipeline/load_csv.js"
   },
   "repository": {
     "type": "git",
@@ -23,8 +27,10 @@
   },
   "homepage": "https://github.com/timcash/soil_data_research#readme",
   "dependencies": {
-    "csv-reader": "^1.0.9",
+    "awe-sqlite3": "^0.0.5",
+    "csv-parse": "^5.3.0",
     "mongodb": "^4.8.1",
+    "sqlite-async": "^1.1.5",
     "sqlite3": "^5.0.11"
   },
   "devDependencies": {
