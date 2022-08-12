@@ -1,79 +1,94 @@
-# Soil Data Research
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-## A Global Good Project
+- [A Global Good Project](#a-global-good-project)
+  - [The Open Soil Spectral Library (OSSL)](#the-open-soil-spectral-library-ossl)
+  - [OSSL Explorer](#ossl-explorer)
+  - [OSSL manual](#ossl-manual)
+- [Soil Data Research](#soil-data-research)
+- [Importance](#importance)
+- [Connecting to the OSSL](#connecting-to-the-ossl)
+- [Exporting the OSSL as `.CSV`](#exporting-the-ossl-as-csv)
+- [Exporting a Sample of the OSSL as `.CSV`](#exporting-a-sample-of-the-ossl-as-csv)
+- [WIP --> Building a Data Pipeline](#wip----building-a-data-pipeline)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+# A Global Good Project
 
 > Posted on [Hackers News](https://news.ycombinator.com/item?id=32293359)
 
-<!------------------------------------------------->
-<!-- image                                       -->
-<!------------------------------------------------->
-
 ![Soild and prisma](images/prisma_soil.jpeg)
+Image Source: [Soil_Prisma](https://www.fao.org/fileadmin/user_upload/GSP/imgs/GSP_GLOSOLAN_Spect_HomeSlider_920x426.jpg)
 
-The Open Soil Spectral Library (OSSL) is a global good project which serves collection of soil properties derived from spectral data. OSSL is also a network that delivers robust statistical models specifically calibration and predictions models, research tools, and oportiunities to colaborate across borders.
+## The Open Soil Spectral Library (OSSL)
 
-The OSSL project offers a beautifully developed software: [OSSL Explorer](https://explorer.soilspectroscopy.org/) and a user manual: [OSSL manual](https://soilspectroscopy.github.io/ossl-manual/).
-
-<!------------------------------------------------->
-<!-- image                                       -->
-<!------------------------------------------------->
-
-![Explorer](images/ossl_explorer.png)
+The Open Soil Spectral Library (OSSL) is a global good project which serves collection of soil properties derived from spectral data. OSSL is also a network that delivers robust statistical models specifically calibration and predictions models, research tools, and oportiunities to collaborate across borders.
 
 The initiative is funded through the National Institute of Food and Agriculture (USDA).
 [NIFA](https://www.nifa.usda.gov/about-nifa/press-releases/nifa-invests-over-7-million-big-data-artificial-intelligence-other) has invested over $7 Million in Big Data, Artificial Intelligence, and Other Cyberinformatics Research.
 
-# What is Soil Data Research?
+The OSSL project offers a beautifully developed software:
+
+## [OSSL Explorer](https://explorer.soilspectroscopy.org/)
+
+and a user manual open for contribution:
+
+## [OSSL manual](https://soilspectroscopy.github.io/ossl-manual/)
+
+![Explorer](images/ossl_explorer.png)
+
+# Soil Data Research
 
 Visible and near infraread light [VIS-NIR](https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/reflectance-spectroscopy#:~:text=NEAR%2DINFRARED%20REFLECTANCE%20SPECTROSCOPY%20ANALYSIS,%2C%20energy%2C%20and%20mineral%20content.)
-
-<!------------------------------------------------->
-<!-- image                                       -->
-<!------------------------------------------------->
 
 ![Explorer](images/soil_spectrum.png)
 
 The reflected infrared radiation is converted to electrical energy and fed to a computer for interpretation. Each major organic component of the soil absorbs and reflects visible, near-infrared light, and mid-infrared light differently. By measuring these different reflectance characteristics, the Spectroradiometer and a computer determine the quantity of these components in the soil sample.
 
-<!------------------------------------------------->
-<!-- image                                       -->
-<!------------------------------------------------->
-
 ![Explorer](images/spectroscopy.png)
-
-<!------------------------------------------------->
-<!-- image                                       -->
-<!------------------------------------------------->
-
+Spectral signature picked up from the Spectroradiometer(SRM).
 ![Explorer](images/spectral_signatures.png)
 
-Spectral signature picked up from the Spectroradiometer(SRM) during . See the thikcer red arrow
-
-# Why It is needed?
+# Importance
 
 1. Monitoring and predicting soil properties
 1. Health System Thinking:
    > `Microbiome ⭌ Soil ⭌ Plants ⭌ Plant-based diet ⭌ Human Microbiomes ⭌ Longevity ⭌ Synchronize with natural`
 1. Data Science
 1. The miccrobiome of the soil, food, agriculture and human microbiomes are linked.
+1. soil organic matter (SOM), soil organic carbon (SOC)
+1. Soil microbiome
 
-# How to download the Open Soil Spectracl Library (OSSL)?
+# Connecting to the OSSL
 
-The OSSL manual mentioned two ways to access the data. The firt method is using MongoDb via R; however, the last yields a certification error. See image below:
-
-<!------------------------------------------------->
-<!-- image                                       -->
-<!------------------------------------------------->
-
+The OSSL manual mentioned two ways to access the data. The first method is using MongoDb via R; however, the last yields a certification error. See image below:
 ![cert_error](images/cert_error.png)
 
-Thus, we use the second method to access the data which uses Studio 3T and the following parameters:
+Also, when using NodeJS to connect to mongodb yields a certificate error
 
-- Name: soilspec4gg
-- Address: api.soilspectroscopy.org
-- Database: soilspec4gg
-- Username: soilspec4gg
-- Password: soilspec4gg
+```
+/Users/dev/code/soil_data_research/node_modules/mongodb/lib/utils.js:419
+                    throw error;
+                    ^
+
+MongoServerSelectionError: certificate has expired
+    at Timeout._onTimeout (/Users/dev/code/soil_data_research/node_modules/mongodb/lib/sdam/topology.js:293:38)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7) {
+  reason: TopologyDescription {
+    type: 'Unknown',
+```
+
+Thus, we used the second method from the OSSL manual to access the data. Here, we used Studio 3T and inserted the following parameters:
+
+- Connection Name: `soilspec4gg`
+- Server: `api.soilspectroscopy.org`
+- Authentication DB: `soilspec4gg`
+- User name: `soilspec4gg`
+- Password: `soilspec4gg`
+- Use SSL: `true`
+- Accept any SSL certificates: `true`
 
 Step 1: Free download [Studio 3T](https://robomongo.org/) and complete installation.
 
@@ -87,155 +102,71 @@ Step 2: In Studio 3T,
   ![new collection icon](images/new_collection.png)
 
 - select the `manually configure my connection setting` option
-  <!------------------------------------------------->
-  <!-- image                                       -->
-  <!------------------------------------------------->
   ![auth step1](images/auth_screen1.png)
-- Fill in the Connecttions name: `soilspec4gg`
-  <!------------------------------------------------->
-  <!-- image                                       -->
-  <!------------------------------------------------->
-
+- Fill in the Connection name: `soilspec4gg` and, in the `Server` tab, fill with OSSL's given address: `api.soilspectroscopy.org`
   ![auth step2](images/auth_screen2.png)
 
 - Go to the Authentication tab and select Basic Authentication Mode:
-   <!------------------------------------------------->
-   <!-- image                                       -->
-   <!------------------------------------------------->
-
   ![auth step3](images/auth_screen3.png)
 
   - Fill in the User name, Password and Authentication DB with `soilspec4gg`
-    <!------------------------------------------------->
-     <!-- image                                       -->
-     <!------------------------------------------------->
     ![auth step4](images/auth_screen4.png)
 
 - Under the SSL tab, select `Use SSL protocol to connect` and `accept any server SSL certificates`
-  <!------------------------------------------------->
-  <!-- image                                       -->
-  <!------------------------------------------------->
   ![auth step5](images/auth_screen5.png)
 
----
+- Test Connection before saving:
+  ![auth step6](images/auth_screen6.png)
 
 - Finally, click save and connect.
-    <!------------------------------------------------->
-    <!-- image                                       -->
-    <!------------------------------------------------->
-  ![auth step6](images/auth_screen6.png)
-  Open a terminal and install Base R on OSX
+  ![auth step7](images/auth_screen7.png)
 
-```sh
-brew install r
-```
+# Exporting the OSSL as CSV
 
-### Step 2: install [RStudio](https://www.rstudio.com/products/rstudio/download/#download)
+- Find the `soilsite` collection in `soispec4gg`
+  ![export step1](images/export_screen1.png)
+  ![export step2](images/export_screen2.png)
 
-### Step 3: install [mongolite](https://jeroen.github.io/mongolite/index.html#install-mongolite-in-r)
+- Select `CSV` and click `Configure`
+  ![export step3](images/export_screen3.png)
 
-![rstudio](images/rstudio_install_package.png)
+- Set the `Export Target` to be the current working directory. For instance, name the file `soilsite.csv` and save it.
+  ![export step4](images/export_screen4.png)
+  ![export step5](images/export_screen5.png)
 
-## cert error
+- Click `Run`
+  ![export step6](images/export_screen6.png)
 
-![cert_error](images/cert_error.png)
+- Results from the export are shown in the console.
+  ![export step7](images/export_screen7.png)
 
-## using mMongoDb in r
+- The data `soilsite_full.csv` is now exported to the current working directory.
+  ![export step8](images/export_screen8.png)
 
-[How to Use R with MongoDB](https://www.mongodb.com/languages/mongodb-and-r-example)
+# Exporting a Sample of the OSSL as CSV
 
-```R
-connection_string = 'mongodb+srv://<username>:<password>@<cluster-name>.mongodb.net/sample_training'
-trips_collection = mongo(collection="trips", db="sample_training", url=connection_string)
-```
+To export a sample of the data, querry 10 samples from the `soilsite` collection:
 
-## fixing the cert error with options
+- Double click the `soilsite` collection.
+  ![export sample step1](images/export_sample_screen1.png)
 
-```R
-trips_collection = mongo(collection="soillab", url=connection_string, options = ssl_options(weak_cert_validation = T))
-```
+- Run the entire script (`F5`)
+  ![export sample step2](images/export_sample_screen2.png)
+  ![export sample step3](images/export_sample_screen3.png)
 
-## queries are not working
+- Select 10 samples
+  ![export sample step4](images/export_sample_screen4.png)
 
-```R
-> trips_collection$count('{}')
-Error: not authorized on test to execute command { aggregate: "soillab", cursor: {}, pipeline: [ { $match: {} }, { $group: { _id: 1, n: { $sum: 1 } } } ], $db: "test", lsid: { id: UUID("b1e14775-e7f2-4a2e-9ee5-e58507553e73") } }
-> trips_collection$info()
-Error: not authorized on test to execute command { serverStatus: 1, $db: "test", lsid: { id: UUID("b1e14775-e7f2-4a2e-9ee5-e58507553e73") } }
-> trips_collection$info({})
-Error in trips_collection$info({ : unused argument ({
-})
-> trips_collection$find({limit=10})
-Error: argument must be bson or json.
-> trips_collection$find(limit=10)
-Error: not authorized on test to execute command { find: "soillab", filter: {}, projection: { _id: 0 }, sort: {}, skip: 0, limit: 10, noCursorTimeout: false, $db: "test", lsid: { id: UUID("b1e14775-e7f2-4a2e-9ee5-e58507553e73") } }
->
-```
+- Right click anywhere inside the 10 sample query and select `Export Documents`
+  ![export sample step5](images/export_sample_screen5.png)
 
-## Studio 3T for Connecting to MongoDB
+- Select `Current Query Result`. Then follow the same steps to select and configure the CSV file described [earlier](#exporting-the-ossl-as-csv).
+  ![export sample step6](images/export_sample_screen6.png)
 
-1. [3T](https://studio3t.com)
+# WIP --> Building a Data Pipeline
 
-![connection string](images/mongoconn.png)
-
-Install mongoDB:
+- Install SQLite3
 
 ```
-npm install mongodb
-```
-
-Verify version:
-
-```
-npm list mongodb
-```
-
-Step 1: Connect to MongoDB
-
-```
-var MongoClient = require('mongodb').MongoClient;
-var assert = require('assert');
-```
-
-Step 2: Retrive a list of databases
-
-Step 3:Printing the results to your console
-
----
-
----
-
-# Keywords
-
-1. KCl extractable
-1. labile soil
-1. RMSE (Root Mean Squared Error)
-   ML | Mathematical explanation of RMSE and R-squared errorhttps://www.geeksforgeeks.org › ml-mathematical-expl...
-   Jun 6, 2022 — RMSE: Root Mean Square Error is the measure of how well a regression line fits the data points. RMSE can also be construed as Standard ...
-1. Feature selection
-
----
-
----
-
-1. [mongodb](https://soilspectroscopy.github.io/ossl-manual/index.html#ossl-mongodb)
-
-# Tools and Libraries
-
----
-
----
-# nodejs mongodb certificate error
-
-```
-/Users/dev/code/soil_data_research/node_modules/mongodb/lib/utils.js:419
-                    throw error;
-                    ^
-
-MongoServerSelectionError: certificate has expired
-    at Timeout._onTimeout (/Users/dev/code/soil_data_research/node_modules/mongodb/lib/sdam/topology.js:293:38)
-    at listOnTimeout (node:internal/timers:564:17)
-    at process.processTimers (node:internal/timers:507:7) {
-  reason: TopologyDescription {
-    type: 'Unknown',
+  brew install sqlite
 ```
