@@ -61,23 +61,60 @@ https://www.britannica.com/science/spectroscopy
 
 ## Soil
 
-### Ingredientes That Create Soil
+It is a living system and life-sustaining resource. It teams up with billions of bacteria, fungi, and other microbes to create a [soil community](https://www.sciencedirect.com/topics/earth-and-planetary-sciences/microbial-community) filled with diverse soil biota.
 
-[Soil is... a Recipe with Five Ingredients](https://www.nature.com/scitable/knowledge/library/what-are-soils-67647639/#:~:text=Soil%20is%20a%20material%20composed,mineralogy%20of%20soils%20is%20diverse.):
+### Ingredientes That Create Soil:
 
 - minerals
 - gas
 - water
 - soil organic matter (SOM)
 - living organisms
+- Soild Organic Carbon (SOC)
 
-Soil organic matter is plant, animal, and microbial residues in various states of decomposition; it is a critical ingredient — in fact the percentage of soil organic matter in a soil is among the best indicators of agricultural [soil quality](http://soils.usda.gov/sqi/)
+[Soil organic matter](https://www.nature.com/scitable/knowledge/library/what-are-soils-67647639/#:~:text=Soil%20is%20a%20material%20composed,mineralogy%20of%20soils%20is%20diverse.) is plant, animal, and microbial residues in various states of decomposition. Higher SOC is among the best indicators of agricultural soil quality.
 
-soil organic matter (SOM), soil organic carbon (SOC), and soil organic nitrogen (SON) are the three main components of soil.
+Soil minerals give soil the different texture attritubtes and colors. They are classified by size: clay, silt, and sand.
 
-Soil minerals are divided into three size classes — clay, silt, and sand (Figure 1); the percentages of particles in these size classes is called soil texture. The mineralogy of soils is diverse. For example, a clay mineral called smectite can shrink and swell so much upon wetting and drying (Figure 2) that it can knock over buildings. The most common mineral in soils is quartz; it makes beautiful crystals but it is not very reactive. Soil organic matter is plant, animal, and microbial residues in various states of decomposition; it is a critical ingredient — in fact the percentage of soil organic matter in a soil is among the best indicators of agricultural soil quality (http://soils.usda.gov/sqi/) (Figure 3). Soil colors range from the common browns, yellows, reds, grays, whites, and blacks to rare soil colors such as greens and blues.
+For example, the below picture shows different soil samples demonstrating the interaction of sand-clay textures versus SOM compositions
+
+![Soil samples](images/sandVSsom_screen.png)
+Image Source: [FAO](https://youtu.be/QVOx4oFugts)(min: 31:43)
+
+Soil color is produced by the minerals present and by the organic matter content. Yellow or red soil indicates the presence of oxidized ferric iron oxides. Dark brown or black color in soil indicates that the soil has a high organic matter content. Wet soil will appear darker than dry soil.
+
+Th (Figure 1); the percentages of particles in these size classes is called soil texture. The mineralogy of soils is diverse.
+
+For example, a clay mineral called smectite can shrink and swell so much upon wetting and drying
+
+(Figure 2) that it can knock over buildings. The most common mineral in soils is quartz; it makes beautiful crystals but it is not very reactive.
+
+Soil organic matter is plant, animal, and microbial residues in various states of decomposition; it is a critical ingredient — in fact the percentage of soil organic matter in a soil is among the best indicators of agricultural soil quality (http://soils.usda.gov/sqi/) (Figure 3).
+
+Soil colors range from the common browns, yellows, reds, grays, whites, and blacks to rare soil colors such as greens and blues.
 
 Soil is the naturally occurring part of the earth's surface that is composed of the minerals, organic and inorganic materials that are present in the earth's crust.
+
+# Importance of Soil
+
+[soil biota](https://www.sciencedirect.com/topics/earth-and-planetary-sciences/soil-biota)
+
+[soil carbon](https://www.sciencedirect.com/topics/earth-and-planetary-sciences/soil-carbon)
+
+[soil community](https://www.sciencedirect.com/topics/earth-and-planetary-sciences/microbial-community)
+
+As some might simply explain:
+Dirt feeds plants, plants feed animals and some animals eat other animals.
+
+However, the importance of undertaidng the omposition og the soil at eac soil site is key for the environmental protection of the earth.
+
+Soil organic C binds mineral particles to form aggregates (Oades, 1993), whose distribution and stability influence the soil’s physical properties, including pore size distribution, bulk density, soil strength, and soil erodibility (Tatarko, 2001; Chapter 3: Microbial Modulators and Mechanisms of Soil Carbon Storage).
+
+Loss of organic matter affects soil structure and aggregate formation, with negative impacts on biological diversity, soil fertility, crop production potential, erosion control, water retention, matter exchange between soil, atmosphere, groundwater, and the filtering, buffering, and transforming capacity of terrestrial ecosystems (Huber et al., 2001; Kirchmann and Andersson, 2001).
+
+Soil management practices that improve formation of soil aggregates through an increase in SOC have demonstrated minimizing soil and nutrient losses through erosion mitigation and eutrophication of surface waters (Srinivasarao et al., 2015). The success of these soil management systems, however, relies strongly on site-specific characteristics, farmers’ awareness and knowledge, and often on weather events.
+
+Aquatic microbial community can be defined as an assemblage of co-occurring, and potentially interacting, microbes, present in a defined habitat in space and time. Despite the small size, microorganisms are key elements for the ecological dynamics of the biosphere. They are not only the most diffused life forms; they are also characterized by an incredible functional and genetic diversity, contributing fundamentally to the biogeochemical processes on Earth.
 
 ## Spectroscopy
 
@@ -98,11 +135,3 @@ Spectral signature picked up from the Spectroradiometer(SRM).
   - [OSSL Explorer](#ossl-explorer)
   - [OSSL manual](#ossl-manual)
   - [video webimar](https://youtu.be/QVOx4oFugts)
-
-# Importance of Soil
-
-https://www.sciencedirect.com/topics/earth-and-planetary-sciences/soil-biota
-
-Dirt feeds plants, plants feed animals and some animals eat other animals.
-
-Soil organic C binds mineral particles to form aggregates (Oades, 1993), whose distribution and stability influence the soil’s physical properties, including pore size distribution, bulk density, soil strength, and soil erodibility (Tatarko, 2001; Chapter 3: Microbial Modulators and Mechanisms of Soil Carbon Storage). Loss of organic matter affects soil structure and aggregate formation, with negative impacts on biological diversity, soil fertility, crop production potential, erosion control, water retention, matter exchange between soil, atmosphere, groundwater, and the filtering, buffering, and transforming capacity of terrestrial ecosystems (Huber et al., 2001; Kirchmann and Andersson, 2001). Soil management practices that improve formation of soil aggregates through an increase in SOC have demonstrated minimizing soil and nutrient losses through erosion mitigation and eutrophication of surface waters (Srinivasarao et al., 2015). The success of these soil management systems, however, relies strongly on site-specific characteristics, farmers’ awareness and knowledge, and often on weather events.
