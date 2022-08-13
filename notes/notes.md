@@ -112,3 +112,7 @@ MongoServerSelectionError: certificate has expired
   reason: TopologyDescription {
     type: 'Unknown',
 ```
+
+# NOTES FOR UPDATING MY RESUME:
+
+Environment, operations, ananitics and mathemacis
