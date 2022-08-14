@@ -10,11 +10,12 @@
   - [Spectroscopy](#spectroscopy)
   - [Soil](#soil)
     - [Soil Minerals](#soil-minerals)
-    - [SOM](#som)
+    - [Soil Organic Matter (SOM)](#soil-organic-matter-som)
     - [Soil Structure](#soil-structure)
-    - [SOC](#soc)
-    - [Principles of Soil Health](#principles-of-soil-health)
-- [Start: Connecting to the OSSL](#start-connecting-to-the-ossl)
+    - [Soil Organic Carbon (SOC)](#soil-organic-carbon-soc)
+  - [Example: Visual Analysis of Soil](#example-visual-analysis-of-soil)
+  - [Soil Health](#soil-health)
+- [START: Connecting to the OSSL](#start-connecting-to-the-ossl)
 - [Exporting the OSSL as CSV](#exporting-the-ossl-as-csv)
 - [Exporting a Sample of the OSSL as CSV](#exporting-a-sample-of-the-ossl-as-csv)
 - [WIP --> Building a Data Pipeline](#wip----building-a-data-pipeline)
@@ -128,24 +129,14 @@ These protected structures made with clay ensure good water-holding capacity and
 
 ### Soil Organic Matter (SOM)
 
-[SOM](https://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_053264.pdf) is the organic component of soil, consisting of three primary parts:
+[SOM](<https://www.agric.wa.gov.au/measuring-and-assessing-soils/what-soil-organic-carbon#:~:text=Soil%20organic%20carbon%20(SOC)%20refers,to%20measure%20and%20report%20SOC.>) is composed mainly of carbon, hydrogen and oxygen, and has small amounts of other elements, such as nitrogen, phosphorous, sulfur, potassium, calcium and magnesium contained in organic residues. It is divided into ‘living’ and ‘dead’ components and can range from very recent inputs, such as stubble, to largely decayed materials that might be many hundreds of years old. About 10% of below-ground SOM, such as roots, fauna and microorganisms, is ‘living’:
 
-- small fresh plant residues and living soil organisms
-- decomposing active organic matter
-- stable organic
-  matter, humus
+SOM exists as 4 distinct fractions which vary widely in size, turnover time and composition in the soil (Table 1):
 
-![SOM composition](images/som_screen.png)
-
-> Below are four Swedish soils samples demonstrating the interaction of sand-and-clay textures versus SOM compositions
-
-> ![Soil samples](images/sandVSsom_screen.png)
-> Image Source: [FAO](https://youtu.be/QVOx4oFugts)(min: 37:42)
-
-> - The Left samples are 100% sand, 0% clay.
-> - The Right samples are illite clay soil samples; thus, they appear brighter in color.
-> - The Bottom samples have no organic matter
-> - The Top samples have very little organic matter; thus, they appear darker.
+- dissolved organic matter
+- particulate organic matter
+- stable organic matter or humus
+- resistant organic matter
 
 ### Soil Structure
 
@@ -166,7 +157,21 @@ Bacterial secretion of high-molecular-weight sugar-based polymers (EPSs). These 
 
 [SOC](<https://www.agric.wa.gov.au/measuring-and-assessing-soils/what-soil-organic-carbon#:~:text=Soil%20organic%20carbon%20(SOC)%20refers,to%20measure%20and%20report%20SOC.>) refers to the carbon components in organic compounds. Soil organic matter (SOM) is challenging to measure directly, so laboratories tend to measure and report SOC. [Soil organic carbon](<https://www.agric.wa.gov.au/measuring-and-assessing-soils/what-soil-organic-carbon#:~:text=Soil%20organic%20carbon%20(SOC)%20refers,to%20measure%20and%20report%20SOC.>) is a measurable component of soil organic matter which contributes to nutrient retention and turnover, soil structure, moisture retention and availability, degradation of pollutants, and carbon sequestration. SOC has been identified as a [global indicator for monitoring soil health and productivity](https://www.openaccessgovernment.org/what-is-soil-organic-carbon-soc/120702/).
 
-### Soil Health
+## Example: Visual Analysis of Soil
+
+![SOM composition](images/som.png)
+
+> Below are four Swedish soils samples demonstrating the interaction of sand-and-clay textures versus SOM compositions
+
+> ![Soil samples](images/sandVSsom_screen.png)
+> Image Source: [FAO](https://youtu.be/QVOx4oFugts)(min: 37:42)
+
+> - The Left samples are 100% sand, 0% clay.
+> - The Right samples are illite clay soil samples; thus, they appear brighter in color.
+> - The Bottom samples have no organic matter
+> - The Top samples have very little organic matter; thus, they appear darker.
+
+## Soil Health
 
 The basic principles of soil health:
 
