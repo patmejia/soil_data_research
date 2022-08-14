@@ -1,6 +1,3 @@
-<!-----------------------------------------------  -->
-<!-- Table of content                              -->
-<!-----------------------------------------------  -->
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
@@ -15,9 +12,11 @@
     - [SOM](#som)
     - [Soil Structure](#soil-structure)
     - [SOC](#soc)
-    - [Common studied components of soil](#common-studied-components-of-soil)
-- [Importance of Soil](#importance-of-soil)
-- [Links:](#links)
+    - [Principles of Soil Health](#principles-of-soil-health)
+- [Connecting to the OSSL](#connecting-to-the-ossl)
+- [Exporting the OSSL as CSV](#exporting-the-ossl-as-csv)
+- [Exporting a Sample of the OSSL as CSV](#exporting-a-sample-of-the-ossl-as-csv)
+- [WIP --> Building a Data Pipeline](#wip----building-a-data-pipeline)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -62,41 +61,45 @@ and a user manual open for contribution:
 
 ## Spectroscopy
 
-Spectroscopic studies are designed so that the radiant energy interacts with specific types of matter.
+The importance of [spectroscopy](https://en.wikipedia.org/wiki/Spectroscopy) is centered around the fact that every different element in the periodic table has a unique light spectrum described by the frequencies of light it emits or absorbs consistently appearing in the same part of the electromagnetic spectrum when that light is diffracted.
 
-Soil spectroscopy is the measurement of light absorption when light in the visible, near infrared or mid infrared (Vis–NIR–MIR) regions of the electromagnetic spectrum is applied to a soil surface. The proportion of the incident radiation reflected by soil is sensed through Vis–NIR–MIR reflectance spectroscopy. These characteristic spectra (see Fig. below) can then be used to estimate numerous soil attributes including: minerals, organic compounds and water.
+[Soil spectroscopy](<(https://soilspectroscopy.org/about/#:~:text=Soil%20spectroscopy%20offers%20a%20safe%20and%20rapid%20alternative%20(Figure%201).&text=Soil%20spectroscopy%20is%20the%20measurement,applied%20to%20a%20soil%20surface.)>) is the measurement of light absorption when light in the visible, near infrared or mid infrared (Vis–NIR–MIR) regions of the electromagnetic spectrum is applied to a soil surface. The proportion of the incident radiation reflected by soil is sensed through Vis–NIR–MIR reflectance spectroscopy. These characteristic spectra can then be used to estimate numerous soil attributes including: minerals, organic compounds and water.
 
-radiant energy is the energy of electromagnetic and gravitational radiation.[1] As energy, its SI unit is the joule (J). The quantity of radiant energy may be calculated by integrating radiant flux (or power) with respect to time.
-
-The central theory of spectroscopy is that light is made of different wavelengths and that each wavelength corresponds to a different frequency. The importance of spectroscopy is centered around the fact that every different element in the periodic table has a unique light spectrum described by the frequencies of light it emits or absorbs consistently appearing in the same part of the electromagnetic spectrum when that light is diffracted.
-
-spectroscopy, study of the absorption and emission of light and other radiation by matter, as related to the dependence of these processes on the wavelength of the radiation. More recently, the definition has been expanded to include the study of the interactions between particles such as electrons, protons, and ions, as well as their interaction with other particles as a function of their collision energy.
-
-https://www.britannica.com/science/spectroscopy
-
-Visible and near infraread light [VIS-NIR](https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/reflectance-spectroscopy#:~:text=NEAR%2DINFRARED%20REFLECTANCE%20SPECTROSCOPY%20ANALYSIS,%2C%20energy%2C%20and%20mineral%20content.)
-
-![Explorer](images/soil_spectrum.png)
+![Spectroradiometer](images/spectroscopy.png)
 
 The reflected infrared radiation is converted to electrical energy and fed to a computer for interpretation. Each major organic component of the soil absorbs and reflects visible, near-infrared light, and mid-infrared light differently. By measuring these different reflectance characteristics, the Spectroradiometer and a computer determine the quantity of these components in the soil sample.
 
-Absorbance is high therefore reflectance is low.
+Typical soil spectrum in the visible, near-infrared, and mid-infrared portion of the Electrocromagnetic Spectrum (EM Spectrum) is shown in below figure.
 
-![Spectroradiometer](images/spectroscopy.png)
-Spectral signature picked up from the Spectroradiometer(SRM).
-![Spectral_signature](images/spectral_signatures.png)
+![Explorer](images/soil_spectrum.png)
+[Image Source: Advances in Agronomy](https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/reflectance-spectroscopy#:~:text=NEAR%2DINFRARED%20REFLECTANCE%20SPECTROSCOPY%20ANALYSIS,%2C%20energy%2C%20and%20mineral%20content.)
+
+Light absorbtion in the visible region is due to excitation of electron. With longer wavelengths, NIR and MIR, the absorption is due to [vibrations](https://youtu.be/QVOx4oFugts) in the chemical bonds within molecules: symetrical stretch, asymetrical stretch, and bending vibrations. Thus, the spectra will show primary absorption in the MIR region and overtones and combinations in the NIR region.
 
 ## Soil
 
-Soil is a living system working as a life-sustaining resource. It teams up with billions of bacteria, fungi, and other microbes to create an abundant [soil community](https://www.sciencedirect.com/topics/earth-and-planetary-sciences/microbial-community) filled with diverse soil biota. In a way, soil is a living body of minerals, organisms, soil organic matter, gas and water.
+Soil is a living system working as a life-sustaining resource. It teams up with billions of bacteria, fungi, and other microbes to create an abundant [soil community](https://www.sciencedirect.com/topics/earth-and-planetary-sciences/microbial-community) filled with diverse soil biota.
 
-[Reference](https://www.nature.com/scitable/knowledge/library/what-are-soils-67647639/#:~:text=Soil%20is%20a%20material%20composed,mineralogy%20of%20soils%20is%20diverse.)
+Soils have [4 basic components](http://www.nzdl.org/cgi-bin/library?e=d-00000-00---off-0hdl--00-0----0-10-0---0---0direct-10---4-------0-1l--11-en-50---20-about---00-0-1-00-0-0-11----0-0-&a=d&c=hdl&cl=CL1.16&d=HASH412cd503b5262205ac14c6.3.1):
 
-Organism abundance, diversity, and exude activity are not randomly distributed in soil, but vary in a patchy fashion both horizontally across a landscape and vertically through the [soil profile](https://www.sciencedirect.com/topics/earth-and-planetary-sciences/soil-biota). Thus each soil profile can communicate a story of time and soil formation. The image below show some examples of soil horizons.
+- Mineral particles: sand, silt, and clay
+- Organic matter
+- Water
+- Air
+
+Organism abundance, diversity, and activity are not randomly distributed in soil, but vary in a patchy fashion both horizontally across a landscape and vertically through the [soil profile](https://www.sciencedirect.com/topics/earth-and-planetary-sciences/soil-biota).
 
 ![Soil_horizons](images/soil_horizons_screens.png)
-[Image Source](https://www.youtube.com/watch?v=_aZbGBaP_7Y)
-[soil profile](https://www.youtube.com/watch?v=_aZbGBaP_7Y)
+[Image Source: Soil Horizons](https://www.youtube.com/watch?v=_aZbGBaP_7Y)
+
+Most soils evolve slowly over centuries through the weathering of underlying rock and the decomposition organic matter. Other soils are formed from deposits laid down by rivers and seas or by wind forces.
+
+> A sample of typical [topsoil](http://www.nzdl.org/cgi-bin/library?e=d-00000-00---off-0hdl--00-0----0-10-0---0---0direct-10---4-------0-1l--11-en-50---20-about---00-0-1-00-0-0-11----0-0-&a=d&c=hdl&cl=CL1.16&d=HASH412cd503b5262205ac14c6.3.1) contains about
+>
+> - ~50% pore space filled with varying proportions of air and water, depending on the soil's current moisture content.
+> - ~50% of the volume is made up of mineral particles and organic matter
+
+> Organic soils like peats are formed in marshes, bogs, and swamps contain 30-100 percent organic matter.
 
 ### Soil Minerals
 
@@ -110,10 +113,9 @@ Soil minerals give soil the different texture attritubtes and colors. They are c
 
 The most common mineral in soils is quartz; it is not very reactive. On the other hand, clay is very reactive. In fact, an importa role of soil is the synthesis of clay minerals.
 
-clay is reactive to ions, water
-clay particles that result in strong protected structures that store soil C for long periods of time (https://www.sciencedirect.com/topics/earth-and-planetary-sciences/soil-aggregate)
+Clay particles can form strong protected structures that [store soil C](<(https://www.sciencedirect.com/topics/earth-and-planetary-sciences/soil-aggregate)>) for long periods of time.
 
-(https://www.nature.com/scitable/knowledge/library/what-are-soils-67647639/#:~:text=Soil%20is%20a%20material%20composed,mineralogy%20of%20soils%20is%20diverse.)
+Clay particles in soil ensure good water-holding capacity and provide [a good of plant nutrients](http://www.nzdl.org/cgi-bin/library?e=d-00000-00---off-0hdl--00-0----0-10-0---0---0direct-10---4-------0-1l--11-en-50---20-about---00-0-1-00-0-0-11----0-0-&a=d&c=hdl&cl=CL1.16&d=HASH412cd503b5262205ac14c6.3.4).
 
 ### SOM
 
@@ -135,104 +137,161 @@ Soil organic matter [SOM](https://www.nature.com/scitable/knowledge/library/what
 
 [Soil structure](https://www.sciencedirect.com/topics/earth-and-planetary-sciences/soil-structure) refers to the proportions of solids and voids in a soil. A key aspect of soil structure is the aggregation of individual mineral and organic particles into larger units.
 
+Aggregates can be separeted in to size classes: macroaggregates (250 μm–2 mm) and microaggregates (53–250 μm)
+
+Macroaggregates are formed when [light fraction SOM](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0033217#:~:text=The%20light%20fraction%20is%20a,inputs%20and%20decomposition%20%5B31%5D.), which is composed of fresh plant residue, is decomposed by fungi and bacteria. Fungal hyphae and bacterial extracellular polysaccharides serve as nucleation cores to accrete larger masses of slightly decomposed SOM that become macroaggregates. These macroaggregates are constantly weathering in the soil to produce more microaggregates within SOM that is inaccessible to microbial decomposition.
+
+![Macro_micro_aggregates](images/soil_matrix.png)
+
+![Macro_micro_aggregates](images/water_gas.png)
+[Image Source: American Society of Microbiology](https://journals.asm.org/doi/10.1128/AEM.00324-19#)
+
 ### SOC
 
----
+Soil organic carbon (SOC) refers only to the carbon component of organic compounds. Soil organic matter (SOM) is difficult to measure directly, so laboratories tend to measure and report SOC. [Soil organic carbon](<https://www.agric.wa.gov.au/measuring-and-assessing-soils/what-soil-organic-carbon#:~:text=Soil%20organic%20carbon%20(SOC)%20refers,to%20measure%20and%20report%20SOC.>) is a measureable component of soil organic matter which contributes to nutrient retention and turnover, soil structure, moisture retention and availability, degradation of pollutants, and carbon sequestration.
 
-![Macro_micro_aggregates](images/macro_micro_aggr_screen.png)
+Soil organic C is an important indicator of soil organic matter, which enhances agriculture’s sustainability, food solutions, natural resources, and biodiversity. SOC has been identified as a [global indicator for monitoring soil health and productivity](https://www.openaccessgovernment.org/what-is-soil-organic-carbon-soc/120702/). Ensuring secure and adequate food supplies is a primary responsibility of governments and a core interest of the scientific community.
 
-Soil [aggregates](https://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052820.pdf)are groups of soil particles binding to each others more strongly than to other adjecent particles leaving voids for both water and air.
+### Principles of Soil Health
 
-Soil structure is influenced by texture, clay mineralogy, climatic wet–dry and freeze–thaw cycles, characteristics of the plants and organic matter, and activities of soil biota. The [soil biota](https://www.sciencedirect.com/topics/earth-and-planetary-sciences/soil-biota) provide key macroaggregates promotes soil structure by contributing organic matter in the form of plant litter , faunal fecal material (Frouz, 2018), and microbial residues (Abiven et al., 2009; Kallenbach et al., 2016). Roots and fungi also physically bind soil particles together (i.e., enmeshment) and release substances such as the glycoprotein glomalin that act as binding agents, which promote soil aggregate stability
+![Soil health](images/soil_health_screen.png)
+[Image Source: USDA](https://www.nrcs.usda.gov/wps/portal/nrcs/main/soils/health/)
 
-Larger aggregates are called macroaggregaesa compried of visible SOM decomposable by light while smaller aggregates are called microaggregaes.
+# Connecting to the OSSL
 
----
+The OSSL manual mentioned two ways to access the data. The first method is using MongoDb via R; however, the last yields a certification error. See image below:
+![cert_error](images/cert_error.png)
 
-there are several
+As an alternative, we tried to connect directly with Javascript through NodeJS but we also ran into another certificate error
 
-Biological processes that result in the formation of “biological macroaggregates”:\
-(1) Fresh plant- and root-derived residues form the nucleation sites for the growth of fungi and bacteria. Macroaggregate formation is initiated by fungal hyphae enmeshing fine particles into macroaggregates. Exudates from both bacteria and fungi, produced as a consequence of decomposition of fresh residues, form binding agents that further stabilize macroaggregates.
+```
+/Users/dev/code/soil_data_research/node_modules/mongodb/lib/utils.js:419
+                    throw error;
+                    ^
 
-(2) Biological macroaggregates also form around growing roots in soils, with roots and their exudates enmeshing soil particles, thereby stimulating microbial activity
+MongoServerSelectionError: certificate has expired
+    at Timeout._onTimeout (/Users/dev/code/soil_data_research/node_modules/mongodb/lib/sdam/topology.js:293:38)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7) {
+  reason: TopologyDescription {
+    type: 'Unknown',
+```
 
-(3) A third principal mechanism of biological macroaggregate formation in soils in all climates is via the action of soil fauna, particularly earthworms, termites, and ants. For example, earthworms often produce casts that are rich in organic matter and are not stable when freshly formed and wet. During gut passage, the soil and organic materials are kneaded thoroughly and copious amounts of watery mucus are added as well. This molding process breaks bonds between soil particles, but can lead to casts that are quite stable upon drying. It is also worth noting that soil mesofauna, for example collembola and mites, are important in the SOM formation process through their production of copious amounts of fecal pellets. Effects of meso- and macrofauna on soil structure are discussed further in Chapter 4 on soil fauna.
+Lastly, we used the second method from the OSSL manual to access the data with Studio 3T and inserted the following parameters:
 
-Soil [aggregated](https://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052820.pdf) structure: soil particles binding to each others more strongly than to other adjecent particles leaving voids for both water and air.
+- Connection Name: `soilspec4gg`
+- Server: `api.soilspectroscopy.org`
+- Authentication DB: `soilspec4gg`
+- User name: `soilspec4gg`
+- Password: `soilspec4gg`
+- Use SSL: `true`
+- Accept any SSL certificates: `true`
 
-Organism abundance, diversity, and activity are not randomly distributed in soil, but vary in a patchy fashion both horizontally across a landscape and vertically through the soil profile. Different groups
+Step 1: Free download [Studio 3T](https://robomongo.org/) and complete installation.
 
-Soil is living body of minerals, living organism, soil organic matter (SOM), gas and water.
-[Reference](https://www.nature.com/scitable/knowledge/library/what-are-soils-67647639/#:~:text=Soil%20is%20a%20material%20composed,mineralogy%20of%20soils%20is%20diverse.)
+Step 2: In Studio 3T,
 
-Soil aggregates
+- click on the New Collection icon:
+  <!------------------------------------------------->
+  <!-- image                                       -->
+  <!------------------------------------------------->
 
-also a stable [aggregated](https://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052820.pdf) structure: soil particles binding to each others more strongly than to other adjecent particles leaving voids for both water and air.
+  ![new collection icon](images/new_collection.png)
 
-Soil structure refers to the proportions of solids and voids in a soil, the voids providing the space for both water and air. A key aspect of soil structure is the aggregation of individual mineral and organic particles into larger units (Binkley and Fisher, 2013). Soil structure is influenced by characteristics of the soil (especially texture and clay mineralogy), climatic factors (especially wet–dry and freeze–thaw cycles), characteristics of the plants and organic matter, and activities of soil biota (Daynes et al., 2013; Rashid et al., 2016; Bronick and Lal, 2005; Regelink et al., 2015). The soil biota promotes soil structure by contributing organic matter in the form of plant litter (especially root litter; Rasse et al., 2005), faunal fecal material (Frouz, 2018), and microbial residues (Abiven et al., 2009; Kallenbach et al., 2016). Roots and fungi also physically bind soil particles together (i.e., enmeshment) and release substances such as the glycoprotein glomalin that act as binding agents, which promote soil aggregate stability
+- select the `manually configure my connection setting` option
+  ![auth step1](images/auth_screen1.png)
+- Fill in the Connection name: `soilspec4gg` and, in the `Server` tab, fill with OSSL's given address: `api.soilspectroscopy.org`
+  ![auth step2](images/auth_screen2.png)
 
-soil is made up of different-sized mineral particles (sand, silt, and clay) including organic matter.
+- Go to the Authentication tab and select Basic Authentication Mode:
+  ![auth step3](images/auth_screen3.png)
 
-and has complex biological, chemical, physical, mineralogical, and hydrological properties that are always changing over time. Soil is ubiquitous and is dynamic, teeming with organisms, and is an integral part of both terrestrial and aquatic environments. But for farmers, gardeners, and agronomists, soil is just a medium for growing crops, pastures, and plants. And for engineers, soil is a material to build on and excavate. Thus soils can be both naturally occurring, comprising natural minerals and organic materials, and human-made, such as those that often contain very small amounts of manufactured materials, including brick fragments, explosive residues, or paint flecks. It is this soil diversity and heterogeneity that has enabled forensic soil examiners to distinguish between soils that may appear to be similar to the untrained observer.
+  - Fill in the User name, Password and Authentication DB with `soilspec4gg`
+    ![auth step4](images/auth_screen4.png)
 
-### Common studied components of soil
+- Under the SSL tab, select `Use SSL protocol to connect` and `accept any server SSL certificates`
+  ![auth step5](images/auth_screen5.png)
 
-- minerals
-- gas
-- H2O
-- Carbon
-- Nitrogen
-- Clay Formation
-- soil organic matter (SOM)
-- living organisms
-- soild organic Carbon (SOC)
-- soil fauna
-- macroaggregate and microaggregate:
-- microaggregate
+- Test Connection before saving:
+  ![auth step6](images/auth_screen6.png)
 
-Soil color is produced by the minerals present and by the organic matter content. Yellow or red soil indicates the presence of oxidized ferric iron oxides. Dark brown or black color in soil indicates that the soil has a high organic matter content. Wet soil will appear darker than dry soil.
+- Finally, click save and connect.
+  ![auth step7](images/auth_screen7.png)
 
-Th (Figure 1); the percentages of particles in these size classes is called soil texture. The mineralogy of soils is diverse.
+# Exporting the OSSL as CSV
 
-For example, a clay mineral called smectite can shrink and swell so much upon wetting and drying
+- Find the `soilsite` collection in `soispec4gg`
+  ![export step1](images/export_screen1.png)
+  ![export step2](images/export_screen2.png)
 
-(Figure 2) that it can knock over buildings. The most common mineral in soils is quartz; it makes beautiful crystals but it is not very reactive.
+- Select `CSV` and click `Configure`
+  ![export step3](images/export_screen3.png)
 
-<!-----------------------------------------------  -->
-<!-- Title:                                        -->
-<!-----------------------------------------------  -->
+- Set the `Export Target` to be the current working directory. For instance, name the file `soilsite.csv` and save it.
+  ![export step4](images/export_screen4.png)
+  ![export step5](images/export_screen5.png)
 
-# Importance of Soil
+- Click `Run`
+  ![export step6](images/export_screen6.png)
 
-[soil biota](https://www.sciencedirect.com/topics/earth-and-planetary-sciences/soil-biota)
+- Results from the export are shown in the console.
+  ![export step7](images/export_screen7.png)
 
-[soil carbon](https://www.sciencedirect.com/topics/earth-and-planetary-sciences/soil-carbon)
+- The data `soilsite_full.csv` is now exported to the current working directory.
+  ![export step8](images/export_screen8.png)
 
-[soil community](https://www.sciencedirect.com/topics/earth-and-planetary-sciences/microbial-community)
+# Exporting a Sample of the OSSL as CSV
 
-As some might simply explain:
-Dirt feeds plants, plants feed animals and some animals eat other animals.
+To export a sample of the data, querry 10 samples from the `soilsite` collection:
 
-However, the importance of undertaidng the omposition og the soil at eac soil site is key for the environmental protection of the earth.
+- Double click the `soilsite` collection.
+  ![export sample step1](images/export_sample_screen1.png)
 
-Soil organic C binds mineral particles to form aggregates (Oades, 1993), whose distribution and stability influence the soil’s physical properties, including pore size distribution, bulk density, soil strength, and soil erodibility (Tatarko, 2001; Chapter 3: Microbial Modulators and Mechanisms of Soil Carbon Storage).
+- Run the entire script (`F5`)
+  ![export sample step2](images/export_sample_screen2.png)
+  ![export sample step3](images/export_sample_screen3.png)
 
-Loss of organic matter affects soil structure and aggregate formation, with negative impacts on biological diversity, soil fertility, crop production potential, erosion control, water retention, matter exchange between soil, atmosphere, groundwater, and the filtering, buffering, and transforming capacity of terrestrial ecosystems (Huber et al., 2001; Kirchmann and Andersson, 2001).
+- Select 10 samples
+  ![export sample step4](images/export_sample_screen4.png)
 
-Soil management practices that improve formation of soil aggregates through an increase in SOC have demonstrated minimizing soil and nutrient losses through erosion mitigation and eutrophication of surface waters (Srinivasarao et al., 2015). The success of these soil management systems, however, relies strongly on site-specific characteristics, farmers’ awareness and knowledge, and often on weather events.
+- Right click anywhere inside the 10 sample query and select `Export Documents`
+  ![export sample step5](images/export_sample_screen5.png)
 
-Aquatic microbial community can be defined as an assemblage of co-occurring, and potentially interacting, microbes, present in a defined habitat in space and time. Despite the small size, microorganisms are key elements for the ecological dynamics of the biosphere. They are not only the most diffused life forms; they are also characterized by an incredible functional and genetic diversity, contributing fundamentally to the biogeochemical processes on Earth.
+- Select `Current Query Result`. Then follow the same steps to select and configure the CSV file described [earlier](#exporting-the-ossl-as-csv).
+  ![export sample step6](images/export_sample_screen6.png)
 
-Carbon Sequestration (CSeq) is a process that converts organic matter into carbon.
+# WIP --> Building a Data Pipeline
 
-<!-----------------------------------------------  -->
-<!-- Title:                                        -->
-<!-----------------------------------------------  -->
+Because the VSC files are large, we decided to build a data pipeline to stream the data using SQLite:
 
-# Links:
+```sql
+?????????????????
+```
 
-- [A Global Good Project](#a-global-good-project)
-  - [The Open Soil Spectral Library (OSSL)](#the-open-soil-spectral-library-ossl)
-  - [OSSL Explorer](#ossl-explorer)
-  - [OSSL manual](#ossl-manual)
-  - [video webimar](https://youtu.be/QVOx4oFugts)
+and we used this sql querry to behind the web server:
+
+```sql
+?????????????????
+```
+
+and then we connected the database to pyscript and call the soil database with this code:
+
+```python
+?????????????????
+```
+
+We use [D3](https://react-d3-library.github.io/) to build this globe baed on some modified instructions and added [Uber/h3](https://github.com/uber/h3), hexagonal grid to partition the globe into hexagons.
+
+Here is a link to the JSON file:
+
+D3 plot and pyscrypt plot
+
+Highlights of my background
+
+I am available for contract work or full-time employment. I am also applying for environmental research graduate programs.
+
+This I am collaborating with a team [chromatic.systems](chromatic.systems)
+
+Here is a link to this project's code
+
+The next post will explore a simple Machine Learning model.
