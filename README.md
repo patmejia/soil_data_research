@@ -11,7 +11,11 @@
 - [Soil Data Research](#soil-data-research)
   - [Spectroscopy](#spectroscopy)
   - [Soil](#soil)
-    - [Common studied components of soil:](#common-studied-components-of-soil)
+    - [Soil Minerals](#soil-minerals)
+    - [SOM](#som)
+    - [Soil Structure](#soil-structure)
+    - [SOC](#soc)
+    - [Common studied components of soil](#common-studied-components-of-soil)
 - [Importance of Soil](#importance-of-soil)
 - [Links:](#links)
 
@@ -88,17 +92,54 @@ Soil is a living system working as a life-sustaining resource. It teams up with 
 
 [Reference](https://www.nature.com/scitable/knowledge/library/what-are-soils-67647639/#:~:text=Soil%20is%20a%20material%20composed,mineralogy%20of%20soils%20is%20diverse.)
 
-Soil minerals are divided into three sizes:
+Organism abundance, diversity, and exude activity are not randomly distributed in soil, but vary in a patchy fashion both horizontally across a landscape and vertically through the [soil profile](https://www.sciencedirect.com/topics/earth-and-planetary-sciences/soil-biota). Thus each soil profile can communicate a story of time and soil formation. The image below show some examples of soil horizons.
 
-- sand: 0.05 mm - 2.00 mm
-- silt: 0.002 mm - 0.05 mm
-- clay: less than 0.002 mm
+![Soil_horizons](images/soil_horizons_screens.png)
+[Image Source](https://www.youtube.com/watch?v=_aZbGBaP_7Y)
+[soil profile](https://www.youtube.com/watch?v=_aZbGBaP_7Y)
+
+### Soil Minerals
+
+Soil minerals give soil the different texture attritubtes and colors. They are classified by size:
+
+![Mineral_description](images/soil_mineral_table.png)
+[Image Source](https://www.ctahr.hawaii.edu/mauisoil/a_comp01.aspx)
 
 ![Soil_minerals](images/soil_mineral_screen.png)
-
 [Image Source](https://www.nature.com/scitable/knowledge/library/what-are-soils-67647639/)
 
-[Soil structure](https://www.sciencedirect.com/topics/earth-and-planetary-sciences/soil-structure) refers to the proportions of solids and voids in a soil, the voids providing the space for both water and air. A key aspect of soil structure is the aggregation of individual mineral and organic particles into larger units.
+The most common mineral in soils is quartz; it is not very reactive. On the other hand, clay is very reactive. In fact, an importa role of soil is the synthesis of clay minerals.
+
+clay is reactive to ions, water
+clay particles that result in strong protected structures that store soil C for long periods of time (https://www.sciencedirect.com/topics/earth-and-planetary-sciences/soil-aggregate)
+
+(https://www.nature.com/scitable/knowledge/library/what-are-soils-67647639/#:~:text=Soil%20is%20a%20material%20composed,mineralogy%20of%20soils%20is%20diverse.)
+
+### SOM
+
+Soil organic matter [SOM](https://www.nature.com/scitable/knowledge/library/what-are-soils-67647639/#:~:text=Soil%20is%20a%20material%20composed,mineralogy%20of%20soils%20is%20diverse.) is plant, animal, and microbial residues in various states of transformation or decomposition. Higher SOM is among the best indicators of agricultural soil quality. Below is an image showing the composition of SOM.
+
+![SOM composition](images/som_screen.png)
+[Image Source:](https://theconversation.com/to-restore-our-soils-feed-the-microbes-79616)
+
+> For example, bellow are Swedish soils samples demonstrating the interaction of sand-and-clay textures versus SOM compositions
+
+> ![Soil samples](images/sandVSsom_screen.png)
+> Image Source: [FAO](https://youtu.be/QVOx4oFugts)(min: 37:42)
+
+> The left-samples are 100% sand, no clay while the right-samples illite clay soil samples; thus, they appear brighter in color.
+
+> The bottom-samples have no organic matter while the top-samples have very little organic matter; thus, they appear darker.
+
+### Soil Structure
+
+[Soil structure](https://www.sciencedirect.com/topics/earth-and-planetary-sciences/soil-structure) refers to the proportions of solids and voids in a soil. A key aspect of soil structure is the aggregation of individual mineral and organic particles into larger units.
+
+### SOC
+
+---
+
+![Macro_micro_aggregates](images/macro_micro_aggr_screen.png)
 
 Soil [aggregates](https://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052820.pdf)are groups of soil particles binding to each others more strongly than to other adjecent particles leaving voids for both water and air.
 
@@ -138,33 +179,16 @@ and has complex biological, chemical, physical, mineralogical, and hydrological 
 
 - minerals
 - gas
-- water
+- H2O
+- Carbon
+- Nitrogen
+- Clay Formation
 - soil organic matter (SOM)
 - living organisms
 - soild organic Carbon (SOC)
 - soil fauna
 - macroaggregate and microaggregate:
 - microaggregate
-
-[Soil organic matter](https://www.nature.com/scitable/knowledge/library/what-are-soils-67647639/#:~:text=Soil%20is%20a%20material%20composed,mineralogy%20of%20soils%20is%20diverse.) is plant, animal, and microbial residues in various states of transformation or decomposition. Higher SOC is among the best indicators of agricultural soil quality.
-
-Soil minerals give soil the different texture attritubtes and colors. They are classified by size: clay, silt, and sand.
-
-For example, the below picture shows different Swedish clay soil samples demonstrating the interaction of sand and clay textures versus SOM compositions.
-
-![Soil samples](images/sandVSsom_screen.png)
-Image Source: [FAO](https://youtu.be/QVOx4oFugts)(min: 37:42)
-
-The two samples on the left are 100% Sand, no clay while the right samples are illite clay soils thus appering brighter in color.
-
-The two samples on the bottom have no organic matter while the two top samples have organic matter very little organic matter. Thus, the two top samples appear darker. on the other hand, the two samples with
-
-SOC:
-
-<!-- insert image -->
-
-![Soil samples](images/soc_screen.png)
-[Image Source:](https://theconversation.com/to-restore-our-soils-feed-the-microbes-79616)
 
 Soil color is produced by the minerals present and by the organic matter content. Yellow or red soil indicates the presence of oxidized ferric iron oxides. Dark brown or black color in soil indicates that the soil has a high organic matter content. Wet soil will appear darker than dry soil.
 
@@ -173,12 +197,6 @@ Th (Figure 1); the percentages of particles in these size classes is called soil
 For example, a clay mineral called smectite can shrink and swell so much upon wetting and drying
 
 (Figure 2) that it can knock over buildings. The most common mineral in soils is quartz; it makes beautiful crystals but it is not very reactive.
-
-Soil organic matter is plant, animal, and microbial residues in various states of decomposition; it is a critical ingredient — in fact the percentage of soil organic matter in a soil is among the best indicators of agricultural soil quality (http://soils.usda.gov/sqi/) (Figure 3).
-
-Soil colors range from the common browns, yellows, reds, grays, whites, and blacks to rare soil colors such as greens and blues.
-
-Soil is the naturally occurring part of the earth's surface that is composed of the minerals, organic and inorganic materials that are present in the earth's crust.
 
 <!-----------------------------------------------  -->
 <!-- Title:                                        -->
