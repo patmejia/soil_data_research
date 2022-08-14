@@ -6,12 +6,12 @@ import { test, configure } from 'brittle'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
 import {d3} from 'd3-node'
-const canvasModule = require('canvas'); // supports node-canvas v1 & v2.x
-const d3n = new D3Node({ canvasModule }); // pass it node-canvas
-const canvas = d3n.createCanvas(960, 500);
-const context = canvas.getContext('2d');
+// const canvasModule = require('canvas'); // supports node-canvas v1 & v2.x
+// const d3n = new D3Node({ canvasModule }); // pass it node-canvas
+// const canvas = d3n.createCanvas(960, 500);
+// const context = canvas.getContext('2d');
 // draw on your canvas, then output canvas to png
-canvas.pngStream().pipe(fs.createWriteStream('output.png'));
+// canvas.pngStream().pipe(fs.createWriteStream('output.png'));
 
 // ========================================================
 // SETUP

@@ -5,22 +5,13 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-<<<<<<< HEAD
-    "test": "test",
-    "sqlload": "node data_pipeline/load_csv.js",
-    "sqlload:d": "node --inspect data_pipeline/load_csv.js",
-    "sqlload:w": "nodemon -q data_pipeline/load_csv.js",
-    "sqlload:d:w": "nodemon -q --inspect data_pipeline/load_csv.js"
-=======
-    "start": "undefined",
     "test": "nodemon -q test/*.test.js",
-    "test:report": "standard & brittle test/*.test.js",
+    "test:report": "standard & brittle -e test/*.test.js",
     "fix": "standard --fix",
     "sqlload": "node data_pipeline/csv_sqllite.js",
     "sqlload:d": "node --inspect data_pipeline/csv_sqllite.js",
     "sqlload:w": "nodemon -q data_pipeline/csv_sqllite.js",
     "sqlload:d:w": "nodemon -q --inspect data_pipeline/csv_sqllite.js"
->>>>>>> 7272dc0 (adds geojson generation to database and cleanup)
   },
   "repository": {
     "type": "git",
@@ -41,6 +32,7 @@
     "awe-sqlite3": "^0.0.5",
     "canvas": "^2.9.3",
     "csv-parse": "^5.3.0",
+    "d3-node": "^2.2.3",
     "geojson2h3": "^1.2.0",
     "h3-js": "^4.0.0-rc3",
     "mongodb": "^4.8.1",
@@ -48,12 +40,8 @@
     "sqlite3": "^5.0.11"
   },
   "devDependencies": {
-<<<<<<< HEAD
-    "@types/node": "^18.6.3"
-=======
     "@types/node": "^18.6.3",
     "brittle": "^2.4.0",
     "standard": "^17.0.0"
->>>>>>> 7272dc0 (adds geojson generation to database and cleanup)
   }
 }
