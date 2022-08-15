@@ -1,48 +1,48 @@
 exports['select points from the sql database 1'] = [
   {
-    "id": "61aa52478ae8ee306d5dcf8b",
-    "lat": 36.12222672,
-    "lon": -6.88956308
+    id: '61aa52478ae8ee306d5dcf8b',
+    lat: 36.12222672,
+    lon: -6.88956308
   },
   {
-    "id": "61aa52478ae8ee306d5dd6b2",
-    "lat": 36.4836,
-    "lon": -6.12151
+    id: '61aa52478ae8ee306d5dd6b2',
+    lat: 36.4836,
+    lon: -6.12151
   },
   {
-    "id": "61aa52478ae8ee306d5ddffb",
-    "lat": 36.11650848,
-    "lon": -6.91083193
+    id: '61aa52478ae8ee306d5ddffb',
+    lat: 36.11650848,
+    lon: -6.91083193
   },
   {
-    "id": "61aa52478ae8ee306d5ddffe",
-    "lat": 36.12222672,
-    "lon": -6.88956308
+    id: '61aa52478ae8ee306d5ddffe',
+    lat: 36.12222672,
+    lon: -6.88956308
   },
   {
-    "id": "61aa52478ae8ee306d5de0b0",
-    "lat": 36.1244,
-    "lon": -6.93858
+    id: '61aa52478ae8ee306d5de0b0',
+    lat: 36.1244,
+    lon: -6.93858
   }
 ]
 
 exports['pointsToH3Cells 1'] = {
-  "875772362ffffff": 2,
-  "871e90110ffffff": 2
+  '875772362ffffff': 2,
+  '871e90110ffffff': 2
 }
 
 exports['cellsToMultiPolygon 1'] = {
-  "type": "FeatureCollection",
-  "features": [
+  type: 'FeatureCollection',
+  features: [
     {
-      "type": "Feature",
-      "id": "875772362ffffff",
-      "properties": {
-        "value": 2
+      type: 'Feature',
+      id: '875772362ffffff',
+      properties: {
+        value: 2
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [
               -30.01352815520492,
@@ -77,14 +77,14 @@ exports['cellsToMultiPolygon 1'] = {
       }
     },
     {
-      "type": "Feature",
-      "id": "871e90110ffffff",
-      "properties": {
-        "value": 2
+      type: 'Feature',
+      id: '871e90110ffffff',
+      properties: {
+        value: 2
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [
               9.97807717425171,
