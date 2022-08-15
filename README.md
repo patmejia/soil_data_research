@@ -9,10 +9,10 @@
 - [Soil Data Research](#soil-data-research)
   - [Spectroscopy](#spectroscopy)
   - [Soil](#soil)
-    - [Soil Minerals](#soil-minerals)
-    - [Soil Organic Matter (SOM)](#soil-organic-matter-som)
-    - [Soil Structure](#soil-structure)
-    - [Soil Organic Carbon (SOC)](#soil-organic-carbon-soc)
+    - [Minerals](#minerals)
+    - [Organic Matter (SOM)](#organic-matter-som)
+    - [Structure](#structure)
+    - [Organic Carbon (SOC)](#organic-carbon-soc)
   - [Example: Visual Analysis of Soil](#example-visual-analysis-of-soil)
   - [Soil Health](#soil-health)
 - [START: Connecting to the OSSL](#start-connecting-to-the-ossl)
@@ -37,7 +37,9 @@
 
 Created with [DALL·E](https://labs.openai.com/s/MXs5BGiumacsHINDgiS3bOGg)
 
-The purpose of this series of articles is to explore a path from data collection and analysis to data visualization and machine learning. Please contribute to help this project grow.
+
+The purpose of this series of articles is to explore a path from data collection to data visualization and machine learning. Please contribute to help this project grow.
+
 
 My background is in operations, analysis, and mathematics. Particular interest to me is the environment and the field of soil science concerning the **health** of the soil system.
 
@@ -171,7 +173,7 @@ Most soils evolve slowly over centuries through the weathering of underlying roc
 
 > Organic soils formed in marshes, bogs, and swamps contain 30-100% organic matter.
 
-### Soil Minerals
+### Minerals
 
 Soil minerals give soil different texture attributes and colors. Minerals are classified by size:
 
@@ -186,9 +188,9 @@ Clay particles can form strongly protected structures that [store soil C](<(http
 
 These protected structures made with clay ensure good water-holding capacity and provide a good [source of plant nutrients](http://www.nzdl.org/cgi-bin/library?e=d-00000-00---off-0hdl--00-0----0-10-0---0---0direct-10---4-------0-1l--11-en-50---20-about---00-0-1-00-0-0-11----0-0-&a=d&c=hdl&cl=CL1.16&d=HASH412cd503b5262205ac14c6.3.4).
 
-### Soil Organic Matter (SOM)
+### Organic Matter (SOM)
 
-[SOM](<https://www.agric.wa.gov.au/measuring-and-assessing-soils/what-soil-organic-carbon#:~:text=Soil%20organic%20carbon%20(SOC)%20refers,to%20measure%20and%20report%20SOC.>) is composed mainly of carbon, hydrogen and oxygen, and has small amounts of other elements, such as nitrogen, phosphorous, sulfur, potassium, calcium and magnesium contained in organic residues. It is divided into ‘living’ and ‘dead’ components and can range from very recent inputs, such as stubble, to largely decayed materials that might be many hundreds of years old. About 10% of below-ground SOM, such as roots, fauna and microorganisms, is ‘living’:
+Soil organic matter [SOM](<https://www.agric.wa.gov.au/measuring-and-assessing-soils/what-soil-organic-carbon#:~:text=Soil%20organic%20carbon%20(SOC)%20refers,to%20measure%20and%20report%20SOC.>) is composed mainly of carbon, hydrogen and oxygen, and has small amounts of other elements, such as nitrogen, phosphorous, sulfur, potassium, calcium and magnesium contained in organic residues. It is divided into ‘living’ and ‘dead’ components and can range from very recent inputs, such as stubble, to largely decayed materials that might be many hundreds of years old. About 10% of below-ground SOM, such as roots, fauna and microorganisms, is ‘living’:
 
 SOM exists as 4 distinct fractions which vary widely in size, turnover time and composition in the soil (Table 1):
 
@@ -197,7 +199,7 @@ SOM exists as 4 distinct fractions which vary widely in size, turnover time and 
 - stable organic matter or humus
 - resistant organic matter
 
-### Soil Structure
+### Structure
 
 [Soil structure](https://www.sciencedirect.com/topics/earth-and-planetary-sciences/soil-structure) refers to the proportions of solids and voids. A key aspect of soil structure is the aggregation of individual mineral and organic particles into larger units.
 
@@ -212,11 +214,11 @@ Bacterial secretion of high-molecular-weight sugar-based polymers (EPSs). These 
 ![Macro_micro_aggregates](images/water_gas.png)
 [Image Source: American Society of Microbiology](https://journals.asm.org/doi/10.1128/AEM.00324-19#)
 
-### Soil Organic Carbon (SOC)
+### Organic Carbon (SOC)
 
-[SOC](<https://www.agric.wa.gov.au/measuring-and-assessing-soils/what-soil-organic-carbon#:~:text=Soil%20organic%20carbon%20(SOC)%20refers,to%20measure%20and%20report%20SOC.>) refers to the carbon components in organic compounds. Soil organic matter (SOM) is challenging to measure directly, so laboratories tend to measure and report SOC. [Soil organic carbon](<https://www.agric.wa.gov.au/measuring-and-assessing-soils/what-soil-organic-carbon#:~:text=Soil%20organic%20carbon%20(SOC)%20refers,to%20measure%20and%20report%20SOC.>) is a measurable component of soil organic matter which contributes to nutrient retention and turnover, soil structure, moisture retention and availability, degradation of pollutants, and carbon sequestration. SOC has been identified as a [global indicator for monitoring soil health and productivity](https://www.openaccessgovernment.org/what-is-soil-organic-carbon-soc/120702/).
+Soil Organic Carbon [SOC](<https://www.agric.wa.gov.au/measuring-and-assessing-soils/what-soil-organic-carbon#:~:text=Soil%20organic%20carbon%20(SOC)%20refers,to%20measure%20and%20report%20SOC.>) refers to the carbon components in organic compounds. Soil organic matter (SOM) is challenging to measure directly, so laboratories tend to measure and report SOC. [Soil organic carbon](<https://www.agric.wa.gov.au/measuring-and-assessing-soils/what-soil-organic-carbon#:~:text=Soil%20organic%20carbon%20(SOC)%20refers,to%20measure%20and%20report%20SOC.>) is a measurable component of soil organic matter which contributes to nutrient retention and turnover, soil structure, moisture retention and availability, degradation of pollutants, and carbon sequestration. SOC has been identified as a [global indicator for monitoring soil health and productivity](https://www.openaccessgovernment.org/what-is-soil-organic-carbon-soc/120702/).
 
-## Example: Visual Analysis of Soil
+## Visual Analysis of Soil Example
 
 ![SOM composition](images/som.png)
 
@@ -368,7 +370,7 @@ Then we connected the database to [PyScript](https://github.com/pyscript/pyscrip
 =============
 ```
 
-We use [D3](https://react-d3-library.github.io/) to build this globe based on some modified instructions and added [Uber/h3](https://github.com/uber/h3), a hexagonal grid to partition the globe into hexagons (and a few pentagons).
+We use [D3](htt`ps://react-d3-library.github.io/) to build this globe based on some modified instructions and added [Uber/h3](https://github.com/uber/h3), a hexagonal grid to partition the globe into hexagons (and a few pentagons).
 
 Here is a link to the JSON file:
 
@@ -385,13 +387,11 @@ Highlights of my background
 <div>
     <ul>
         <li>Worked for Goldman Sachs</li>
-        <li>Learing to program with other technologies such Fast.ai and React   </li>
-            Node, and Express</li>
+        <li>Learning  to program with other technologies machine learning technologies</li>
         <li>Working with a team of developers to build a web application</li>
-        <li>Experiecien in People Ops</li>
-        <li>Enjoy growing food plants </li>
-        <li>People Operations complete cycles.</li>
-        <li>Total Compensations</li>
+        <li>Experience in People Ops</li>
+        <li>Enjoy preparing, growing and studying food plants </li>
+        <li>People Operations complete cycles and Total Compensations Analisus</li>
         <li>JS, HTML, CSS, Python, SQL</li>        
     </ul>
 </div>

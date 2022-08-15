@@ -3,8 +3,8 @@
     <meta charset="utf-8" />
     <title>Pati</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="/main.css" />
-    <link rel="icon" type="image/png" href="/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="icon" type="image/png" href="favicon.ico" />
     <style>
       article {
         max-width: 800px;
@@ -14,66 +14,37 @@
   </head>
   <body>
     <article>
-      <h5>
-        你好!<span class="orange"> ⦁ </span>Hola!<span class="orange"> ⦁ </span
-        >Hi!
-      </h5>
-      <h5>Building this site to guide my learning.</h5>
-      <h5>You can send me a message through the form below.</h5>
+      <header>
+        <h1>Soil Data Research:</h1>
+        <h5>A Global Good Project</h5>
+      </header>
 
-      <main></main>
-
+      <main>
+        <img src="./images/dalle_earth_prisma.png" alt="Earth" />
+      </main>
       <footer>
-        <h1>pati</h1>
+        <div class="bulletpoints">
+          <ul>
+            <li>My background is in operations, analytics, and mathematics.</li>
+            <li>
+              Explore a path from data collection to data visualization and
+              machine learning.
+            </li>
+            <li>
+              Particular interest to me is the environment and the health of the
+              soil system.
+            </li>
+            <li>
+              Coincidentally,
+              <a href="https://news.ycombinator.com/item?id=32293359"
+                >Hackers News</a
+              >
+              led me to an up article about the Open Soil Spectral Library
+              database: OSSL
+            </li>
+          </ul>
+        </div>
       </footer>
     </article>
-    <article>
-      <form action="/api/email" method="post">
-        <textarea tabindex="1" name="message" placeholder="message"></textarea>
-        <input
-          tabindex="2"
-          type="text"
-          name="name"
-          placeholder="name and email"
-        />
-        <button tabindex="3" type="submit">Send</button>
-        <h5>
-          Send me a message to request a resume, and please include your email.
-        </h5>
-      </form>
-    </article>
-
-    <canvas id="stage"></canvas>
-    <script>
-      // draw a large white circle on the canvas
-      var canvas = document.getElementById("stage");
-      var ctx = canvas.getContext("2d");
-      // make the canvas full screen
-      canvas.width = window.innerWidth;
-      canvas.height = window.innerHeight;
-      const center = {
-        x: canvas.width / 2,
-        y: canvas.height / 2,
-      };
-      const MAX_RADIUS = 100;
-      const MIN_RADIUS = 10;
-      let radius = 100;
-      let direction = 1;
-      ctx.fillStyle = "#408f9f";
-      ctx.beginPath();
-      ctx.arc(center.x, center.y, radius, 0, 2 * Math.PI);
-      ctx.fill();
-      // every .1 seconds reduce the radius by 1
-      setInterval(() => {
-        radius -= direction;
-        if (radius < MIN_RADIUS || radius > MAX_RADIUS) {
-          direction = -direction;
-        }
-        ctx.clearRect(0, 0, canvas.width, canvas.height);
-        ctx.beginPath();
-        ctx.arc(center.x, center.y, radius, 0, 2 * Math.PI);
-        ctx.fill();
-      }, 100);
-    </script>
   </body>
 </html>
