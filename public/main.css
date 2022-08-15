@@ -105,40 +105,6 @@ main {
   flex: 1;
 }
 
-h1 {
-  font-size: 2em;
-  font-family: "Oxygen_bold";
-}
-
-h2 {
-  font-size: 1.5em;
-}
-@font-face {
-  font-family: Enconde_Sans;
-  src: url(fonts/EncodeSansExpanded-Light.ttf) format("truetype");
-}
-@font-face {
-  font-family: Ibmplex_mono;
-  src: url(fonts/IBMPlexMono-Regular.ttf) format("truetype");
-}
-@font-face {
-  font-family: Press_start_2p;
-  src: url(fonts/PressStart2P-Regular.ttf) format("truetype");
-}
-@font-face {
-  font-family: Oxygen_regular;
-  src: url(fonts/Oxygen-Regular.ttf) format("truetype");
-}
-@font-face {
-  font-family: Oxygen_bold;
-  src: url(fonts/Oxygen-Bold.ttf) format("truetype");
-}
-h5 {
-  font-size: 0.8rem;
-  color: var(--color-aware);
-  opacity: 0.99;
-  font-family: ibmplex_mono;
-}
 .orange {
   color: var(--color-focus);
 }
@@ -193,72 +159,105 @@ form {
   left: 0;
   z-index: -1;
 }
-
-/* ==================== */
-Bullet points
-/* ==================== */
-
-.bulletpoints li:before {
-  content: "⧂";
-  font-size: 1.4rem;
+/* ============================================= */
+/* Font-Faces                                    */
+/* ============================================= */
+@font-face {
+  font-family: Oxygen_regular;
+  src: url(fonts/Oxygen-Regular.ttf) format("truetype");
 }
-.smaller_bulletpoints li:before {
-  content: "⦆";
-  font-size: 1rem;
+@font-face {
+  font-family: Oxygen_bold;
+  src: url(fonts/Oxygen-Bold.ttf) format("truetype");
 }
-/* Removes default bullets from lists */
-.bulletpoints li,
-.smaller_bulletpoints li {
-  list-style: none;
+@font-face {
+  font-family: Chakra_petch_bold;
+  src: url(fonts/ChakraPetch-Bold.ttf) format("truetype");
 }
-/* Moves bullet blocks to the left */
-.smaller_bulletpoints,
-.bulletpoints {
-  transform: translateX(-1.9rem);
+@font-face {
+  font-family: Ibmplex_mono;
+  src: url(fonts/IBMPlexMono-Regular.ttf) format("truetype");
 }
-/* Adds margin space between bullet points and text. */
-.smaller_bulletpoints li:before,
-.bulletpoints li:before {
-  margin-right: 0.62rem;
-}
-================
-.bulletpoints_container {
+@font-face {
   font-family: Enconde_Sans;
-  text-align: left;
+  src: url(fonts/EncodeSansExpanded-Light.ttf) format("truetype");
 }
-p {
-  font-size: 1.01rem;
-  font-family: enconde_sans;
+@font-face {
+  font-family: Press_start_2p;
+  src: url(fonts/PressStart2P-Regular.ttf) format("truetype");
 }
-.smaller_p {
-  font-size: 1rem;
+/* ============================================= */
+/* H1, H2,...tags                                */
+/* ============================================= */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.6rem;
+}
+h1 {
+  font-size: 2em;
+  font-family: "Oxygen_bold";
+}
+h2 {
+  font-size: 1.5em;
+}
+h3,
+.h3 > * {
   font-family: oxygen_regular;
-  line-height: 1.44rem;
-  margin-top: 1.5rem;
-}
-.bulletpoints_container li {
-  font-size: 0.9rem;
-  line-height: 1.4rem;
-}
-.smaller_bulletpoints_container {
   font-size: 1.1rem;
+  letter-spacing: -0.01rem;
+  line-height: 1.4rem;
+  opacity: 71%;
+}
+h4,
+.h4 > * {
+  font-family: enconde_sans;
+  font-size: 0.8rem;
+  letter-spacing: 0.02rem;
+  line-height: 0.9rem;
+}
+h5 {
+  font-size: 0.9rem;
+  color: var(--color-aware);
+  opacity: 0.99;
   font-family: ibmplex_mono;
-  margin-top: 1rem;
 }
-.smaller_bulletpoints_container li .smaller_p {
-  margin-top: 0.19rem;
-  line-height: 1.29rem;
+
+/* ============================================= */
+/* Bullet points margins                         */
+/* ============================================= */
+.bulletpoints > *:last-child {
+  margin-bottom: 0;
 }
-.smaller_bulletpoints_container li {
-  margin-top: 0.8rem;
+.bulletpoints > *:first-child {
+  margin-top: 0;
 }
-li .smaller_p {
-  margin-left: 1.6rem;
+/* add all margins to li  */
+li {
+  margin-top: 1.42rem;
+  margin-bottom: 0rem;
 }
-.bulletpoints_container,
-li,
-p {
-  line-height: 1.66rem;
-  margin-top: 0.5rem;
+/* ============================================= */
+/* Bullet and text                               */
+/* ============================================= */
+/* add special bullet in front of each item */
+.bulletpoints ul > :before {
+  content: "⧂";
+  margin-right: 0.5em;
 }
-======
+.bulletpoints li {
+  text-size-adjust: 100%;
+  font-size: 0.9rem;
+  font-family: "Oxygen_regular";
+  color: var(--color-subtext);
+  opacity: 0.99;
+}
+
+/* restrict image size */
+img {
+  max-width: 90%;
+  max-height: 90%;
+}
