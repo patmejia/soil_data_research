@@ -193,3 +193,72 @@ form {
   left: 0;
   z-index: -1;
 }
+
+/* ==================== */
+Bullet points
+/* ==================== */
+
+.bulletpoints li:before {
+  content: "⧂";
+  font-size: 1.4rem;
+}
+.smaller_bulletpoints li:before {
+  content: "⦆";
+  font-size: 1rem;
+}
+/* Removes default bullets from lists */
+.bulletpoints li,
+.smaller_bulletpoints li {
+  list-style: none;
+}
+/* Moves bullet blocks to the left */
+.smaller_bulletpoints,
+.bulletpoints {
+  transform: translateX(-1.9rem);
+}
+/* Adds margin space between bullet points and text. */
+.smaller_bulletpoints li:before,
+.bulletpoints li:before {
+  margin-right: 0.62rem;
+}
+================
+.bulletpoints_container {
+  font-family: Enconde_Sans;
+  text-align: left;
+}
+p {
+  font-size: 1.01rem;
+  font-family: enconde_sans;
+}
+.smaller_p {
+  font-size: 1rem;
+  font-family: oxygen_regular;
+  line-height: 1.44rem;
+  margin-top: 1.5rem;
+}
+.bulletpoints_container li {
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+}
+.smaller_bulletpoints_container {
+  font-size: 1.1rem;
+  font-family: ibmplex_mono;
+  margin-top: 1rem;
+}
+.smaller_bulletpoints_container li .smaller_p {
+  margin-top: 0.19rem;
+  line-height: 1.29rem;
+}
+.smaller_bulletpoints_container li {
+  margin-top: 0.8rem;
+}
+li .smaller_p {
+  margin-left: 1.6rem;
+}
+.bulletpoints_container,
+li,
+p {
+  line-height: 1.66rem;
+  margin-top: 0.5rem;
+}
+======

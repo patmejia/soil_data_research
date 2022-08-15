@@ -37,7 +37,7 @@
 
 Created with [DALL·E](https://labs.openai.com/s/MXs5BGiumacsHINDgiS3bOGg)
 
-The purpose of this series of articles is to explore a path from data collection and analysis to data visualization and machine learning.
+The purpose of this series of articles is to explore a path from data collection to data visualization and machine learning.
 
 My background is in operations, analysis, and mathematics. Particular interest to me is the environment and the field of soil science concerning the **health** of the soil system.
 
@@ -329,13 +329,11 @@ Highlights of my background
 <div>
     <ul>
         <li>Worked for Goldman Sachs</li>
-        <li>Learing to program with other technologies such Fast.ai and React   </li>
-            Node, and Express</li>
+        <li>Learning  to program with other technologies machine learning technologies</li>
         <li>Working with a team of developers to build a web application</li>
-        <li>Experiecien in People Ops</li>
-        <li>Enjoy growing food plants </li>
-        <li>People Operations complete cycles.</li>
-        <li>Total Compensations</li>
+        <li>Experience in People Ops</li>
+        <li>Enjoy preparing, growing and studying food plants </li>
+        <li>People Operations complete cycles and Total Compensations Analisus</li>
         <li>JS, HTML, CSS, Python, SQL</li>        
     </ul>
 </div>
