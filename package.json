@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "nodemon -q test/*.test.js",
+    "test": "node test/*.test.js",
     "test:report": "standard & brittle -e test/*.test.js",
     "fix": "standard --fix",
     "sqlload": "node data_pipeline/csv_sqllite.js",

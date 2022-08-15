@@ -53,11 +53,10 @@ async function plot(polygon) {
   for (let i = 0; i < polygon.features.length; i++) {
     const feature = polygon.features[i];
     const value = feature.properties.value;
-    console.log('value', value);
-    
     const color = getColorFromValue(value);
     ctx.beginPath();
     path(feature);
+    // TODO: fill style is not working fills in the entire map
     // ctx.fillStyle = "#ff0";
     // ctx.fill();
     ctx.strokeStyle = color;
