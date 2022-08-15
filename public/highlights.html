@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="stylesheet" href="resume.css" />
+    <link rel="stylesheet" href="print.css" media="print" />
+    <!-- insert favicon here  -->
+    <link rel="icon" href="favicon.ico" />
+    <title>Pati Mejia</title>
+    <style>
+      @media only screen and (max-width: 600px) {
+        .makes_rows_container {
+          display: flex;
+          flex-direction: column;
+        }
+        table {
+          margin-bottom: 2.4rem;
+          margin-top: 1.2rem;
+        }
+        body {
+          transform: translateY(-3rem);
+        }
+        #portrait_image {
+          height: auto;
+          width: auto;
+          max-width: 250px;
+          max-height: 250.8px;
+          margin-left: 2.4rem;
+        }
+      }
+    </style>
+  </head>
+  <article>
+    <div class="h5">
+      <h5>
+        你好!<span class="orange"> ⦁ </span>Hola!<span class="orange"> ⦁ </span
+        >Hi!<span class="orange"> ⦁ </span>Building this site to guide my
+        learning.
+      </h5>
+    </div>
+  </article>
+  <body>
+    <div>
+        <ul>
+            <li>Worked for Goldman Sachs</li>
+            <li>Learing to program with other technologies such Fast.ai and React   </li>
+                Node, and Express</li>
+            <li>Working with a team of developers to build a web application</li>
+            <li>Experiecien in People Ops</li>
+            <li>Enjoy growing food plants </li>
+            <li>People Operations complete cycles.</li>
+            <li>Total Compensations</li>
+            <li>JS, HTML, CSS, Python, SQL</li>
+
+            
+        </ul>
+    </div>
+  </body>
+  <script type="module">
+    import { animate, spring } from "https://esm.sh/motion@10.13.1";
+
+    animate(
+      "#portrait_image",
+      { rotate: 374.2 },
+      // { duration: 5 },
+      { easing: spring({ mass: 2.473 }) }
+    );
+  </script>
+</html>
