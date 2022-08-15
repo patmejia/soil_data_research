@@ -370,8 +370,8 @@ function h3SetToFeatureCollection (hexagons, getProperties) {
   }
 }
 
-  // Transform the current hexagon map into a GeoJSON object
-  const geojson = geojson2h3.h3SetToFeatureCollection(
-    Object.keys(hexagons),
-    hex => ({value: hexagons[hex]})
-  );
+// Transform the current hexagon map into a GeoJSON object
+const geojson = geojson2h3.h3SetToFeatureCollection(
+  Object.keys(hexagons),
+  hex => ({ value: hexagons[hex] })
+)

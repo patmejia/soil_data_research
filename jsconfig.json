@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "moduleResolution":"Node",
-    "module": "es6",
+    "module": "ESNext",
     "target": "es6",
     "checkJs": true
   },

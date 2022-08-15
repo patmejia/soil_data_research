@@ -32,16 +32,25 @@
     "awe-sqlite3": "^0.0.5",
     "canvas": "^2.9.3",
     "csv-parse": "^5.3.0",
+    "d3-geo": "^3.0.1",
     "d3-node": "^2.2.3",
     "geojson2h3": "^1.2.0",
     "h3-js": "^4.0.0-rc3",
     "mongodb": "^4.8.1",
     "sqlite-async": "^1.1.5",
-    "sqlite3": "^5.0.11"
+    "sqlite3": "^5.0.11",
+    "topojson": "^3.0.2"
   },
   "devDependencies": {
     "@types/node": "^18.6.3",
     "brittle": "^2.4.0",
     "standard": "^17.0.0"
+  },
+  "standard": {
+    "ignore": [
+      "data",
+      "libs",
+      "notes"
+    ]
   }
 }

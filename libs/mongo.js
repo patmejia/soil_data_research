@@ -1,28 +1,28 @@
 // @ts-check
-import { MongoClient } from "mongodb";
-import { readFileSync } from "fs";
+import { MongoClient } from 'mongodb'
+import { readFileSync } from 'fs'
 
 // Connection URI
 const url =
-"mongodb://soilspec4gg:soilspec4gg@api.soilspectroscopy.org:27017/?ssl=true&serverSelectionTimeoutMS=5000&connectTimeoutMS=10000&authSource=soilspec4gg&authMechanism=SCRAM-SHA-256"
+'mongodb://soilspec4gg:soilspec4gg@api.soilspectroscopy.org:27017/?ssl=true&serverSelectionTimeoutMS=5000&connectTimeoutMS=10000&authSource=soilspec4gg&authMechanism=SCRAM-SHA-256'
 // Read the certificate authority
 // var ca = readFileSync("./lets-encrypt-r3.pem");
 
 // Database Name
-const dbName = 'soilspec4gg';
+const dbName = 'soilspec4gg'
 // Connect using MongoClient
-MongoClient.connect(url,{
+MongoClient.connect(url, {
   // sslCA : ca,
 },
-   function(err, client) {
+function (err, client) {
   if (err) {
     // log th error
-    console.log(err);
-    throw err;
+    console.log(err)
+    throw err
   }
-  const db = client.db(dbName);
-  client.close();
-});
+  const db = client.db(dbName)
+  client.close()
+})
 
 // async function run() {
 //   try {
@@ -42,5 +42,3 @@ MongoClient.connect(url,{
 //   }
 // }
 // run().catch(console.dir);
-
-
