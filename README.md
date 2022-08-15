@@ -17,8 +17,11 @@
   - [Soil Health](#soil-health)
 - [START: Connecting to the OSSL](#start-connecting-to-the-ossl)
 - [Exporting the OSSL as CSV](#exporting-the-ossl-as-csv)
-- [Exporting a Sample of the OSSL as CSV](#exporting-a-sample-of-the-ossl-as-csv)
+  - [Exporting a Sample of the OSSL as CSV](#exporting-a-sample-of-the-ossl-as-csv)
 - [WIP --> Building a Data Pipeline](#wip----building-a-data-pipeline)
+- [END](#end)
+  - [Visualizing the OSSL](#visualizing-the-ossl)
+  - [About Us](#about-us)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -116,11 +119,11 @@ Most soils evolve slowly over centuries through the weathering of underlying roc
 
 Soil minerals give soil different texture attributes and colors. Minerals are classified by size:
 
-![Mineral_description](images/soil_mineral_table.png)
-[Image Source](https://www.ctahr.hawaii.edu/mauisoil/a_comp01.aspx)
-
-![Soil_minerals](images/soil_mineral_screen.png)
+![Soil_minerals](images/mineral_size.png)
 [Image Source](https://www.nature.com/scitable/knowledge/library/what-are-soils-67647639/)
+
+![Mineral_description](images/mineral_table.png)
+[Image Source](https://www.ctahr.hawaii.edu/mauisoil/a_comp01.aspx)
 
 The most common mineral in soils is quartz; it is not very reactive. But on the other hand, clay is very reactive.
 Clay particles can form strongly protected structures that [store soil C](<(https://www.sciencedirect.com/topics/earth-and-planetary-sciences/soil-aggregate)>) for long periods.
@@ -185,10 +188,10 @@ The basic principles of soil health:
 
 # START: Connecting to the OSSL
 
-The OSSL manual mentioned two ways to access the data. The first method is using MongoDb via R; however, the last yields a certification error. See image below:
+The OSSL manual mentioned two ways to access the data. The first method uses MongoDb via R; however, the last yields a certification error. See the image below:
 ![cert_error](images/cert_error.png)
 
-As an alternative, we tried to connect directly with Javascript through NodeJS but we also ran into another certificate error
+As an alternative, we tried to connect directly with Javascript through NodeJS, but we also ran into another certificate error.
 
 ```
 /Users/dev/code/soil_data_research/node_modules/mongodb/lib/utils.js:419
@@ -217,7 +220,7 @@ Step 1: Free download [Studio 3T](https://robomongo.org/) and complete installat
 
 Step 2: In Studio 3T,
 
-- click on the New Collection icon:
+- Click on the New Collection icon:
   <!------------------------------------------------->
   <!-- image                                       -->
   <!------------------------------------------------->
@@ -232,11 +235,11 @@ Step 2: In Studio 3T,
 - Go to the Authentication tab and select Basic Authentication Mode:
   ![auth step3](images/auth_screen3.png)
 
-  - Fill in the User name, Password and Authentication DB with `soilspec4gg`
+  - Fill in the User name, Password, and Authentication DB with `soilspec4gg`
     ![auth step4](images/auth_screen4.png)
 
-- Under the SSL tab, select `Use SSL protocol to connect` and `accept any server SSL certificates`
-  ![auth step5](images/auth_screen5.png)
+- - Under the SSL tab, select `Use SSL protocol to connect` and `accept any server SSL certificates.
+    ![auth step5](images/auth_screen5.png)
 
 - Test Connection before saving:
   ![auth step6](images/auth_screen6.png)
@@ -266,9 +269,9 @@ Step 2: In Studio 3T,
 - The data `soilsite_full.csv` is now exported to the current working directory.
   ![export step8](images/export_screen8.png)
 
-# Exporting a Sample of the OSSL as CSV
+## Exporting a Sample of the OSSL as CSV
 
-To export a sample of the data, querry 10 samples from the `soilsite` collection:
+To export a sample of the data, query a sample of 10 soil sites from the `soilsite` collection.
 
 - Double click the `soilsite` collection.
   ![export sample step1](images/export_sample_screen1.png)
@@ -277,10 +280,10 @@ To export a sample of the data, querry 10 samples from the `soilsite` collection
   ![export sample step2](images/export_sample_screen2.png)
   ![export sample step3](images/export_sample_screen3.png)
 
-- Select 10 samples
+- Select 10 soil sites
   ![export sample step4](images/export_sample_screen4.png)
 
-- Right click anywhere inside the 10 sample query and select `Export Documents`
+- Right-click anywhere inside the 10 sample query and select `Export Documents`
   ![export sample step5](images/export_sample_screen5.png)
 
 - Select `Current Query Result`. Then follow the same steps to select and configure the CSV file described [earlier](#exporting-the-ossl-as-csv).
@@ -288,31 +291,54 @@ To export a sample of the data, querry 10 samples from the `soilsite` collection
 
 # WIP --> Building a Data Pipeline
 
-Because the VSC files are large, we decided to build a data pipeline to stream the data using SQLite:
+Because the VSC are long files, we decided to build a data pipeline to stream the data using SQLite:
 
 ```sql
-?????????????????
+=============
+=============
 ```
 
-and we used this sql querry to behind the web server:
+And we used this SQL to query behind the web server:
 
 ```sql
-?????????????????
+=============
+=============
 ```
 
-and then we connected the database to pyscript and call the soil database with this code:
+Then we connected the database to [PyScript](https://github.com/pyscript/pyscript) and called the soil database with this code:
 
 ```python
-?????????????????
+=============
+=============
 ```
 
-We use [D3](https://react-d3-library.github.io/) to build this globe baed on some modified instructions and added [Uber/h3](https://github.com/uber/h3), hexagonal grid to partition the globe into hexagons.
+We use [D3](https://react-d3-library.github.io/) to build this globe based on some modified instructions and added [Uber/h3](https://github.com/uber/h3), a hexagonal grid to partition the globe into hexagons (and a few pentagons).
 
 Here is a link to the JSON file:
 
-D3 plot and pyscrypt plot
+D3 plot and PyScript plot
+
+# END
+
+## Visualizing the OSSL
+
+## About Us
 
 Highlights of my background
+
+<div>
+    <ul>
+        <li>Worked for Goldman Sachs</li>
+        <li>Learing to program with other technologies such Fast.ai and React   </li>
+            Node, and Express</li>
+        <li>Working with a team of developers to build a web application</li>
+        <li>Experiecien in People Ops</li>
+        <li>Enjoy growing food plants </li>
+        <li>People Operations complete cycles.</li>
+        <li>Total Compensations</li>
+        <li>JS, HTML, CSS, Python, SQL</li>        
+    </ul>
+</div>
 
 I am available for contract work or full-time employment. I am also applying for environmental research graduate programs.
 
@@ -320,4 +346,4 @@ This I am collaborating with a team [chromatic.systems](chromatic.systems)
 
 Here is a link to this project's code
 
-The next post will explore a simple Machine Learning model.
+The following post will explore a simple Machine Learning model.

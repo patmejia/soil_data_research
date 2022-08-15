@@ -1,0 +1,195 @@
+/*** The new CSS Reset - version 1.4.4 (last updated 22.12.2021) ***/
+/*
+    Remove all the styles of the "User-Agent-Stylesheet", except for the 'display' property
+    - The "symbol *" part is to solve Firefox SVG sprite bug
+ */
+*:where(:not(iframe, canvas, img, svg, video):not(svg *, symbol *)) {
+  all: unset;
+  display: revert;
+}
+
+/* Preferred box-sizing value */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove list styles (bullets/numbers) */
+ol,
+ul,
+menu {
+  list-style: none;
+}
+
+/* For images to not be able to exceed their container */
+img {
+  max-width: 100%;
+}
+
+/* removes spacing between cells in tables */
+table {
+  border-collapse: collapse;
+}
+
+/* revert the 'white-space' property for textarea elements on Safari */
+textarea {
+  white-space: revert;
+}
+
+/* fix the feature of 'hidden' attribute.
+      display:revert; revert to element instead of attribute */
+:where([hidden]) {
+  display: none;
+}
+
+/* revert for bug in Chromium browsers
+      - fix for the content editable attribute will work properly. */
+:where([contenteditable]) {
+  -moz-user-modify: read-write;
+  -webkit-user-modify: read-write;
+  overflow-wrap: break-word;
+  -webkit-line-break: after-white-space;
+}
+
+/* apply back the draggable feature - exist only in Chromium and Safari */
+:where([draggable="true"]) {
+  -webkit-user-drag: element;
+}
+
+/* color vars */
+:root {
+  --color-aware: #408f9f;
+  --color-focus: #f69902;
+  --color-alert: #ff4800;
+  --color-text: #ddd;
+  --color-subtext: #bbb;
+  --color-border: #ddd;
+  --color-shadow: #444;
+  --color-background: black;
+}
+
+html {
+  height: fill-available;
+  height: -webkit-fill-available;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--color-text);
+  background-color: var(--color-background);
+  box-sizing: border-box;
+  min-height: 100vh;
+  min-height: fill-available;
+  min-height: -webkit-fill-available;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  opacity: 0.99;
+}
+
+article {
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+header {
+}
+footer {
+}
+
+main {
+  flex: 1;
+}
+
+h1 {
+  font-size: 2em;
+  font-family: "Oxygen_bold";
+}
+
+h2 {
+  font-size: 1.5em;
+}
+@font-face {
+  font-family: Enconde_Sans;
+  src: url(fonts/EncodeSansExpanded-Light.ttf) format("truetype");
+}
+@font-face {
+  font-family: Ibmplex_mono;
+  src: url(fonts/IBMPlexMono-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: Press_start_2p;
+  src: url(fonts/PressStart2P-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: Oxygen_regular;
+  src: url(fonts/Oxygen-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: Oxygen_bold;
+  src: url(fonts/Oxygen-Bold.ttf) format("truetype");
+}
+h5 {
+  font-size: 0.8rem;
+  color: var(--color-aware);
+  opacity: 0.99;
+  font-family: ibmplex_mono;
+}
+.orange {
+  color: var(--color-focus);
+}
+a {
+  color: var(--color-aware);
+  cursor: pointer;
+}
+p {
+  color: var(--color-subtext);
+}
+button {
+  cursor: pointer;
+  padding: 20px;
+  background-color: var(--color-focus);
+  border-radius: 15px;
+  text-align: center;
+  font-size: 1.3em;
+  font-size: 1.3em;
+  transition: all 1s;
+}
+button:hover {
+  background-color: var(--color-aware);
+  color: var(--color-background);
+}
+button:focus {
+  background-color: var(--color-focus);
+  color: var(--color-background);
+  outline: 2px solid white;
+}
+textarea {
+  padding: 15px;
+  border: 1px solid var(--color-border);
+}
+textarea:focus {
+  border: 1px solid var(--color-focus);
+}
+input {
+  padding: 15px;
+  border: 1px solid var(--color-border);
+}
+input:focus {
+  border: 1px solid var(--color-focus);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+#stage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}

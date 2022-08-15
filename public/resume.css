@@ -1,0 +1,303 @@
+:root {
+  --color-aware: #408f9f;
+  --color-focus: #f69902;
+  --color-alert: #ff4800;
+  --color-text: rgba(219, 203, 203, 0.885);
+  --color-subtext: #bbb;
+  --color-border: #ddd;
+  --color-shadow: #444;
+  --color-background: black;
+  --color-fill: #09141ff9;
+  --color-fill-hover: #1b1311f6;
+  --color-border: #9da6b1df;
+}
+.orange {
+  color: var(--color-focus);
+}
+.brown {
+  color: var(--color--fill-hover);
+}
+
+html,
+body {
+  padding: 1.84rem;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  /* transform move -x  */
+  transform: translateX(-0.5rem) translateY(-0.4rem);
+}
+* {
+  box-sizing: border-box;
+}
+@viewport {
+  width: device-width;
+  zoom: 1;
+}
+
+/* @media screen and (max-width: 600px) {
+  .makes_rows_container {
+    display: flex;
+    flex-direction: row;
+  }
+} */
+
+@font-face {
+  font-family: Oxygen_regular;
+  src: url(fonts/Oxygen-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: Oxygen_bold;
+  src: url(fonts/Oxygen-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: Chakra_petch_bold;
+  src: url(fonts/ChakraPetch-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: Ibmplex_mono;
+  src: url(fonts/IBMPlexMono-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: Enconde_Sans;
+  src: url(fonts/EncodeSansExpanded-Light.ttf) format("truetype");
+}
+@font-face {
+  font-family: Press_start_2p;
+  src: url(fonts/PressStart2P-Regular.ttf) format("truetype");
+}
+/* ------------- */
+/* Bullet points */
+/* ------------- */
+.bulletpoints_container li:before {
+  content: "⧂";
+  font-size: 1.4rem;
+}
+.smaller_bulletpoints_container li:before {
+  content: "⦆";
+  font-size: 1rem;
+}
+/* Removes default bullets from lists */
+.bulletpoints_container li,
+.smaller_bulletpoints_container li {
+  list-style: none;
+}
+/* Moves bullet blocks to the left */
+.smaller_bulletpoints_container,
+.bulletpoints_container {
+  transform: translateX(-1.9rem);
+}
+/* Adds margin space between bullet points and text. */
+.smaller_bulletpoints_container li:before,
+.bulletpoints_container li:before {
+  margin-right: 0.62rem;
+}
+/* ------------- */
+/* Text elements */
+/* ------------- */
+h1 {
+  font-family: ibmplex_mono;
+  font-size: 1.95rem;
+  text-align: left;
+  line-height: 0.2rem;
+  text-transform: uppercase;
+}
+.larger_h1 {
+  font-size: 2.9rem;
+}
+h1,
+.larger_h1,
+.title_text {
+  letter-spacing: 0.12rem;
+}
+h2 {
+  /* font-family: chakra_petch_bold; */
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: left;
+}
+h3,
+.h3 > * {
+  font-family: oxygen_regular;
+  font-size: 1.1rem;
+  letter-spacing: -0.01rem;
+  line-height: 1.4rem;
+  opacity: 71%;
+}
+h4,
+.h4 > * {
+  font-family: enconde_sans;
+  font-size: 0.8rem;
+  letter-spacing: 0.02rem;
+  line-height: 0.9rem;
+}
+h5,
+.h5 {
+  font-size: 0.75rem;
+  color: var(--color-aware);
+  opacity: 0.99;
+  font-family: ibmplex_mono;
+}
+a,
+.a {
+  color: var(--color-aware);
+  text-decoration: none;
+}
+.bulletpoints_container {
+  font-family: Enconde_Sans;
+  text-align: left;
+}
+p {
+  font-size: 1.01rem;
+  font-family: enconde_sans;
+}
+.smaller_p {
+  font-size: 1rem;
+  font-family: oxygen_regular;
+  line-height: 1.44rem;
+  margin-top: 1.5rem;
+}
+.bulletpoints_container li {
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+}
+.smaller_bulletpoints_container {
+  font-size: 1.1rem;
+  font-family: ibmplex_mono;
+  margin-top: 1rem;
+}
+.smaller_bulletpoints_container li .smaller_p {
+  margin-top: 0.19rem;
+  line-height: 1.29rem;
+}
+.smaller_bulletpoints_container li {
+  margin-top: 0.8rem;
+}
+li .smaller_p {
+  margin-left: 1.6rem;
+}
+.bulletpoints_container,
+li,
+p {
+  line-height: 1.66rem;
+  margin-top: 0.5rem;
+}
+.title_text {
+  font-family: Oxygen_bold;
+  font-size: 1.5rem;
+  text-align: left;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.title_text {
+  text-transform: uppercase;
+}
+.sticky_container {
+  overflow-wrap: break-word;
+  position: sticky;
+  z-index: 1;
+  overflow-y: scroll;
+  top: 9rem;
+}
+/* ------------- */
+/* Containers        */
+/* ------------- */
+
+.makes_rows_container {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+.makes_rows_icon_container {
+  flex-direction: row;
+  display: flex;
+  height: 1.9rem; /* height of icon */
+  justify-content: left;
+  align-items: center;
+}
+.makes_columns_container {
+  flex-direction: column;
+  display: flex;
+}
+img {
+  max-width: 13%;
+  padding: 0.72rem;
+}
+
+/* make portrait image float, do not resize */
+#portrait_image {
+  /* make larger  */
+
+  height: auto;
+  width: auto;
+  max-width: 432px;
+  max-height: 432px;
+  /* move in -x direction  */
+
+  object-fit: cover;
+  object-position: center;
+  margin-top: 0.9rem;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 6.8rem;
+  /* border-radius: 1rem */
+  border: 0.1rem solid var(--color-focus);
+  box-shadow: 1.8rem 1rem 0 0.4rem var(--color-aware);
+  border-radius: 3%;
+  /* filter: brightness(1.2); */
+}
+
+/* ------------- */
+/* Table         */
+/* ------------- */
+/* td: table data */
+/* th: table header */
+/* tr: table row */
+/* tbody: table body */
+/* thead: table header */
+/* tfoot: table footer */
+/* ------------- */
+th > * {
+  text-align: left;
+  padding-left: 0.34rem;
+}
+td,
+tr {
+  text-align: left;
+}
+th {
+  vertical-align: top;
+}
+table {
+  flex-direction: column;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+/* color the background of the first column of the table  */
+th:nth-child(1) {
+  background-color: var(--color-fill);
+  /* make it start in -x position  */
+  transform: translateX(-1.8rem) translateY(-1.2rem);
+  opacity: 0.9;
+}
+th:nth-child(2) {
+  /* background-color: var(--color-fill-opacity); */
+  /* make it start in -x position  */
+  transform: translateX(-1.8rem) translateY(-1.2rem);
+  /* scale: 1.5rem; */
+}
+th:nth-child(3) {
+  background-color: var(--color-fill-hover);
+  /* make it start in -x position  */
+  transform: translateX(-1.8rem) translateY(-1.2rem);
+  scale: 3;
+}
+
+#box {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: var(--splash);
+}
