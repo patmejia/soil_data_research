@@ -153,6 +153,9 @@ Water has unique soil spectral features (Absorbance vs. Wavelength):
 
 ![Spectra_overtones_water](images/overtone_spectra.png)
 
+<!-- now as image  -->
+<img src="images/overtone_spectra.png" alt="overtone_spectra" width="90%">
+
 ## Soil
 
 Soil is a living system working as a life-sustaining resource. It teams up with billions of bacteria, fungi, and other microbes to create an abundant [soil community](https://www.sciencedirect.com/topics/earth-and-planetary-sciences/microbial-community) filled with diverse soil biota.
@@ -169,7 +172,7 @@ Organism abundance, diversity, and activity are not randomly distributed in the 
 ![Soil_horizons](images/soil_horizons_screens.png)
 
 <!-- now add as html img -->
-<img src="images/soil_horizons_screens.png" alt="Soil horizons" width="50%">
+<img src="images/soil_horizons_screens.png" alt="Soil horizons" width="90%">
 
 [Image Source: Soil Horizons](https://www.youtube.com/watch?v=_aZbGBaP_7Y)
 
@@ -200,7 +203,7 @@ Soil minerals give soil different texture attributes and colors. Minerals are cl
   <td>2.0 - 0.05</td>
   <td>Gritty</td>
   <td>Quite visible, consists of small particles with low surface area, significant drainage</td>
-  <td rowspan="3">   <img src="images/mineral_size.png" alt="Soil Minerals" />
+  <td rowspan="3">   <img src="images/mineral_size.png" alt="Soil Minerals" width="90%">
   <a href="https://www.nature.com/scitable/knowledge/library/what-are-soils-67647639/">
   image source</a>
   </a>
