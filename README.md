@@ -276,6 +276,7 @@ Soil texture can also be asses by estimating the size of the observable particle
 
 Soil color and observable soil texture are valuable indicators of the chemical processes beneath the surface and can offer some quick soil management information
 ![Sample_full](images/sample_full.png)
+
 [Image Source](https://www.qld.gov.au/environment/land/management/soil/soil-properties/colour)
 
 ## Soil Health
@@ -287,7 +288,8 @@ The basic principles of soil health:
 - Maximize Biodiversity
 - Minimize Disturbance
 
-![Soil health](images/soil_health_screen.png)
+![Soil health](images/soil_health.png)
+
 [Image Source: USDA](https://www.nrcs.usda.gov/wps/portal/nrcs/main/soils/health/)
 
 # Start
