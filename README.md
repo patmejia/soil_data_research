@@ -322,7 +322,6 @@ Soil minerals give soil different texture attributes and colors. Minerals are cl
 ![Soil_minerals](images/mineral_size.png)
 [Image Source](https://www.nature.com/scitable/knowledge/library/what-are-soils-67647639/)
 
-<div class="makes_columns">
   <!-- inert markdown 4 by 4 table -->
   <table>
   <!-- "Description of Soil Minerals" make as table title -->
@@ -334,12 +333,14 @@ Soil minerals give soil different texture attributes and colors. Minerals are cl
   <th>Size (mm)</th>
   <th>Texture</th>
   <th>Characteristics</th>
+  <th></th>
   </tr>
   <tr>
   <td>Sand</td>
   <td>2.0 - 0.05</td>
   <td>Gritty</td>
   <td>Quite visible, consists of small particles with low surface area, significant drainage</td>
+  <td rowspan="4">   <img src="images/mineral_size.png" alt="Soil Minerals" /></td>
   </tr>
   <tr>
   <td>Silt</td>
@@ -353,6 +354,7 @@ Soil minerals give soil different texture attributes and colors. Minerals are cl
   <td>Sticky</td>
   <td>High water holding capacity, smallest pores, and large charged surfaces attract and retain nutrients.</td>
   </tr>
+    
   <!-- add reference link to table footer -->
   <tfoot>
   <tr>
@@ -362,10 +364,9 @@ Soil minerals give soil different texture attributes and colors. Minerals are cl
   </a>
   </td>
   </tr>
+  
   </tfoot>
   </table>
-  <img src="images/mineral_size.png" alt="Soil Minerals" />
-</div>
 
 The most common mineral in soils is quartz; it is not very reactive. But on the other hand, clay is very reactive.
 Clay particles can form strongly protected structures that [store soil C](<(https://www.sciencedirect.com/topics/earth-and-planetary-sciences/soil-aggregate)>) for long periods.
