@@ -201,3 +201,140 @@ Environment, operations, ananitics and mathemacis
     margin-bottom: 0;
   }
 ```
+
+```
+
+<!-- <!================================================-->
+<!-- Start: Styles                                     -->
+<!-- <!================================================-->
+
+<style type="text/css">
+  :root {
+  --color-aware: #408f9f;
+  --color-focus: #f69902;
+  --color-alert: #ff4800;
+  --color-text: #ddd;
+  --color-subtext: #bbb;
+  --color-border: #ddd;
+  --color-shadow: #444;
+  --color-background: black;
+  }
+
+  @font-face {
+    font-family: "Ibmplexmono";
+    src: url(fonts/IBMPlexMono_base64.txt) format("truetype");
+  }
+
+  .markdown-body h1,
+  .markdown-body h2,
+  .markdown-body h3,
+  .markdown-body h4,
+  .markdown-body h5,
+  .markdown-body h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: bold;
+  }
+  .markdown-body h1 {
+    font-size: 2em;
+  }
+  .markdown-body h2 {
+    font-size: 1.5em;
+  }
+  .markdown-body h3 {
+    font-size: 1.25em;
+  }
+  .markdown-body h4 {
+    font-size: 1em;
+  }
+  .markdown-body h5 {
+    font-size: 0.875em;
+    font-family: "Ibmplexmono";
+    color: var(--color-aware);
+  }
+  .markdown-body h6 {
+    font-size: 0.85em;
+  }
+/* ==================================== */
+/* <a> tag, links                       */
+/* ==================================== */
+  .markdown-body a {
+    color: var(--color-aware);
+    text-decoration: none;
+  }
+  .markdown-body a:hover {
+    text-decoration: underline;
+  }
+
+
+  .markdown-body ol,
+  .markdown-body ul {
+    padding-left: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+/* ==================================== */
+/* remove line after h1 or #            */
+/* ==================================== */
+  .markdown-body h1 {
+    border-bottom: none;
+  }
+
+
+  .markdown-body ol ol,
+  .markdown-body ul ol {
+    list-style-type: lower-roman;
+  }
+  .markdown-body ol ol ol,
+  .markdown-body ol ul ol,
+  .markdown-body ul ol ol,
+
+  .markdown-body ol ul ul,
+  .markdown-body ul ul ul {
+    list-style-type: lower-alpha;
+  }
+  .markdown-body dd {
+    margin-left: 0;
+  }
+  .markdown-body code {
+    /* font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace; */
+  }
+  .markdown-body pre {
+    margin-top: 0;
+    margin-bottom: 0;
+    font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  }
+  .markdown-body pre>code {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    /* font-family: Consolas, " */
+    .markdown-body pre {
+      background: #f5f5f5;
+      border: 300px solid #ccc;
+      border-radius: 3px;
+      padding: 10px;
+    }
+  }
+      /* align .caption content left */
+    .markdown-body .caption {
+      text-align: left;
+    }
+
+.markdown-body .makes_columns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+.markdown-body .makes_columns_container {
+  flex-direction: column;
+  display: flex;
+}
+
+
+</style>
+```

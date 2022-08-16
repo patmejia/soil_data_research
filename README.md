@@ -29,146 +29,9 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-<!-- <!================================================-->
-<!-- Start: Styles                                     -->
-<!-- <!================================================-->
+# Soil Data Research
 
-<style type="text/css">
-  :root {
-  --color-aware: #408f9f;
-  --color-focus: #f69902;
-  --color-alert: #ff4800;
-  --color-text: #ddd;
-  --color-subtext: #bbb;
-  --color-border: #ddd;
-  --color-shadow: #444;
-  --color-background: black;
-  }
-
-  @font-face {
-    font-family: "Ibmplexmono";
-    src: url(fonts/IBMPlexMono_base64.txt) format("truetype");
-  }
-
-  .markdown-body h1,
-  .markdown-body h2,
-  .markdown-body h3,
-  .markdown-body h4,
-  .markdown-body h5,
-  .markdown-body h6 {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-weight: bold;
-  }
-  .markdown-body h1 {
-    font-size: 2em;
-  }
-  .markdown-body h2 {
-    font-size: 1.5em;
-  }
-  .markdown-body h3 {
-    font-size: 1.25em;
-  }
-  .markdown-body h4 {
-    font-size: 1em;
-  }
-  .markdown-body h5 {
-    font-size: 0.875em;
-    font-family: "Ibmplexmono";
-    color: var(--color-aware);
-  }
-  .markdown-body h6 {
-    font-size: 0.85em;
-  }
-/* ==================================== */
-/* <a> tag, links                       */
-/* ==================================== */
-  .markdown-body a {
-    color: var(--color-aware);
-    text-decoration: none;
-  }
-  .markdown-body a:hover {
-    text-decoration: underline;
-  }
-
-
-  .markdown-body ol,
-  .markdown-body ul {
-    padding-left: 2em;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-/* ==================================== */
-/* remove line after h1 or #            */
-/* ==================================== */
-  .markdown-body h1 {
-    border-bottom: none;
-  }
-
-
-  .markdown-body ol ol,
-  .markdown-body ul ol {
-    list-style-type: lower-roman;
-  }
-  .markdown-body ol ol ol,
-  .markdown-body ol ul ol,
-  .markdown-body ul ol ol,
-
-  .markdown-body ol ul ul,
-  .markdown-body ul ul ul {
-    list-style-type: lower-alpha;
-  }
-  .markdown-body dd {
-    margin-left: 0;
-  }
-  .markdown-body code {
-    /* font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace; */
-  }
-  .markdown-body pre {
-    margin-top: 0;
-    margin-bottom: 0;
-    font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  }
-  .markdown-body pre>code {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 12px;
-    /* font-family: Consolas, " */
-    .markdown-body pre {
-      background: #f5f5f5;
-      border: 300px solid #ccc;
-      border-radius: 3px;
-      padding: 10px;
-    }
-  }
-      /* align .caption content left */
-    .markdown-body .caption {
-      text-align: left;
-    }
-
-.markdown-body .makes_columns {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: stretch;
-  align-content: stretch;
-}
-
-.markdown-body .makes_columns_container {
-  flex-direction: column;
-  display: flex;
-}
-
-
-</style>
-
- <h1>Soil Data Research:</h1>
-        <h5>A Global Good Project</h5>
-
-# A Global Good Project
-
-##### Introduction
+<h3>A Global Good Project</h3>
 
 ![Soil and prisma](images/dalle_earth_prisma.png)
 
@@ -304,32 +167,29 @@ Soils have [4 essential components](http://www.nzdl.org/cgi-bin/library?e=d-0000
 Organism abundance, diversity, and activity are not randomly distributed in the soil but vary in a patchy fashion both horizontally across a landscape and vertically through the [soil profile](https://www.sciencedirect.com/topics/earth-and-planetary-sciences/soil-biota).
 
 ![Soil_horizons](images/soil_horizons_screens.png)
+
+<!-- now add as html img -->
+<img src="images/soil_horizons_screens.png" alt="Soil horizons" width="50%">
+
 [Image Source: Soil Horizons](https://www.youtube.com/watch?v=_aZbGBaP_7Y)
 
 Most soils evolve slowly over centuries through the weathering of underlying rocks and the decomposition of organic matter. Other soils are formed from deposits laid down by rivers, seas, or wind forces.
 
 > A sample of typical [topsoil](http://www.nzdl.org/cgi-bin/library?e=d-00000-00---off-0hdl--00-0----0-10-0---0---0direct-10---4-------0-1l--11-en-50---20-about---00-0-1-00-0-0-11----0-0-&a=d&c=hdl&cl=CL1.16&d=HASH412cd503b5262205ac14c6.3.1) contains about
 >
-> - ~50% pore space filled with varying proportions of air and water, depending on the soil's current moisture content.
-> - ~50% of the volume is made up of mineral particles and organic matter
-
-> Organic soils formed in marshes, bogs, and swamps contain 30-100% organic matter.
+> - ~50% pore space filled with varying proportions of air and water,
+> - ~50% of mineral particles and organic matter
+>
+> Contrary to 30-100% organic matter found in marshes, bogs, and swamps soils.
 
 ### Minerals
 
-Soil minerals give soil different texture attributes and colors. Minerals are classified by size:
+Soil minerals give soil different texture attributes and colors. Minerals are classified by size.
 
-![Soil_minerals](images/mineral_size.png)
-[Image Source](https://www.nature.com/scitable/knowledge/library/what-are-soils-67647639/)
-
-  <!-- inert markdown 4 by 4 table -->
   <table>
-  <!-- "Description of Soil Minerals" make as table title -->
-  <caption>
-  <h3>Description of Soil Minerals</h3>
-  </caption>
+  <th colspan="5">Minerals Classified by Size</th> 
   <tr>
-  <th></th>
+  <th>Type</th>
   <th>Size (mm)</th>
   <th>Texture</th>
   <th>Characteristics</th>
@@ -340,7 +200,7 @@ Soil minerals give soil different texture attributes and colors. Minerals are cl
   <td>2.0 - 0.05</td>
   <td>Gritty</td>
   <td>Quite visible, consists of small particles with low surface area, significant drainage</td>
-  <td rowspan="4">   <img src="images/mineral_size.png" alt="Soil Minerals" /> 
+  <td rowspan="3">   <img src="images/mineral_size.png" alt="Soil Minerals" />
   <a href="https://www.nature.com/scitable/knowledge/library/what-are-soils-67647639/">
   image source</a>
   </a>
@@ -358,17 +218,15 @@ Soil minerals give soil different texture attributes and colors. Minerals are cl
   <td>Sticky</td>
   <td>High water holding capacity, smallest pores, and large charged surfaces attract and retain nutrients.</td>
   </tr>
-    
   <!-- add reference link to table footer -->
   <tfoot>
   <tr>
-  <td colspan="4">
+  <td colspan="5">
   <a href="https://www.ctahr.hawaii.edu/mauisoil/a_comp01.aspx">
-  source: ctahr.hawaii.edu
+  Table source
   </a>
   </td>
   </tr>
-  
   </tfoot>
   </table>
 
@@ -485,8 +343,8 @@ Step 2: In Studio 3T,
   - Fill in the User name, Password, and Authentication DB with `soilspec4gg`
     ![auth step4](images/auth_screen4.png)
 
-- - Under the SSL tab, select `Use SSL protocol to connect` and `accept any server SSL certificates.
-    ![auth step5](images/auth_screen5.png)
+  - - Under the SSL tab, select `Use SSL protocol to connect` and `accept any server SSL certificates.
+      ![auth step5](images/auth_screen5.png)
 
 - Test Connection before saving:
   ![auth step6](images/auth_screen6.png)
@@ -581,7 +439,7 @@ Highlights of my background
         <li>Experience in People Ops</li>
         <li>Enjoy preparing, growing and studying food plants </li>
         <li>People Operations complete cycles and Total Compensations Analisus</li>
-        <li>JS, HTML, CSS, Python, SQL</li>        
+        <li>JS, HTML, CSS, Python, SQL</li>
     </ul>
 </div>
 
