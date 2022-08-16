@@ -133,9 +133,10 @@ And the user manual, which is open for contributions:
 
 The importance of [spectroscopy](https://en.wikipedia.org/wiki/Spectroscopy) is centered around the fact that every element in the periodic table has a unique light spectrum.
 
-[Soil spectroscopy](<(https://soilspectroscopy.org/about/#:~:text=Soil%20spectroscopy%20offers%20a%20safe%20and%20rapid%20alternative%20(Figure%201).&text=Soil%20spectroscopy%20is%20the%20measurement,applied%20to%20a%20soil%20surface.)>) is the measurement of light absorption when a light in the visible, near-infrared or mid-infrared (Vis–NIR-MIR) regions of the electromagnetic spectrum is applied to a soil surface.
+[Soil spectroscopy](<https://soilspectroscopy.org/about/#:~:text=Soil%20spectroscopy%20offers%20a%20safe%20and%20rapid%20alternative%20(Figure%201).&text=Soil%20spectroscopy%20is%20the%20measurement,applied%20to%20a%20soil%20surface.>) is the measurement of light absorption when a light in the visible, near-infrared or mid-infrared (Vis–NIR-MIR) regions of the electromagnetic spectrum is applied to a soil surface.
 
 ![Spectroradiometer](images/spectroscopy.png)
+[Image source](<https://soilspectroscopy.org/about/#:~:text=Soil%20spectroscopy%20offers%20a%20safe%20and%20rapid%20alternative%20(Figure%201).&text=Soil%20spectroscopy%20is%20the%20measurement,applied%20to%20a%20soil%20surface.>)
 
 The reflected infrared radiation is converted to electrical energy and fed to a computer for interpretation. Each major organic component of the soil absorbs and reflects light differently. By measuring these different reflectance characteristics, the Spectroradiometer and a computer determine the ingredients in the soil sample.
 
@@ -152,9 +153,7 @@ The spectra will show overtones and combinations of these vibrations, mainly in 
 Water has unique soil spectral features (Absorbance vs. Wavelength):
 
 ![Spectra_overtones_water](images/overtone_spectra.png)
-
-<!-- now as image  -->
-<img src="images/overtone_spectra.png" alt="overtone_spectra" width="90%">
+[Image Source](https://www.youtube.com/watch?v=QVOx4oFugts)
 
 ## Soil
 
@@ -170,10 +169,6 @@ Soils have [4 essential components](http://www.nzdl.org/cgi-bin/library?e=d-0000
 Organism abundance, diversity, and activity are not randomly distributed in the soil but vary in a patchy fashion both horizontally across a landscape and vertically through the [soil profile](https://www.sciencedirect.com/topics/earth-and-planetary-sciences/soil-biota).
 
 ![Soil_horizons](images/soil_horizons_screens.png)
-
-<!-- now add as html img -->
-<img src="images/soil_horizons_screens.png" alt="Soil horizons" width="90%">
-
 [Image Source: Soil Horizons](https://www.youtube.com/watch?v=_aZbGBaP_7Y)
 
 Most soils evolve slowly over centuries through the weathering of underlying rocks and the decomposition of organic matter. Other soils are formed from deposits laid down by rivers, seas, or wind forces.
@@ -205,7 +200,7 @@ Soil minerals give soil different texture attributes and colors. Minerals are cl
   <td>Quite visible, consists of small particles with low surface area, significant drainage</td>
   <td rowspan="3">   <img src="images/mineral_size.png" alt="Soil Minerals" width="90%">
   <a href="https://www.nature.com/scitable/knowledge/library/what-are-soils-67647639/">
-  image source</a>
+  Image Source</a>
   </a>
   </td>
   </tr>
@@ -226,7 +221,7 @@ Soil minerals give soil different texture attributes and colors. Minerals are cl
   <tr>
   <td colspan="5">
   <a href="https://www.ctahr.hawaii.edu/mauisoil/a_comp01.aspx">
-  Table source
+  Table Source
   </a>
   </td>
   </tr>
@@ -240,9 +235,9 @@ These protected structures made with clay ensure good water-holding capacity and
 
 ### Organic Matter (SOM)
 
-Soil organic matter [SOM](<https://www.agric.wa.gov.au/measuring-and-assessing-soils/what-soil-organic-carbon#:~:text=Soil%20organic%20carbon%20(SOC)%20refers,to%20measure%20and%20report%20SOC.>) is composed mainly of carbon, hydrogen and oxygen, and has small amounts of other elements, such as nitrogen, phosphorous, sulfur, potassium, calcium and magnesium contained in organic residues. It is divided into ‘living’ and ‘dead’ components and can range from very recent inputs, such as stubble, to largely decayed materials that might be many hundreds of years old. About 10% of below-ground SOM, such as roots, fauna and microorganisms, is ‘living’:
+Soil organic matter [SOM](<https://www.agric.wa.gov.au/measuring-and-assessing-soils/what-soil-organic-carbon#:~:text=Soil%20organic%20carbon%20(SOC)%20refers,to%20measure%20and%20report%20SOC.>) is composed mainly of carbon, hydrogen, and oxygen. In addition, it contains small amounts of other elements, such as nitrogen, phosphorous, sulfur, potassium, calcium, and magnesium, in organic residues. It is divided into 'living' and 'dead' components and can range from very recent inputs, such as stubble, to decayed materials that might be many hundreds of years old. About 10% of below-ground SOM, such as roots, fauna, and microorganisms, is living.
 
-SOM exists as 4 distinct fractions which vary widely in size, turnover time and composition in the soil (Table 1):
+SOM exists as four distinct fractions which vary widely in size, turnover time, and composition in the soil:
 
 - dissolved organic matter
 - particulate organic matter
@@ -255,7 +250,7 @@ SOM exists as 4 distinct fractions which vary widely in size, turnover time and 
 
 Aggregates are separated into size classes: macroaggregates (250 μm–2 mm) and microaggregates (53–250 μm).
 
-Macroaggregates are formed when [light fraction SOM](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0033217#:~:text=The%20light%20fraction%20is%20a,inputs%20and%20decomposition%20%5B31%5D.), which is composed of fresh plant residue, is decomposed by fungi and bacteria.
+Macroaggregates are formed when fungi and bacteria decompose fresh plant residue or, technically speaking, [light fraction SOM](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0033217#:~:text=The%20light%20fraction%20is%20a,inputs%20and%20decomposition%20%5B31%5D.).
 
 Bacterial secretion of high-molecular-weight sugar-based polymers (EPSs). These EPSs and fungal hyphae serve as nucleation cores to accrete larger masses of slightly decayed SOM that become macroaggregates. These macroaggregates are constantly weathering in the soil to produce microaggregates within SOM.
 
@@ -268,19 +263,25 @@ Bacterial secretion of high-molecular-weight sugar-based polymers (EPSs). These 
 
 Soil Organic Carbon [SOC](<https://www.agric.wa.gov.au/measuring-and-assessing-soils/what-soil-organic-carbon#:~:text=Soil%20organic%20carbon%20(SOC)%20refers,to%20measure%20and%20report%20SOC.>) refers to the carbon components in organic compounds. Soil organic matter (SOM) is challenging to measure directly, so laboratories tend to measure and report SOC. [Soil organic carbon](<https://www.agric.wa.gov.au/measuring-and-assessing-soils/what-soil-organic-carbon#:~:text=Soil%20organic%20carbon%20(SOC)%20refers,to%20measure%20and%20report%20SOC.>) is a measurable component of soil organic matter which contributes to nutrient retention and turnover, soil structure, moisture retention and availability, degradation of pollutants, and carbon sequestration. SOC has been identified as a [global indicator for monitoring soil health and productivity](https://www.openaccessgovernment.org/what-is-soil-organic-carbon-soc/120702/).
 
-## Visual Analysis of Soil Example
+## Visual Assessment of Soils
 
-![SOM composition](images/som.png)
+Soil color is usually due to 3 primary pigments:
 
-> Below are four Swedish soils samples demonstrating the interaction of sand-and-clay textures versus SOM compositions
+- black—from organic matter
+- red—from iron and aluminum oxides
+- white—from silicates and salt.
 
-> ![Soil samples](images/sandVSsom_screen.png)
-> Image Source: [FAO](https://youtu.be/QVOx4oFugts)(min: 37:42)
+![Soil_color](images/sample_soils.png)
+![Soil_color](images/sample_pigment.png)
+[Image Source](https://www.nrcs.usda.gov/wps/portal/nrcs/detail/wi/soils/?cid=NRCSEPRD1370419#:~:text=Color%20development%20and%20distribution%20of,manganese%20forms%20black%20mineral%20deposits.)
 
-> - The Left samples are 100% sand, 0% clay.
-> - The Right samples are illite clay soil samples; thus, they appear brighter in color.
-> - The Bottom samples have no organic matter
-> - The Top samples have very little organic matter; thus, they appear darker.
+Soil texture can also be asses by estimating the size of the observable particle:
+![Sample_triangle](images/sample_triangle.png)
+[Image Source](https://gardentutor.com/lessons/soil/)
+
+Soil color and observable soil texture are valuable indicators of the chemical processes beneath the surface and can offer some quick soil management information
+![Sample_full](images/sample_full.png)
+[Image Source](https://www.qld.gov.au/environment/land/management/soil/soil-properties/colour)
 
 ## Soil Health
 
@@ -294,7 +295,9 @@ The basic principles of soil health:
 ![Soil health](images/soil_health_screen.png)
 [Image Source: USDA](https://www.nrcs.usda.gov/wps/portal/nrcs/main/soils/health/)
 
-# START: Connecting to the OSSL
+# Start
+
+## Connecting to the OSSL database
 
 The OSSL manual mentioned two ways to access the data. The first method uses MongoDb via R; however, the last yields a certification error. See the image below:
 ![cert_error](images/cert_error.png)
@@ -324,113 +327,15 @@ Lastly, we used the second method from the OSSL manual to access the data with S
 - Use SSL: `true`
 - Accept any SSL certificates: `true`
 
-Step 1: Free download [Studio 3T](https://robomongo.org/) and complete installation.
+To see full details for this step go to: [OSSL connect](step_studio3t.md).
 
-Step 2: In Studio 3T,
+## Exporting a Soil Site Sample from the OSSL as CVS
 
-- Click on the New Collection icon:
-  <!------------------------------------------------->
-  <!-- image                                       -->
-  <!------------------------------------------------->
+To see full details for this step go to: [database download](exporting_OSSL.md).
 
-  ![new collection icon](images/new_collection.png)
+![OSSL_download](/images/export_sample_screen3.png)
 
-- select the `manually configure my connection setting` option
-  ![auth step1](images/auth_screen1.png)
-- Fill in the Connection name: `soilspec4gg` and, in the `Server` tab, fill with OSSL's given address: `api.soilspectroscopy.org`
-  ![auth step2](images/auth_screen2.png)
-
-- Go to the Authentication tab and select Basic Authentication Mode:
-  ![auth step3](images/auth_screen3.png)
-
-  - Fill in the User name, Password, and Authentication DB with `soilspec4gg`
-    ![auth step4](images/auth_screen4.png)
-
-  - - Under the SSL tab, select `Use SSL protocol to connect` and `accept any server SSL certificates.
-      ![auth step5](images/auth_screen5.png)
-
-- Test Connection before saving:
-  ![auth step6](images/auth_screen6.png)
-
-- Finally, click save and connect.
-  ![auth step7](images/auth_screen7.png)
-
-# Exporting the OSSL as CSV
-
-- Find the `soilsite` collection in `soispec4gg`
-  ![export step1](images/export_screen1.png)
-  ![export step2](images/export_screen2.png)
-
-- Select `CSV` and click `Configure`
-  ![export step3](images/export_screen3.png)
-
-- Set the `Export Target` to be the current working directory. For instance, name the file `soilsite.csv` and save it.
-  ![export step4](images/export_screen4.png)
-  ![export step5](images/export_screen5.png)
-
-- Click `Run`
-  ![export step6](images/export_screen6.png)
-
-- Results from the export are shown in the console.
-  ![export step7](images/export_screen7.png)
-
-- The data `soilsite_full.csv` is now exported to the current working directory.
-  ![export step8](images/export_screen8.png)
-
-## Exporting a Sample of the OSSL as CSV
-
-To export a sample of the data, query a sample of 10 soil sites from the `soilsite` collection.
-
-- Double click the `soilsite` collection.
-  ![export sample step1](images/export_sample_screen1.png)
-
-- Run the entire script (`F5`)
-  ![export sample step2](images/export_sample_screen2.png)
-  ![export sample step3](images/export_sample_screen3.png)
-
-- Select 10 soil sites
-  ![export sample step4](images/export_sample_screen4.png)
-
-- Right-click anywhere inside the 10 sample query and select `Export Documents`
-  ![export sample step5](images/export_sample_screen5.png)
-
-- Select `Current Query Result`. Then follow the same steps to select and configure the CSV file described [earlier](#exporting-the-ossl-as-csv).
-  ![export sample step6](images/export_sample_screen6.png)
-
-# WIP --> Building a Data Pipeline
-
-Because the VSC are long files, we decided to build a data pipeline to stream the data using SQLite:
-
-```sql
-=============
-=============
-```
-
-And we used this SQL to query behind the web server:
-
-```sql
-=============
-=============
-```
-
-Then we connected the database to [PyScript](https://github.com/pyscript/pyscript) and called the soil database with this code:
-
-```python
-=============
-=============
-```
-
-We use [D3](htt`ps://react-d3-library.github.io/) to build this globe based on some modified instructions and added [Uber/h3](https://github.com/uber/h3), a hexagonal grid to partition the globe into hexagons (and a few pentagons).
-
-Here is a link to the JSON file:
-
-D3 plot and PyScript plot
-
-# END
-
-## Visualizing the OSSL
-
-## About Us
+# About Us
 
 Highlights of my background
 
@@ -441,15 +346,17 @@ Highlights of my background
         <li>Working with a team of developers to build a web application</li>
         <li>Experience in People Ops</li>
         <li>Enjoy preparing, growing and studying food plants </li>
-        <li>People Operations complete cycles and Total Compensations Analisus</li>
+        <li>People Operations complete cycles and Total Compensations Analisys</li>
         <li>JS, HTML, CSS, Python, SQL</li>
     </ul>
 </div>
 
-I am available for contract work or full-time employment. I am also applying for environmental research graduate programs.
+- I am available for contract work or full-time employment. I am also applying for environmental research graduate programs.
 
-This I am collaborating with a team [chromatic.systems](chromatic.systems)
+- I am collaborating with a team [chromatic.systems](chromatic.systems)
 
-Here is a link to this project's code
+- Here is a link to this project's [code](https://github.com/mejia-code/soil_data_research)
 
 The following post will explore a simple Machine Learning model.
+
+Thank you for reading!

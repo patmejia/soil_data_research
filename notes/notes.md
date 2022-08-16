@@ -338,3 +338,40 @@ Environment, operations, ananitics and mathemacis
 
 </style>
 ```
+
+> <img src="images/sandVSsom_screen.png" alt="Soil samples" width="100%">
+> <a href="https://youtu.be/QVOx4oFugts">  Image Source</a>
+
+> - The Left samples are 100% sand, 0% clay.
+> - The Right samples are illite clay soil samples; thus, they appear brighter in color.
+> - The Bottom samples have no organic matter
+> - The Top samples have very little organic matter; thus, they appear darker.
+
+# WIP --> Building a Data Pipeline
+
+Because the VSC are long files, we decided to build a data pipeline to stream the data using SQLite:
+
+```sql
+=============
+=============
+```
+
+And we used this SQL to query behind the web server:
+
+```sql
+=============
+=============
+```
+
+Then we connected the database to [PyScript](https://github.com/pyscript/pyscript) and called the soil database with this code:
+
+```python
+=============
+=============
+```
+
+We use [D3](htt`ps://react-d3-library.github.io/) to build this globe based on some modified instructions and added [Uber/h3](https://github.com/uber/h3), a hexagonal grid to partition the globe into hexagons (and a few pentagons).
+
+Here is a link to the JSON file:
+
+D3 plot and PyScript plot
