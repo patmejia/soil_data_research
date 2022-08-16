@@ -10,7 +10,7 @@ This series of articles explores a path from data collection to visualization an
 
 Image Created with [DALL·E](https://labs.openai.com/s/MXs5BGiumacsHINDgiS3bOGg)
 
-My background is in operations, analysis, and mathematics. Particular interest to me is the soil system's health.
+My background is in operations, people, analysis, and mathematics. Particular interest to me is the soil system's health.
 
 Coincidentally, [Hackers News](https://news.ycombinator.com/item?id=32293359) led me to an article about [Soil.Spectroscopy 4 Global Good](https://soilspectroscopy.org/) and open soil [database](https://soilspectroscopy.github.io/ossl-manual/), open source software and more. This database was a great starting point to get familiar with some of the field.
 
@@ -130,7 +130,7 @@ For longer wavelengths, NIR-MIR, the absorption is due to [vibrations](https://y
 
 The spectra will show overtones and combinations of these vibrations, mainly in the NIR region.
 
-The mathematical modeling of these vibrations, combinations, and overtones uses geometric polynomials or functions:
+The mathematical modeling of these vibrations, combinations, and overtones can be analyzed using [polynomial algebra](https://pdf.sciencedirectassets.com/272313/1-s2.0-S0747717105X01055/1-s2.0-S0747717105000076/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHYaCXVzLWVhc3QtMSJIMEYCIQCOdUdiZizjPL3zil542SGm2uyxqyRb6DRKD9sUktpDRgIhAPHMnB7lg7TW7EBDSY04NhAWyJbm8xxB1WssAnb6AR9pKtsECN%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQBRoMMDU5MDAzNTQ2ODY1IgzlDnUTMXwOzbCX9hYqrwRhSBJiiEtARNv%2BtOXGEYlJ8Ct%2FzhBBZ5Ja5oiK71WIiXk%2F66bCCpHkhz510DtFbBIc%2BRKf2k%2Ffk4L9yW89TA6EHWA3F72XdpH38fiCelqvnk6PXuGOHw5e6AtC4lt0e%2BoNGovcxN1wtOOJF8W82ocBYsQfCJVhA0XskbQKZQatJMmUHyI5fwdr6U%2F1V6xnceQHqre5nkECVfIYivqLIXnqs4rz%2FM3PnNyL8Cbk35dhXOXaHQ%2FZTcN0IXemz%2BZPMiPF2ToibD8D4%2B4qSlc%2F%2FkBK%2FfSHqNyUXNAzMrxpErNMfZbkZdoHT9HwWbFFv8dfPPfhSetNmpzuZKcXaHk47X54FoPBbWexrdxY3yXiSzmQU6m5uwq6jzjVyza5u3gRZFeb4d6ysGpHwwI3fAwOfJQ%2FBHSrIa9vBFH%2BQB0fhkDpoGiZXImhihgM6RbdlSZd6uUvIvFOqNy0rrHS0AGbWGuKdDKNGBVbae4qEM2I2dgpT4ssSGCwGnv24f5wBh7r0QZI2c3REuZJ3oSnVyw104K5rgXdz3FuelTagRR8a2mV4Wc%2BbvUvLJ%2Fk9OXLFhNZp2uusjNt%2B%2Bb7AA8Mdq0nyax7TdXdpqJyAz%2B7PyENIutUl%2F5mpc%2FnETbhUwIoLyXPGxvAtC0ji27Xz87d1uvzGts1ms4TXK57VimY68MhQEDsMrwviw7IKr1EMEc7zmi6wy8aiQqTuCNfH%2FSjLdYgYBB2IvJofNnFGHUpdkYvsqIZMJCa8JcGOqgBSAWPtfsSUVUMA2IdSPMt7EHFX6XwUXgGgRVnd77ElzjFOHuyPN3iCl6CGTsR5MDMNCs%2BiZwqnzUgkY8mSMqdvnX7JqajkWYTYAdjZOt5QnFCKj7vsXqij9X35Mkq6u0QHwwEyrpst4LVuwrY0cao6CSLWUUNm%2FxfuzzxFwQVhJ2bZ5swOrF9TqO1aVZMHMK8Vzl8lxnFwAwwU6TUZ9XwOIR1brGJhZpa&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220816T224755Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYXRGOHNQV%2F20220816%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=442f2292030185d7ae54065a2d79193cb6c1386941d947989ed83753a14a624e&hash=75ea736321900bd2518869cf80773aace3203dbff5b41f155cffea9a364dec99&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0747717105000076&tid=spdf-d39efd61-93b1-481e-8092-2fa06b42003f&sid=e9f2334a127c1247f66a6e45c2354cf521cegxrqa&type=client&ua=5155030a045707035109&rr=73bdb6ee4f772d58) as tools or functions:
 ![Overtone_polynomials](images/overtone_table.png)
 
 [Image Source](https://www.youtube.com/watch?v=QVOx4oFugts)
@@ -284,7 +284,7 @@ The basic principles of soil health:
 
 # The Open Soil Spectral Library (OSSL)
 
-The Open Soil Spectral Library (OSSL) is a global good project which serves collections of soil properties derived from spectral data. OSSL is also a network that delivers robust statistical models, calibration and prediction models, research tools, and opportunities to collaborate across borders.
+The [Open Soil Spectral Library (OSSL)](https://soilspectroscopy.github.io/ossl-manual/) is a global good project which serves collections of soil properties derived from spectral data. OSSL is also a network that delivers robust statistical models, calibration and prediction models, research tools, and opportunities to collaborate across borders.
 
 The initiative received a funding award through the National Institute of Food and Agriculture (USDA).
 [NIFA](https://www.nifa.usda.gov/about-nifa/press-releases/nifa-invests-over-7-million-big-data-artificial-intelligence-other) has invested over $7 Million in Big Data, Artificial Intelligence, and Other Cyberinformatics Research.
@@ -293,11 +293,11 @@ Among other valuable resources, the OSSL project offers beautifully developed so
 
 ## [OSSL Explorer](https://explorer.soilspectroscopy.org/)
 
+![Explorer](images/ossl_explorer.png)
+
 And the user manual, which is open for contributions:
 
 ## [OSSL manual](https://soilspectroscopy.github.io/ossl-manual/)
-
-![Explorer](images/ossl_explorer.png)
 
 # Start
 
@@ -345,15 +345,12 @@ To see full details of this step go to: [database download](exporting_OSSL.md).
 
 Highlights of my background:
 
-<ul>
-    <li>Worked for Goldman Sachs</li>
-    <li>Learning  to program with other technologies machine learning technologies</li>
-    <li>Working with a team of developers to build a web application</li>
-    <li>Experience in Trading, Banking and People Ops</li>
-    <li>Enjoy preparing, growing and studying food plants</li>
-    <li>People Operations complete cycles and Total Compensations Analisys</li>
-    <li>JS, HTML, CSS, Python, SQL</li>
-</ul>
+- [Lifelong learner](https://en.wikipedia.org/wiki/Lifelong_learning) with a background in operations, people, analysis, and mathematics.
+- Active Software Engineering and Open Source Technology: JS, Python, HTML, CSS, automated testing, and continuous integrations.
+- Currently developing with a [team](https://chromatic.systems) software about Earth System's Health.
+- Enjoying Growing, in a ~1 $m^2$ box, +25 Organic Plants: herbs, vegetables, fruits, flowers, and fungi.
+- Creation of +400 Plant-Based Sense Immersions Healing Meal.
+- Formerly, an associate at Goldman Sachs and Copa Airlines and a researcher at the University of Texas, Systems.
 
 ## Updates
 
@@ -369,14 +366,13 @@ Highlights of my background:
 
 <li>The following post will explore a simple Machine Learning model.</li>
 </ul>
-
+ <br>
 Thank you for reading!
-
+<br>
 ## Contact Us
 
 - email: mail@patimejia.com
 - websites:
   - [pati](https://patimejia.com)
   - [chromatic.systems](https://chromatic.systems)
-    <br>
     <br>
