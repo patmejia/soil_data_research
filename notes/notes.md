@@ -116,3 +116,88 @@ MongoServerSelectionError: certificate has expired
 # NOTES FOR UPDATING MY RESUME:
 
 Environment, operations, ananitics and mathemacis
+
+# NOTE for code
+
+```
+  .markdown-body {
+    box-sizing: border-box;
+    min-width: 200px;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 45px;
+  }
+  @media (max-width: 767px) {
+    .markdown-body {
+      padding: 15px;
+    }
+  }
+  .markdown-body>*:first-child {
+    margin-top: 0 !important;
+  }
+  .markdown-body>*:last-child {
+    margin-bottom: 0 !important;
+  }
+  .markdown-body a {
+    color: #00e;
+    text-decoration: none;
+  }
+  .markdown-body a:hover {
+    text-decoration: underline;
+  }
+  .markdown-body hr {
+    border: 0;
+    border-bottom: 1px solid #ddd;
+  }
+  .markdown-body hr:before {
+    display: table;
+    content: "";
+  }
+  .markdown-body hr:after {
+    display: table;
+    clear: both;
+    content: "";
+  }
+  .markdown-body img {
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: block;
+  }
+  .markdown-body figure {
+    margin: 0;
+  }
+  .markdown-body figure img {
+    margin: 0;
+  }
+  .markdown-body figure figcaption {
+    font-size: 0.9em;
+    margin: 0;
+  }
+  .markdown-body code {
+    font-size: 1em;
+    margin: 0;
+  }
+  .markdown-body code:before,
+  .markdown-body code:after {
+    content: "";
+  }
+  .markdown-body kbd {
+    font-size: 1em;
+    padding: 0.2em 0.4em;
+    margin: 0;
+    /* font-family: monospace; */
+    box-sizing: border-box;
+  }
+  .markdown-body kbd kbd {
+    padding: 0;
+    font-size: 1em;
+    font-weight: bold;
+  }
+  .markdown-body blockquote {
+    margin: 0;
+  }
+  .markdown-body blockquote *:last-child {
+    margin-bottom: 0;
+  }
+```
