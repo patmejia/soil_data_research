@@ -33,7 +33,7 @@
 <!-- Start: Styles                                     -->
 <!-- <!================================================-->
 
-<style>
+<style type="text/css">
   :root {
   --color-aware: #408f9f;
   --color-focus: #f69902;
@@ -340,7 +340,11 @@ Soil minerals give soil different texture attributes and colors. Minerals are cl
   <td>2.0 - 0.05</td>
   <td>Gritty</td>
   <td>Quite visible, consists of small particles with low surface area, significant drainage</td>
-  <td rowspan="4">   <img src="images/mineral_size.png" alt="Soil Minerals" /></td>
+  <td rowspan="4">   <img src="images/mineral_size.png" alt="Soil Minerals" /> 
+  <a href="https://www.nature.com/scitable/knowledge/library/what-are-soils-67647639/">
+  image source</a>
+  </a>
+  </td>
   </tr>
   <tr>
   <td>Silt</td>
