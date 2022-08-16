@@ -130,6 +130,11 @@ For longer wavelengths, NIR-MIR, the absorption is due to [vibrations](https://y
 
 The spectra will show overtones and combinations of these vibrations, mainly in the NIR region.
 
+The mathematical modeling of these vibrations, combinations, and overtones uses geometric polynomials or functions:
+![Overtone_polynomials](images/overtone_table.png)
+
+[Image Source](https://www.youtube.com/watch?v=QVOx4oFugts)
+
 Water has unique soil spectral features (Absorbance vs. Wavelength):
 
 ![Spectra_overtones_water](images/overtone_spectra.png)
