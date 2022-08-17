@@ -10,7 +10,7 @@
 - Use SSL: `true`
 - Accept any SSL certificates: `true`
 
-## - Free download [Studio 3T](https://robomongo.org/) and complete installation.
+## - Download [Studio 3T](https://robomongo.org/) and complete installation.
 
 ## - In Studio 3T:
 
