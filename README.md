@@ -342,7 +342,7 @@ To see full details of this step go to: [OSSL connect](step_studio3t.md).
 
 ## Exporting a Soil Site Sample from the OSSL as CVS
 
-To see full details of this step go to: [database download](exporting_OSSL.md).
+To see full details of this step go to: [database download](exporting_ossl.md).
 
 ![OSSL_download](/images/export_sample_screen3.png)
 
