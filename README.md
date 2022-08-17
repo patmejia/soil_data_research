@@ -1,3 +1,14 @@
+<!-- Insert styles here  -->
+<style>
+  img {
+   -webkit-filter: invert(1);
+   filter: invert(1);
+   }
+
+   /* style markdown image  */
+   
+</style>
+
 # Soil Data Research
 
 <h3>A Global Good Project</h3>
@@ -116,7 +127,7 @@ The importance of [spectroscopy](https://en.wikipedia.org/wiki/Spectroscopy) is 
 [Soil spectroscopy](<https://soilspectroscopy.org/about/#:~:text=Soil%20spectroscopy%20offers%20a%20safe%20and%20rapid%20alternative%20(Figure%201).&text=Soil%20spectroscopy%20is%20the%20measurement,applied%20to%20a%20soil%20surface.>) is the measurement of light absorption when a light in the visible, near-infrared or mid-infrared (Vis–NIR-MIR) regions of the electromagnetic spectrum is applied to a soil surface:
 
 ![Spectroradiometer](images/spectroscopy.png)
-[Image source](<https://soilspectroscopy.org/about/#:~:text=Soil%20spectroscopy%20offers%20a%20safe%20and%20rapid%20alternative%20(Figure%201).&text=Soil%20spectroscopy%20is%20the%20measurement,applied%20to%20a%20soil%20surface.>)
+[Image Source](<https://soilspectroscopy.org/about/#:~:text=Soil%20spectroscopy%20offers%20a%20safe%20and%20rapid%20alternative%20(Figure%201).&text=Soil%20spectroscopy%20is%20the%20measurement,applied%20to%20a%20soil%20surface.>)
 
 The reflected infrared radiation is converted to electrical energy and fed to a computer for interpretation. Each major organic component of the soil absorbs and reflects light differently. By measuring these different reflectance characteristics, the Spectroradiometer and a computer determine the ingredients in the soil sample.
 
