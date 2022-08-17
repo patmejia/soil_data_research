@@ -348,16 +348,18 @@ Highlights of my background:
 - [Lifelong learner](https://en.wikipedia.org/wiki/Lifelong_learning) with a background in operations, people, analysis, and mathematics.
 - Active Software Engineering and Open Source Technology: JS, Python, HTML, CSS, automated testing, and continuous integrations.
 - Currently developing with a [team](https://chromatic.systems) software about Earth System's Health.
-- Enjoying Growing, in a ~1 $m^2$ box, +25 Organic Plants: herbs, vegetables, fruits, flowers, and fungi.
+- Growing experiment +25 Organic Plants: herbs, vegetables, fruits, flowers, and fungi; in a ~1 $m^2$ box.
 - Creation of +400 Plant-Based Sense Immersions Healing Meal.
-- Formerly, an associate at Goldman Sachs and Copa Airlines and a researcher at the University of Texas, Systems.
+- Formerly, Goldman Sachs, Copa Airlines and a researcher at the University of Texas, Systems.
 
 ## Updates
 
 <ul>
 <li>I am available for contract work or full-time employment. </li>
 
-<li>I am collaborating with a team [chromatic.systems](chromatic.systems).</li>
+<li>I am collaborating with a team: <a href="https://chromatic.systems">chromatic.systems. </a>
+
+</li>
 
 <li>Here is a link to this project's
 <a href="https://github.com/mejia-code/soil_data_research.git"> code.</a>
@@ -368,7 +370,7 @@ Highlights of my background:
 </ul>
  <br>
 Thank you for reading!
-<br>
+
 ## Contact Us
 
 - email: mail@patimejia.com
