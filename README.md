@@ -1,14 +1,3 @@
-<!-- Insert styles here  -->
-<style>
-  img {
-   -webkit-filter: invert(1);
-   filter: invert(1);
-   }
-
-   /* style markdown image  */
-   
-</style>
-
 # Soil Data Research
 
 <h3>A Global Good Project</h3>
@@ -239,6 +228,9 @@ SOM exists as four distinct fractions which vary widely in size, turnover time, 
 - particulate organic matter
 - stable organic matter or humus
 - resistant organic matter
+
+![SOM](images/som.png)
+[Image Source](<https://www.agric.wa.gov.au/measuring-and-assessing-soils/what-soil-organic-carbon#:~:text=Soil%20organic%20carbon%20(SOC)%20refers,to%20measure%20and%20report%20SOC.>)
 
 ### Structure
 
