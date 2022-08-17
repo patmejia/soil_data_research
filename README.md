@@ -1,3 +1,5 @@
+<br>
+
 # Soil Data Research
 
 <h3>A Global Good Project</h3>
@@ -12,6 +14,8 @@ Image Created with [DALL·E](https://labs.openai.com/s/MXs5BGiumacsHINDgiS3bOGg)
 My background is in operations, people, analysis, and mathematics. Particular interest to me is the soil system's health.
 
 Coincidentally, [Hackers News](https://news.ycombinator.com/item?id=32293359) led me to an article about [Soil.Spectroscopy 4 Global Good](https://soilspectroscopy.org/): open soil [database](https://soilspectroscopy.github.io/ossl-manual/), open source software and more. This database was a great starting point to get familiar with some of the field.
+
+<br>
 
 ---
 
@@ -42,6 +46,8 @@ Coincidentally, [Hackers News](https://news.ycombinator.com/item?id=32293359) le
   - [Contact Us](#contact-us)
 
 ---
+
+<br>
 
 # Project 1: Load Soil Site Data with Javascript
 
@@ -106,6 +112,8 @@ function cellsToGeoJson(cells) {
   return geojson;
 }
 ```
+
+<br>
 
 # Soil Research
 
@@ -279,14 +287,22 @@ Soil color and observable soil texture are valuable indicators of the chemical p
 
 The basic principles of soil health:
 
-- Maximize Presence of Living Roots
-- Maximize Soil Cover
-- Maximize Biodiversity
-- Minimize Disturbance
-
-![Soil health](images/soil_health.png)
-<br>
-[Image Source: USDA](https://www.nrcs.usda.gov/wps/portal/nrcs/main/soils/health/)
+<table>
+  <tr>
+    <td>
+      <ul>
+        <li><h3><b> ⇑ Presence Living Roots</b></h3></li>
+        <li><h3><b> ⇑ Soil Cover</b></h3></li>
+        <li><h3><b> ⇑ Biodiversity</b></h3></li>
+        <li><h3><b> ⇓ Disturbance</b></h3></li>
+      </ul>
+    </td>
+    <td>
+      <img src="images/soil_health.png" alt="Soil Health">
+      <a href="https://www.nrcs.usda.gov/wps/portal/nrcs/main/soils/health/"> Image Source: USDA</a>
+    </td>
+  </tr>
+</table>
 
 # The Open Soil Spectral Library (OSSL)
 
@@ -304,6 +320,8 @@ Among other valuable resources, the OSSL project offers beautifully developed so
 And the user manual, which is open for contributions:
 
 ## [OSSL manual](https://soilspectroscopy.github.io/ossl-manual/)
+
+<br>
 
 # Start
 
@@ -348,7 +366,9 @@ To see full details of this step go to: [database download](exporting_ossl.md).
 
 # End
 
-## About Us
+<br>
+
+## **About Us**
 
 Highlights of my background:
 
@@ -357,9 +377,9 @@ Highlights of my background:
 - Currently developing with a [team](https://chromatic.systems) software about Earth System's Health.
 - Growing experiment +25 Organic Plants: herbs, tree seedlings, vegetables, fruits, flowers, and fungi; in a ~1 $m^2$ box.
 - Creation of +400 Plant-Based Sense Immersions Healing Meal.
-- Formerly, Goldman Sachs, Copa Airlines and a researcher at the University of Texas, Systems.
+- Formerly, Goldman Sachs, Copa Airlines, GDI 2021 Hackaton, and a researcher at the University of Texas, Systems.
 
-## Updates
+## **Updates**
 
 <ul>
 <li>I am available for contract work or full-time employment. </li>
@@ -377,8 +397,10 @@ Highlights of my background:
 </ul>
  <br>
 Thank you for reading!
+<br>
+<br>
 
-## Contact Us
+## **Contact Us**
 
 - email: code@patimejia.com
 - websites:

@@ -1,8 +1,18 @@
 # Start: Connecting to the OSSL via Studio 3T
 
-- ## Free download [Studio 3T](https://robomongo.org/) and complete installation.
+## - Parameters:
 
-- ## In Studio 3T,
+- Connection Name: `soilspec4gg`
+- Server: `api.soilspectroscopy.org`
+- Authentication DB: `soilspec4gg`
+- User name: `soilspec4gg`
+- Password: `soilspec4gg`
+- Use SSL: `true`
+- Accept any SSL certificates: `true`
+
+## - Free download [Studio 3T](https://robomongo.org/) and complete installation.
+
+## - In Studio 3T:
 
 - Click on the New Collection icon:
   ![new collection icon](images/new_collection.png)
