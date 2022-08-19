@@ -4,7 +4,7 @@
 
 <h3>A Global Good Project</h3>
 
-We are gathering data concerning the [Earth System](https://www.science.org/doi/10.1126/science.1259855) and [Planetary Boundary](https://www.science.org/doi/10.1126/science.1259855).
+We are gathering data concerning the [Earth System]([https://www.science.org/doi/10.1126/science.1259855](https://education.nationalgeographic.org/resource/earths-systems#geosphere)) and [Planetary Boundary](https://www.science.org/doi/10.1126/science.1259855).
 
 This series of articles explores a path from data collection to visualization and machine learning from the human-planet perspective. Please contribute to helping this project grow.
 
