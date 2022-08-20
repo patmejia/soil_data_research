@@ -375,8 +375,8 @@ Highlights of my background:
 - [Lifelong learner](https://en.wikipedia.org/wiki/Lifelong_learning) with a background in operations, people, analysis, and mathematics.
 - Active Software Engineering and Open Source Technology: JS, Python, HTML, CSS, automated testing, and continuous integrations.
 - Currently developing with a [team](https://chromatic.systems) software about Earth System's Health.
-- Growing experiment +25 Organic Plants: herbs, tree seedlings, vegetables, fruits, flowers, and fungi; in a ~1 $m^2$ box.
-- Creation of +400 Plant-Based Sense Immersions Healing Meal.
+- Growing experiment 25+ Organic Plants: herbs, tree seedlings, vegetables, fruits, flowers, and fungi; in a ~1 $m^2$ box.
+- Creation of 400+ Plant-Based Sense Immersions Healing Meals.
 - Formerly, Goldman Sachs, Copa Airlines, GDI 2021 Hackaton, and a researcher at the University of Texas, Systems.
 
 ## **Updates**
