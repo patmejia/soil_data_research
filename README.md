@@ -19,7 +19,7 @@ Coincidentally, [Hackers News](https://news.ycombinator.com/item?id=32293359) le
 
 ---
 
-**Table of Contents**
+### **Contents**
 
 - [Project 1: Load Soil Site Data with Javascript](#project-1-load-soil-site-data-with-javascript)
   - [Install and Run Tests](#install-and-run-tests)
@@ -41,9 +41,9 @@ Coincidentally, [Hackers News](https://news.ycombinator.com/item?id=32293359) le
   - [Connecting to the OSSL database](#connecting-to-the-ossl-database)
   - [Exporting a Soil Site Sample from the OSSL as CVS](#exporting-a-soil-site-sample-from-the-ossl-as-cvs)
 - [End](#end)
-  - [About Us](#about-us)
+  - [About](#about)
   - [Updates](#updates)
-  - [Contact Us](#contact-us)
+  - [Connect](#connect)
 
 ---
 
@@ -366,30 +366,30 @@ To see full details of this step go to: [database download](exporting_OSSL.md).
 
 # End
 
-<br>
+Return to [Contents](#contents)
 
-## **About Us**
+## **About**
 
 Highlights of my background:
 
-- [Lifelong learner](https://en.wikipedia.org/wiki/Lifelong_learning) with a background in operations, people, analysis, and mathematics.
-- Active Software Engineering and Open Source Technology: JS, Python, HTML, CSS, automated testing, and continuous integrations.
-- Currently developing with a [team](https://chromatic.systems) software about Earth System's Health.
-- Growing experiment 25+ Organic Plants: herbs, tree seedlings, vegetables, fruits, flowers, and fungi; in a ~1 $m^2$ box.
-- Creation of 400+ Plant-Based Sense Immersion Healing Meals.
-- Formerly, Goldman Sachs, Copa Airlines, GDI 2021 Hackaton, and a researcher at the University of Texas, Systems.
+- A [lifelong learner](https://en.wikipedia.org/wiki/Lifelong_learning) with a background in operations, people, analysis, and mathematics.
+- Currently working with JavaScript, Python, HTML, CSS, automated testing, and continuous integration.
+- Developing data pipelines with a [team](https://chromatic.systems) focused on Earth System Health and Climate Change.
+- Horticultural experiment 25+ Organic Plants: herbs, tree seedlings, vegetables, fruits, flowers, and fungi; in a ~1m² box.
+- 400+ customed plant-based culinary creations designed to engage the sense and acquire healthy eating habits.
+- Formerly, Goldman Sachs, Morgan and Morgan Group Bank, Copa Airlines, GDI 2021 Hackaton, and a researcher at the University of Texas, Systems.
 
 ## **Updates**
 
 <ul>
-<li>I am available for contract work or full-time employment. </li>
+<li>Available for contract, consult, or full-time.</li>
 
-<li>I am collaborating with a team: <a href="https://chromatic.systems">chromatic.systems. </a>
+<li>Enjoying collaborating with a team: <a href="https://chromatic.systems">chromatic.systems</a>.
 
 </li>
 
-<li>Here is a link to this project's
-<a href="https://github.com/mejia-code/soil_data_research.git"> code.</a>
+<li>A link to this project's
+<a href="https://github.com/mejia-code/soil_data_research.git"> code</a>.
 
 </li>
 
@@ -400,10 +400,11 @@ Thank you for reading!
 <br>
 <br>
 
-## **Contact Us**
+## **Connect**
 
-- email: code@patimejia.com
+- email:
+  - code@patimejia.com
 - websites:
   - [pati](https://patimejia.com)
+  - [tim](https://timcash.io/)
   - [chromatic.systems](https://chromatic.systems)
-    <br>
