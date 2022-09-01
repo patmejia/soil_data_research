@@ -369,64 +369,60 @@ To see full details of this step go to: [database download](exporting_OSSL.md).
 Return to [Contents](#contents)
 
 ## **About**
-
 <ul>
-  <li>
-    A
-    <a href="https://en.wikipedia.org/wiki/Lifelong_learning">
-      lifelong learner 🦉
-    </a>
-    with a background in operations + people + analysis + mathematics.
+<li>
+  A
+  <a href="https://en.wikipedia.org/wiki/Lifelong_learning">
+    lifelong learner 🦉
+  </a>
+  with a background in operations + people + analysis + mathematics.
+</li>
+<li>
+  Currently working with 👩‍💻  JavaScript + Python + HTML + CSS 📐 + automated
+  testing + continuous integration.˝
+</li>
+<li>
+  Developing data pipelines with a
+  <a href="https://chromatic.systems/"> team </a> ✨
+  focused on <a href="https://github.com/readme/featured/call-for-code"> tech-for-good </a> .
+</li>
+<li>
+  Horticultural experiment 25+ Organic Plants: herbs + tree seedlings 🌱 +
+  vegetables + fruits + flowers + fungi, in a ~1m² box. 
+</li>
+<li>
+  400+ customed plant-based culinary creations designed to engage the
+  sense 🍱 + acquire healthy eating habits.
+</li>
+<li>
+  Formerly, <a href="https://www.goldmansachs.com/about-us/people-and-leadership/awards-and-rankings/business-and-innovation/index.html">
+    Goldman Sachs</a>  +  Morgan & Morgan Grp Bank + Copa
+    Airlines + GDI 2021 Hackaton + a 🥼 researcher : UT + SATX + UTHSC.
   </li>
-  <li>
-    Currently working with 👩‍💻  JavaScript + Python + HTML + CSS 📐 + automated
-    testing + continuous integration.
-  </li>
-  <li>
-    Developing data pipelines with a
-    <a href="https://chromatic.systems/"> team </a> ✨
-    focused on <a href="https://github.com/readme/featured/call-for-code"> tech-for-good </a> 🌍.
-  </li>
-  <li>
-    Horticultural experiment 25+ Organic Plants: herbs + tree seedlings 🌱 +
-    vegetables + fruits + flowers + fungi, in a ~1m² box. 
-  </li>
-  <li>
-    400+ customed plant-based culinary creations designed to engage the
-    sense 🍱 + acquire healthy 🥗 eating habits.
-  </li>
-  <li>
-    Formerly, <a href="https://www.goldmansachs.com/about-us/people-and-leadership/awards-and-rankings/business-and-innovation/index.html">
-      Goldman Sachs</a>  +  Morgan & Morgan Grp Bank + Copa
-      Airlines ✈️ + GDI 2021 Hackaton + a 🥼 researcher : UT + SATX + UTHSC.
-    </li>
-  </ul>
+</ul>
   
 ## **Updates**
- <ul>
-  <li>
-    Available for contract + consult + full-time.
-  </li>
-  <li>
-    Collaborating with +  constituted 
-    <a href="https://chromatic.systems/"> Chromatic Systems 🌈 </a>.
-  </li>
-  <li>
-    Focus on Healthy ystems and tech-for-good.
-  </li>
-  <li>
-    One of our current projects:
-    <a
-    href="https://github.com/mejia-code/soil_data_research#soil-data-research">
-    Soil Data Research
-  </a> 🔬.
+<ul>
+<li>
+  Available for contract + consult + full-time.
 </li>
-  <li>
-    Future posts will explore Machine Learning models.
-  </li>
-  <li>
-    Welcoming collaboration ideas + learning ✌️ together initiatives.
-  </li>
+<li>
+  Collaborating with
+  <a href="https://chromatic.systems/"> Chromatic Systems 🌈 </a> on Software Engrg + Visualizations + Data Science + Web Dev.
+</li>
+<li>
+  One of our current projects:
+  <a
+  href="https://github.com/mejia-code/soil_data_research#soil-data-research">
+  Soil Data Research
+</a> 🔬.
+</li>
+<li>
+  Future posts will explore Machine Learning models.
+</li>
+<li>
+  Welcoming collaboration ideas + learning ✌️ together initiatives.
+</li>
 </ul>
 
  <br>
