@@ -21,6 +21,7 @@ Coincidentally, [Hackers News](https://news.ycombinator.com/item?id=32293359) le
 
 ### **Contents**
 
+- [Quick dataset download from Kaggle](#quick-dataset-download-from-kaggle)
 - [Project 1: Load Soil Site Data with Javascript](#project-1-load-soil-site-data-with-javascript)
   - [Install and Run Tests](#install-and-run-tests)
   - [Loader](#loader)
@@ -48,6 +49,10 @@ Coincidentally, [Hackers News](https://news.ycombinator.com/item?id=32293359) le
 ---
 
 <br>
+
+# Quick dataset download from Kaggle
+
+Alternetively, here is a [link to the dataset](https://www.kaggle.com/datasets/patimejia/soil-site) on Kaggle. This dataset is a subset of the [Open Soil Spectral Library (OSSL)](https://soilspectroscopy.github.io/ossl-manual/).
 
 # Project 1: Load Soil Site Data with Javascript
 
@@ -291,10 +296,10 @@ The basic principles of soil health:
   <tr>
     <td>
       <ul>
-        <li><h3><b> ⇑ Presence Living Roots</b></h3></li>
-        <li><h3><b> ⇑ Soil Cover</b></h3></li>
-        <li><h3><b> ⇑ Biodiversity</b></h3></li>
-        <li><h3><b> ⇓ Disturbance</b></h3></li>
+        <li><h3><b> ✅ Presence Living Roots</b></h3></li>
+        <li><h3><b> ✅ Soil Cover</b></h3></li>
+        <li><h3><b> ✅ Biodiversity</b></h3></li>
+        <li><h3><b> ⛔️ Disturbance</b></h3></li>
       </ul>
     </td>
     <td>
@@ -369,14 +374,8 @@ To see full details of this step go to: [database download](exporting_OSSL.md).
 Return to [Contents](#contents)
 
 ## **About**
+
 <ul>
-<li>
-  A
-  <a href="https://en.wikipedia.org/wiki/Lifelong_learning">
-    lifelong learner 🦉
-  </a>
-  with a background in operations + people + analysis + mathematics.
-</li>
 <li>
   Currently working with 👩‍💻  JavaScript + Python + HTML + CSS 📐 + automated
   testing + continuous integration.˝
@@ -386,19 +385,6 @@ Return to [Contents](#contents)
   <a href="https://chromatic.systems/"> team </a> ✨
   focused on <a href="https://github.com/readme/featured/call-for-code"> tech-for-good </a> .
 </li>
-<li>
-  Horticultural experiment 25+ Organic Plants: herbs + tree seedlings 🌱 +
-  vegetables + fruits + flowers + fungi, in a ~1m² box. 
-</li>
-<li>
-  400+ customed plant-based culinary creations designed to engage the
-  sense 🍱 + acquire healthy eating habits.
-</li>
-<li>
-  Formerly, <a href="https://www.goldmansachs.com/about-us/people-and-leadership/awards-and-rankings/business-and-innovation/index.html">
-    Goldman Sachs</a>  +  Morgan & Morgan Grp Bank + Copa
-    Airlines + GDI 2021 Hackaton + a 🥼 researcher : UT + SATX + UTHSC.
-  </li>
 </ul>
   
 ## **Updates**
